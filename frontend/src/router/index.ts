@@ -1,0 +1,15 @@
+// Hash-history router: robust for static hosting under any sub-path on the printer
+// (no server rewrite needed). Routes are lazy-loaded views.
+
+import { createRouter, createWebHashHistory, type RouteRecordRaw } from 'vue-router'
+
+const routes: RouteRecordRaw[] = [
+  { path: '/', name: 'dashboard', component: () => import('@/views/DashboardView.vue') },
+  { path: '/settings', name: 'settings', component: () => import('@/views/SettingsView.vue') },
+  { path: '/:pathMatch(.*)*', redirect: '/' },
+]
+
+export const router = createRouter({
+  history: createWebHashHistory(),
+  routes,
+})

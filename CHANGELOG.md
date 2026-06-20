@@ -1,0 +1,17 @@
+# Changelog
+
+All notable changes to FilaMind 3d are documented here. Format: `## [version]` sections (parsed by the release workflow).
+
+## [0.1.0]
+
+Initial app shell, built on `@filamind-app/core`.
+
+- **Foundation** — Vue 3 + Vite 8 + Pinia 3 + Vue Router 4 (hash) + vue-i18n 11 + Tailwind 4 + TypeScript 6, all pinned to mutually-compatible latest-stable; Node ≥ 22.13.
+- **Core binding** — Pinia stores mirror the core `FilaMindSession` Observables (printer state, Klippy state, live/stale trust, capabilities, prompts) and the unified `SettingsStore` into reactive refs; the widget registry, Pharaonic theme tokens, and 19-locale metadata are consumed from core (no duplication).
+- **Shell** — app layout with a connection trust ribbon, an adaptive widget-host dashboard, a keyboard-driven command palette (⌘/Ctrl + K), and a unified Settings & Customization section (theme + language switchers, density / motif / reduced-motion, export / import / reset).
+- **Machine control** — a control bar (Home / Pause / Resume / Cancel / Emergency-stop + a safe-mode toggle) whose mutations funnel through the core write-arbiter (refused unless live + Klippy-ready, or while safe-mode is on); E-STOP is intentionally ungated; Cancel requires a confirm; refusals surface as a global toast.
+- **Klipper prompts** — a modal dialog driven by `// action:prompt_*` (focus-managed, Esc-dismissable, auto-closes if the printer drops); its buttons run their gcode through the same gated path.
+- **Widgets** — Temperatures, Motion, and Print Status (bound to live printer objects), plus Print History, Job Queue, and Exclude Object (fetched via Moonraker `server.*` RPC / the `exclude_object` printer object). Each declares its own subscription set, merged with the control baseline so the session subscribes once; list widgets self-refresh when a print ends and gate their writes through the arbiter.
+- **i18n** — English bundled, others lazy-loaded; the language list and RTL/direction derive from core. English + Arabic catalogs ship.
+- **PWA** — installable service worker (offline-capable).
+- **Quality** — ESLint flat config, Prettier, Vitest (component + bridge tests), and an R1 no-external-refs guard; CI runs lint + format + type-check + test + build + the guard on Node 22.

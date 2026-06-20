@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "settings": "Settings"
+  },
+  "trust": {
+    "live": "Live",
+    "stale": "Reconnecting…",
+    "shutdown": "Klipper shut down",
+    "error": "Klipper error",
+    "offline": "Offline",
+    "help": "Whether the data shown is trustworthy as live."
+  },
+  "footer": "FilaMind 3d — Klipper control",
+  "skipToContent": "Skip to content"
+}

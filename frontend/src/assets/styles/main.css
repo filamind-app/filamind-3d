@@ -1,0 +1,103 @@
+@import 'tailwindcss';
+
+/* Semantic design tokens → the Pharaonic --fm-* custom properties that @filamind-app/core
+   sets on :root via applyTheme(). One theme switch restyles every utility below. */
+@theme {
+  --color-bg: var(--fm-bg);
+  --color-surface: var(--fm-surface);
+  --color-surface-2: var(--fm-surface-2);
+  --color-line: var(--fm-border);
+  --color-ink: var(--fm-text);
+  --color-muted: var(--fm-text-muted);
+  --color-primary: var(--fm-primary);
+  --color-on-primary: var(--fm-primary-contrast);
+  --color-secondary: var(--fm-secondary);
+  --color-accent: var(--fm-accent);
+  --color-success: var(--fm-success);
+  --color-warning: var(--fm-warning);
+  --color-danger: var(--fm-danger);
+
+  --font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  --radius-card: 14px;
+}
+
+/* No-flash: bg + text for first paint, before JS fills the full --fm-* set.
+   (Full token set is owned by core's applyTheme, shared with FilaMind screen.) */
+:root[data-fm-theme='tutankhamun'] {
+  --fm-bg: #0e0f12;
+  --fm-text: #f3ecd8;
+}
+:root[data-fm-theme='horus'] {
+  --fm-bg: #0b1016;
+  --fm-text: #eaf2f5;
+}
+:root[data-fm-theme='anubis'] {
+  --fm-bg: #1a1714;
+  --fm-text: #f4e7ce;
+}
+
+@layer base {
+  html,
+  body,
+  #app {
+    height: 100%;
+  }
+  body {
+    margin: 0;
+    background: var(--fm-bg, #0e0f12);
+    color: var(--fm-text, #f3ecd8);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  :focus-visible {
+    outline: 2px solid var(--fm-accent, #2ba199);
+    outline-offset: 2px;
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--fm-primary) 35%, transparent);
+  }
+}
+
+/* Reusable surface primitives (Tailwind v4 custom utilities). */
+@utility fm-card {
+  background: var(--fm-surface);
+  border: 1px solid var(--fm-border);
+  border-radius: var(--radius-card);
+}
+@utility fm-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 10px;
+  background: var(--fm-surface-2);
+  color: var(--fm-text);
+  border: 1px solid var(--fm-border);
+  cursor: pointer;
+  transition: filter 0.12s ease;
+}
+@utility fm-btn-primary {
+  background: var(--fm-primary);
+  color: var(--fm-primary-contrast);
+  border-color: transparent;
+}
+
+/* Respect reduced motion both from the OS and from the user setting. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+:root[data-fm-reduced='true'] *,
+:root[data-fm-reduced='true'] *::before,
+:root[data-fm-reduced='true'] *::after {
+  animation-duration: 0.001ms !important;
+  transition-duration: 0.001ms !important;
+}

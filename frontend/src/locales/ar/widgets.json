@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "درجات الحرارة",
+    "hotend": "الرأس الساخن",
+    "bed": "السرير",
+    "none": "لا توجد سخّانات"
+  },
+  "motion": {
+    "title": "الحركة",
+    "homed": "مُعايَر: {axes}",
+    "notHomed": "غير مُعايَر"
+  },
+  "printStatus": {
+    "title": "حالة الطباعة",
+    "status": "الحالة",
+    "state": {
+      "standby": "وضع الاستعداد",
+      "printing": "جارٍ الطباعة",
+      "paused": "متوقّف مؤقتًا",
+      "complete": "اكتملت",
+      "cancelled": "أُلغيت",
+      "error": "خطأ"
+    }
+  },
+  "history": {
+    "title": "سجلّ الطباعة",
+    "empty": "لا يوجد سجلّ طباعة",
+    "refresh": "تحديث",
+    "status": {
+      "completed": "اكتملت",
+      "cancelled": "أُلغيت",
+      "error": "خطأ",
+      "in_progress": "قيد التنفيذ",
+      "klippy_shutdown": "مقطوعة",
+      "klippy_disconnect": "مقطوعة"
+    }
+  },
+  "queue": {
+    "title": "طابور المهام",
+    "empty": "الطابور فارغ",
+    "refresh": "تحديث",
+    "state": "الطابور: {state}",
+    "queueState": {
+      "ready": "جاهز",
+      "loading": "جارٍ التحميل",
+      "starting": "يبدأ",
+      "paused": "متوقّف مؤقتًا"
+    },
+    "start": "بدء",
+    "pause": "إيقاف مؤقت",
+    "remove": "إزالة"
+  },
+  "excludeObject": {
+    "title": "استبعاد كائن",
+    "help": "تخطّي كائن فاشل دون إلغاء الطباعة بأكملها.",
+    "notConfigured": "‏[exclude_object] غير مُهيّأ",
+    "none": "لا توجد كائنات في هذه الطباعة",
+    "current": "قيد الطباعة",
+    "excluded": "مُستبعَد",
+    "exclude": "استبعاد"
+  }
+}

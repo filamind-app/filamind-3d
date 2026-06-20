@@ -1,0 +1,16 @@
+{
+  "open": "Command",
+  "placeholder": "Type a command…",
+  "empty": "No matching commands",
+  "cmd": {
+    "dashboard": "Go to Dashboard",
+    "settings": "Open Settings",
+    "cycleTheme": "Cycle theme",
+    "home": "Home all axes",
+    "estop": "Emergency stop",
+    "screenStatus": "Printer screen → Status",
+    "screenControl": "Printer screen → Control",
+    "screenSettings": "Printer screen → Settings",
+    "screenLocate": "Locate the printer screen"
+  }
+}

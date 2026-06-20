@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "Temperatures",
+    "hotend": "Hotend",
+    "bed": "Bed",
+    "none": "No heaters reported"
+  },
+  "motion": {
+    "title": "Motion",
+    "homed": "Homed: {axes}",
+    "notHomed": "Not homed"
+  },
+  "printStatus": {
+    "title": "Print Status",
+    "status": "Status",
+    "state": {
+      "standby": "Standby",
+      "printing": "Printing",
+      "paused": "Paused",
+      "complete": "Complete",
+      "cancelled": "Cancelled",
+      "error": "Error"
+    }
+  },
+  "history": {
+    "title": "Print History",
+    "empty": "No print history",
+    "refresh": "Refresh",
+    "status": {
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "error": "Error",
+      "in_progress": "In progress",
+      "klippy_shutdown": "Interrupted",
+      "klippy_disconnect": "Interrupted"
+    }
+  },
+  "queue": {
+    "title": "Job Queue",
+    "empty": "Queue is empty",
+    "refresh": "Refresh",
+    "state": "Queue: {state}",
+    "queueState": {
+      "ready": "Ready",
+      "loading": "Loading",
+      "starting": "Starting",
+      "paused": "Paused"
+    },
+    "start": "Start",
+    "pause": "Pause",
+    "remove": "Remove"
+  },
+  "excludeObject": {
+    "title": "Exclude Object",
+    "help": "Skip a failed object without cancelling the whole print.",
+    "notConfigured": "[exclude_object] is not configured",
+    "none": "No objects in this print",
+    "current": "Printing",
+    "excluded": "Excluded",
+    "exclude": "Exclude"
+  }
+}

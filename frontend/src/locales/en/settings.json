@@ -1,0 +1,36 @@
+{
+  "title": "Settings & Customization",
+  "theme": {
+    "title": "Theme",
+    "tutankhamun": "Tutankhamun",
+    "horus": "Horus",
+    "anubis": "Anubis"
+  },
+  "language": {
+    "title": "Language",
+    "label": "Interface language"
+  },
+  "display": {
+    "title": "Display",
+    "density": "Density",
+    "densityOpt": {
+      "comfortable": "Comfortable",
+      "compact": "Compact"
+    },
+    "motif": "Pharaonic motifs",
+    "motifOpt": {
+      "off": "Off",
+      "subtle": "Subtle",
+      "full": "Full"
+    },
+    "reducedMotion": "Reduce motion"
+  },
+  "data": {
+    "title": "Backup & reset",
+    "export": "Export",
+    "import": "Import",
+    "reset": "Reset to defaults",
+    "note": "Settings are stored on this device."
+  },
+  "version": "FilaMind 3d v{v}"
+}

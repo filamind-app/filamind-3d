@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" data-fm-theme="tutankhamun">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <title>FilaMind 3d</title>
+    <!-- No-flash: apply the stored theme + direction before CSS/JS load. -->
+    <script>
+      try {
+        var s = JSON.parse(localStorage.getItem('filamind.settings') || '{}')
+        document.documentElement.dataset.fmTheme = s && s.theme ? s.theme : 'tutankhamun'
+        if (s && s.locale) {
+          document.documentElement.lang = s.locale
+          document.documentElement.dir = s.locale === 'ar' ? 'rtl' : 'ltr'
+        }
+      } catch (e) {
+        /* default theme stays */
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
