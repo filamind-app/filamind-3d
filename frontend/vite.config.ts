@@ -47,6 +47,11 @@ export default defineConfig({
           { src: 'favicon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any maskable' },
         ],
       },
+      workbox: {
+        // Same-origin deploy reverse-proxies Moonraker + the backend; never let the SPA fallback
+        // shadow those paths (it would serve index.html for an API/WS request).
+        navigateFallbackDenylist: [/^\/(server|printer|machine|access|api)\//, /^\/websocket$/],
+      },
     }),
   ],
   resolve: { alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) } },

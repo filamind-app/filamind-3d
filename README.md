@@ -1,8 +1,8 @@
 # FilaMind 3d
 
 A modern web control UI for Klipper / Moonraker, built on **`@filamind-app/core`**. Part of the FilaMind suite
-(3d web · screen touch · flow). This repo currently holds the **app shell** — the foundation every feature
-widget plugs into.
+(3d web · screen touch · flow). This repo is the **web control app** — the shell plus the built-in control
+and print-management widgets, on a lean FastAPI host.
 
 [![CI](https://github.com/filamind-app/filamind-3d/actions/workflows/ci.yml/badge.svg)](https://github.com/filamind-app/filamind-3d/actions/workflows/ci.yml)
 [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-111111.svg)](LICENSE)
@@ -26,7 +26,7 @@ binds those into Vue — it does **not** re-implement them.
 - **Klipper prompts** — a focus-managed modal driven by `// action:prompt_*`; its buttons run gcode through the same gated path.
 - **Command palette (⌘/Ctrl + K)** — navigate, cycle theme, home, emergency-stop; keyboard-driven, focus-trapped, screen-reader labelled.
 - **Settings & Customization** — one section: theme switcher (Tutankhamun · Horus · Anubis), language switcher, density / motif / reduced-motion, and export / import / reset. Persisted to localStorage and applied instantly.
-- **i18n** — English bundled, others lazy; the language list, RTL, and direction come from the core locale meta. English + Arabic ship now; the rest fall back to English until their catalogs land.
+- **i18n** — English bundled, others lazy; the language list, RTL, and direction come from the core locale meta. All 19 locales ship now — a CI key-diff gate (`npm run i18n:keydiff`) keeps every catalog at parity with English.
 - **PWA** — installable, offline-capable service worker.
 
 ## Layout
@@ -38,9 +38,9 @@ frontend/
     components/    # layout/ (AppShell) · system/ (TrustRibbon, CommandPalette) · settings/ · dashboard/
     views/         # DashboardView, SettingsView
     widgets/       # built-in widgets (each registers into the core registry + declares its subscriptions)
-    locales/       # en/ + ar/ namespaced catalogs (common, shell, dashboard, settings, widgets, palette)
+    locales/       # 19 locale folders, namespaced catalogs (common, control, dashboard, palette, prompt, settings, shell, widgets)
     router/ · assets/styles/main.css (Tailwind v4 + --fm-* token mapping)
-  # backend/  (planned — a lean FastAPI host; the shell talks to Moonraker directly via core)
+backend/           # a lean FastAPI host (the app talks to Moonraker directly via core; the host adds its own routes)
 ```
 
 ## Develop
@@ -51,6 +51,7 @@ npm run dev            # Vite dev server (proxies Moonraker; set MOONRAKER_HTTP 
 npm run type-check     # vue-tsc
 npm run lint           # eslint (flat config)
 npm test               # vitest
+npm run i18n:keydiff   # every locale must carry exactly the en key set
 npm run build          # type-check + vite build (+ PWA)
 ```
 Point it at a printer with `MOONRAKER_HTTP=http://<printer>:7125 npm run dev`, or set `VITE_MOONRAKER_WS_URL`.
@@ -63,7 +64,7 @@ platform, are fine); `scripts/check-no-external-refs.sh` enforces it in CI. GPL-
 ## Status
 Shell + machine control + prompts + print-management widgets (history / queue / exclude-object) + the lean
 FastAPI backend — all complete and green (lint · type-check · test · build · PWA + ruff/mypy/pytest), each
-adversarially reviewed. Next at the suite level: `filamind-screen` (the Tauri touch app).
+adversarially reviewed. Published alongside the suite's other repos — `filamind-screen` (Tauri touch) and `filamind-flow`.
 
 ## Credits
 
