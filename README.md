@@ -4,6 +4,12 @@ A modern web control UI for Klipper / Moonraker, built on **`@filamind-app/core`
 (3d web · screen touch · flow). This repo currently holds the **app shell** — the foundation every feature
 widget plugs into.
 
+[![CI](https://github.com/filamind-app/filamind-3d/actions/workflows/ci.yml/badge.svg)](https://github.com/filamind-app/filamind-3d/actions/workflows/ci.yml)
+[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-111111.svg)](LICENSE)
+[![Vue 3](https://img.shields.io/badge/Vue-3-111111?logo=vuedotjs&logoColor=white)](https://vuejs.org)
+[![Klipper](https://img.shields.io/badge/Klipper-compatible-111111)](https://www.klipper3d.org)
+[![Moonraker](https://img.shields.io/badge/Moonraker-API-111111)](https://moonraker.readthedocs.io)
+
 ## Stack
 Vue 3.5 · Vue Router 4 (hash history) · Pinia 3 · vue-i18n 11 · Vite 8 · Tailwind 4 (CSS-first `@theme`) ·
 TypeScript 6 (strict + `noUncheckedIndexedAccess`) · Vitest 4 · vite-plugin-pwa. Node ≥ 22.13.
