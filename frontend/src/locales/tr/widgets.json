@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "Sıcaklıklar",
+    "hotend": "Nozül",
+    "bed": "Tabla",
+    "none": "Isıtıcı bildirilmedi"
+  },
+  "motion": {
+    "title": "Hareket",
+    "homed": "Sıfırlandı: {axes}",
+    "notHomed": "Sıfırlanmadı"
+  },
+  "printStatus": {
+    "title": "Baskı Durumu",
+    "status": "Durum",
+    "state": {
+      "standby": "Beklemede",
+      "printing": "Baskı yapılıyor",
+      "paused": "Duraklatıldı",
+      "complete": "Tamamlandı",
+      "cancelled": "İptal edildi",
+      "error": "Hata"
+    }
+  },
+  "history": {
+    "title": "Baskı Geçmişi",
+    "empty": "Baskı geçmişi yok",
+    "refresh": "Yenile",
+    "status": {
+      "completed": "Tamamlandı",
+      "cancelled": "İptal edildi",
+      "error": "Hata",
+      "in_progress": "Sürüyor",
+      "klippy_shutdown": "Kesildi",
+      "klippy_disconnect": "Kesildi"
+    }
+  },
+  "queue": {
+    "title": "İş Kuyruğu",
+    "empty": "Kuyruk boş",
+    "refresh": "Yenile",
+    "state": "Kuyruk: {state}",
+    "queueState": {
+      "ready": "Hazır",
+      "loading": "Yükleniyor",
+      "starting": "Başlatılıyor",
+      "paused": "Duraklatıldı"
+    },
+    "start": "Başlat",
+    "pause": "Duraklat",
+    "remove": "Kaldır"
+  },
+  "excludeObject": {
+    "title": "Nesneyi Hariç Tut",
+    "help": "Tüm baskıyı iptal etmeden başarısız bir nesneyi atlayın.",
+    "notConfigured": "[exclude_object] yapılandırılmamış",
+    "none": "Bu baskıda nesne yok",
+    "current": "Baskı yapılıyor",
+    "excluded": "Hariç tutuldu",
+    "exclude": "Hariç tut"
+  }
+}

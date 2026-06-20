@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "Temperaturen",
+    "hotend": "Hotend",
+    "bed": "Bed",
+    "none": "Geen verwarmers gerapporteerd"
+  },
+  "motion": {
+    "title": "Beweging",
+    "homed": "Gehomed: {axes}",
+    "notHomed": "Niet gehomed"
+  },
+  "printStatus": {
+    "title": "Printstatus",
+    "status": "Status",
+    "state": {
+      "standby": "Stand-by",
+      "printing": "Bezig met printen",
+      "paused": "Gepauzeerd",
+      "complete": "Voltooid",
+      "cancelled": "Geannuleerd",
+      "error": "Fout"
+    }
+  },
+  "history": {
+    "title": "Printgeschiedenis",
+    "empty": "Geen printgeschiedenis",
+    "refresh": "Vernieuwen",
+    "status": {
+      "completed": "Voltooid",
+      "cancelled": "Geannuleerd",
+      "error": "Fout",
+      "in_progress": "Bezig",
+      "klippy_shutdown": "Onderbroken",
+      "klippy_disconnect": "Onderbroken"
+    }
+  },
+  "queue": {
+    "title": "Taakwachtrij",
+    "empty": "Wachtrij is leeg",
+    "refresh": "Vernieuwen",
+    "state": "Wachtrij: {state}",
+    "queueState": {
+      "ready": "Gereed",
+      "loading": "Laden",
+      "starting": "Starten",
+      "paused": "Gepauzeerd"
+    },
+    "start": "Starten",
+    "pause": "Pauzeren",
+    "remove": "Verwijderen"
+  },
+  "excludeObject": {
+    "title": "Object uitsluiten",
+    "help": "Sla een mislukt object over zonder de hele print te annuleren.",
+    "notConfigured": "[exclude_object] is niet geconfigureerd",
+    "none": "Geen objecten in deze print",
+    "current": "Bezig met printen",
+    "excluded": "Uitgesloten",
+    "exclude": "Uitsluiten"
+  }
+}

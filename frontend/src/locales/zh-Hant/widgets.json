@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "溫度",
+    "hotend": "熱端",
+    "bed": "熱床",
+    "none": "未回報加熱器"
+  },
+  "motion": {
+    "title": "運動",
+    "homed": "已歸位：{axes}",
+    "notHomed": "未歸位"
+  },
+  "printStatus": {
+    "title": "列印狀態",
+    "status": "狀態",
+    "state": {
+      "standby": "待命",
+      "printing": "列印中",
+      "paused": "已暫停",
+      "complete": "已完成",
+      "cancelled": "已取消",
+      "error": "錯誤"
+    }
+  },
+  "history": {
+    "title": "列印歷史",
+    "empty": "無列印歷史",
+    "refresh": "重新整理",
+    "status": {
+      "completed": "已完成",
+      "cancelled": "已取消",
+      "error": "錯誤",
+      "in_progress": "進行中",
+      "klippy_shutdown": "已中斷",
+      "klippy_disconnect": "已中斷"
+    }
+  },
+  "queue": {
+    "title": "工作佇列",
+    "empty": "佇列為空",
+    "refresh": "重新整理",
+    "state": "佇列：{state}",
+    "queueState": {
+      "ready": "就緒",
+      "loading": "載入中",
+      "starting": "啟動中",
+      "paused": "已暫停"
+    },
+    "start": "開始",
+    "pause": "暫停",
+    "remove": "移除"
+  },
+  "excludeObject": {
+    "title": "排除物件",
+    "help": "略過失敗的物件而不取消整個列印。",
+    "notConfigured": "未設定 [exclude_object]",
+    "none": "此列印中無物件",
+    "current": "列印中",
+    "excluded": "已排除",
+    "exclude": "排除"
+  }
+}

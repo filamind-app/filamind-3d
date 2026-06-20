@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "Températures",
+    "hotend": "Tête chauffante",
+    "bed": "Plateau",
+    "none": "Aucun élément chauffant signalé"
+  },
+  "motion": {
+    "title": "Mouvement",
+    "homed": "À l'origine : {axes}",
+    "notHomed": "Pas à l'origine"
+  },
+  "printStatus": {
+    "title": "État de l'impression",
+    "status": "État",
+    "state": {
+      "standby": "En veille",
+      "printing": "Impression en cours",
+      "paused": "En pause",
+      "complete": "Terminée",
+      "cancelled": "Annulée",
+      "error": "Erreur"
+    }
+  },
+  "history": {
+    "title": "Historique des impressions",
+    "empty": "Aucun historique d'impression",
+    "refresh": "Actualiser",
+    "status": {
+      "completed": "Terminée",
+      "cancelled": "Annulée",
+      "error": "Erreur",
+      "in_progress": "En cours",
+      "klippy_shutdown": "Interrompue",
+      "klippy_disconnect": "Interrompue"
+    }
+  },
+  "queue": {
+    "title": "File d'attente des travaux",
+    "empty": "La file d'attente est vide",
+    "refresh": "Actualiser",
+    "state": "File d'attente : {state}",
+    "queueState": {
+      "ready": "Prête",
+      "loading": "Chargement",
+      "starting": "Démarrage",
+      "paused": "En pause"
+    },
+    "start": "Démarrer",
+    "pause": "Pause",
+    "remove": "Supprimer"
+  },
+  "excludeObject": {
+    "title": "Exclure un objet",
+    "help": "Ignorer un objet raté sans annuler toute l'impression.",
+    "notConfigured": "[exclude_object] n'est pas configuré",
+    "none": "Aucun objet dans cette impression",
+    "current": "Impression en cours",
+    "excluded": "Exclu",
+    "exclude": "Exclure"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "dashboard": "Dasbor",
+    "settings": "Pengaturan"
+  },
+  "trust": {
+    "live": "Langsung",
+    "stale": "Menyambungkan ulang…",
+    "shutdown": "Klipper dimatikan",
+    "error": "Kesalahan Klipper",
+    "offline": "Luring",
+    "help": "Apakah data yang ditampilkan dapat dipercaya sebagai data langsung."
+  },
+  "footer": "FilaMind 3d — Kontrol Klipper",
+  "skipToContent": "Lewati ke konten"
+}

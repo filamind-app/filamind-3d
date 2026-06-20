@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "तापमान",
+    "hotend": "हॉटएंड",
+    "bed": "बेड",
+    "none": "कोई हीटर रिपोर्ट नहीं हुआ"
+  },
+  "motion": {
+    "title": "गति",
+    "homed": "होम किया गया: {axes}",
+    "notHomed": "होम नहीं किया गया"
+  },
+  "printStatus": {
+    "title": "प्रिंट स्थिति",
+    "status": "स्थिति",
+    "state": {
+      "standby": "स्टैंडबाय",
+      "printing": "प्रिंट हो रहा है",
+      "paused": "रुका हुआ",
+      "complete": "पूर्ण",
+      "cancelled": "रद्द किया गया",
+      "error": "त्रुटि"
+    }
+  },
+  "history": {
+    "title": "प्रिंट इतिहास",
+    "empty": "कोई प्रिंट इतिहास नहीं",
+    "refresh": "रिफ़्रेश करें",
+    "status": {
+      "completed": "पूर्ण हुआ",
+      "cancelled": "रद्द किया गया",
+      "error": "त्रुटि",
+      "in_progress": "प्रगति में",
+      "klippy_shutdown": "बाधित",
+      "klippy_disconnect": "बाधित"
+    }
+  },
+  "queue": {
+    "title": "जॉब कतार",
+    "empty": "कतार खाली है",
+    "refresh": "रिफ़्रेश करें",
+    "state": "कतार: {state}",
+    "queueState": {
+      "ready": "तैयार",
+      "loading": "लोड हो रहा है",
+      "starting": "शुरू हो रहा है",
+      "paused": "रुका हुआ"
+    },
+    "start": "शुरू करें",
+    "pause": "रोकें",
+    "remove": "हटाएँ"
+  },
+  "excludeObject": {
+    "title": "ऑब्जेक्ट बाहर रखें",
+    "help": "पूरा प्रिंट रद्द किए बिना किसी विफल ऑब्जेक्ट को छोड़ें।",
+    "notConfigured": "[exclude_object] कॉन्फ़िगर नहीं है",
+    "none": "इस प्रिंट में कोई ऑब्जेक्ट नहीं",
+    "current": "प्रिंट हो रहा है",
+    "excluded": "बाहर रखा गया",
+    "exclude": "बाहर रखें"
+  }
+}

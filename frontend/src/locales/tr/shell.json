@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "dashboard": "Panel",
+    "settings": "Ayarlar"
+  },
+  "trust": {
+    "live": "Canlı",
+    "stale": "Yeniden bağlanılıyor…",
+    "shutdown": "Klipper kapatıldı",
+    "error": "Klipper hatası",
+    "offline": "Çevrimdışı",
+    "help": "Gösterilen verilerin canlı olarak güvenilir olup olmadığı."
+  },
+  "footer": "FilaMind 3d — Klipper kontrolü",
+  "skipToContent": "İçeriğe geç"
+}

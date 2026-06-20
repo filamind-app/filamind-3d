@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "Temperaturas",
+    "hotend": "Hotend",
+    "bed": "Mesa",
+    "none": "Nenhum aquecedor reportado"
+  },
+  "motion": {
+    "title": "Movimento",
+    "homed": "Referenciado: {axes}",
+    "notHomed": "Não referenciado"
+  },
+  "printStatus": {
+    "title": "Status da Impressão",
+    "status": "Status",
+    "state": {
+      "standby": "Em espera",
+      "printing": "Imprimindo",
+      "paused": "Pausado",
+      "complete": "Concluído",
+      "cancelled": "Cancelado",
+      "error": "Erro"
+    }
+  },
+  "history": {
+    "title": "Histórico de Impressões",
+    "empty": "Nenhum histórico de impressão",
+    "refresh": "Atualizar",
+    "status": {
+      "completed": "Concluída",
+      "cancelled": "Cancelada",
+      "error": "Erro",
+      "in_progress": "Em andamento",
+      "klippy_shutdown": "Interrompida",
+      "klippy_disconnect": "Interrompida"
+    }
+  },
+  "queue": {
+    "title": "Fila de Trabalhos",
+    "empty": "A fila está vazia",
+    "refresh": "Atualizar",
+    "state": "Fila: {state}",
+    "queueState": {
+      "ready": "Pronta",
+      "loading": "Carregando",
+      "starting": "Iniciando",
+      "paused": "Pausada"
+    },
+    "start": "Iniciar",
+    "pause": "Pausar",
+    "remove": "Remover"
+  },
+  "excludeObject": {
+    "title": "Excluir Objeto",
+    "help": "Pule um objeto com falha sem cancelar a impressão inteira.",
+    "notConfigured": "[exclude_object] não está configurado",
+    "none": "Nenhum objeto nesta impressão",
+    "current": "Imprimindo",
+    "excluded": "Excluído",
+    "exclude": "Excluir"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Cài đặt & Tùy chỉnh",
+  "theme": {
+    "title": "Giao diện",
+    "tutankhamun": "Tutankhamun",
+    "horus": "Horus",
+    "anubis": "Anubis"
+  },
+  "language": {
+    "title": "Ngôn ngữ",
+    "label": "Ngôn ngữ giao diện"
+  },
+  "display": {
+    "title": "Hiển thị",
+    "density": "Mật độ",
+    "densityOpt": {
+      "comfortable": "Thoải mái",
+      "compact": "Gọn"
+    },
+    "motif": "Họa tiết Pharaon",
+    "motifOpt": {
+      "off": "Tắt",
+      "subtle": "Nhẹ nhàng",
+      "full": "Đầy đủ"
+    },
+    "reducedMotion": "Giảm chuyển động"
+  },
+  "data": {
+    "title": "Sao lưu & đặt lại",
+    "export": "Xuất",
+    "import": "Nhập",
+    "reset": "Đặt lại về mặc định",
+    "note": "Cài đặt được lưu trên thiết bị này."
+  },
+  "version": "FilaMind 3d v{v}"
+}

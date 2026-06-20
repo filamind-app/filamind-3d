@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "dashboard": "Painel",
+    "settings": "Configurações"
+  },
+  "trust": {
+    "live": "Ao vivo",
+    "stale": "Reconectando…",
+    "shutdown": "Klipper desligado",
+    "error": "Erro do Klipper",
+    "offline": "Offline",
+    "help": "Indica se os dados exibidos são confiáveis como ao vivo."
+  },
+  "footer": "FilaMind 3d — Controle do Klipper",
+  "skipToContent": "Pular para o conteúdo"
+}

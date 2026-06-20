@@ -1,0 +1,16 @@
+{
+  "open": "命令",
+  "placeholder": "输入命令…",
+  "empty": "没有匹配的命令",
+  "cmd": {
+    "dashboard": "前往仪表盘",
+    "settings": "打开设置",
+    "cycleTheme": "切换主题",
+    "home": "全部轴回零",
+    "estop": "急停",
+    "screenStatus": "打印机屏幕 → 状态",
+    "screenControl": "打印机屏幕 → 控制",
+    "screenSettings": "打印机屏幕 → 设置",
+    "screenLocate": "定位打印机屏幕"
+  }
+}

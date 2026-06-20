@@ -1,0 +1,16 @@
+{
+  "open": "Comando",
+  "placeholder": "Digite um comando…",
+  "empty": "Nenhum comando correspondente",
+  "cmd": {
+    "dashboard": "Ir para o Painel",
+    "settings": "Abrir Configurações",
+    "cycleTheme": "Alternar tema",
+    "home": "Referenciar todos os eixos",
+    "estop": "Parada de emergência",
+    "screenStatus": "Tela da impressora → Status",
+    "screenControl": "Tela da impressora → Controle",
+    "screenSettings": "Tela da impressora → Configurações",
+    "screenLocate": "Localizar a tela da impressora"
+  }
+}

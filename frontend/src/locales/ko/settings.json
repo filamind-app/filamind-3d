@@ -1,0 +1,36 @@
+{
+  "title": "설정 및 사용자화",
+  "theme": {
+    "title": "테마",
+    "tutankhamun": "투탕카멘",
+    "horus": "호루스",
+    "anubis": "아누비스"
+  },
+  "language": {
+    "title": "언어",
+    "label": "인터페이스 언어"
+  },
+  "display": {
+    "title": "디스플레이",
+    "density": "밀도",
+    "densityOpt": {
+      "comfortable": "넉넉하게",
+      "compact": "조밀하게"
+    },
+    "motif": "파라오 모티프",
+    "motifOpt": {
+      "off": "끄기",
+      "subtle": "은은하게",
+      "full": "전체"
+    },
+    "reducedMotion": "모션 줄이기"
+  },
+  "data": {
+    "title": "백업 및 초기화",
+    "export": "내보내기",
+    "import": "가져오기",
+    "reset": "기본값으로 초기화",
+    "note": "설정은 이 기기에 저장됩니다."
+  },
+  "version": "FilaMind 3d v{v}"
+}

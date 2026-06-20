@@ -1,0 +1,20 @@
+{
+  "title": "Controllo macchina",
+  "home": "Azzera tutti gli assi",
+  "pause": "Pausa",
+  "resume": "Riprendi",
+  "cancel": "Annulla",
+  "cancelConfirm": "Confermi l'annullamento?",
+  "estop": "Arresto di emergenza",
+  "safeOff": "Scrittura abilitata",
+  "safeOn": "Modalità sicura",
+  "blocked": {
+    "offline": "Stampante non attiva",
+    "safe": "La modalità sicura è attiva",
+    "busy": "Un'azione è in corso"
+  },
+  "error": {
+    "refused": "Rifiutata — stampante non attiva",
+    "failed": "Azione non riuscita"
+  }
+}

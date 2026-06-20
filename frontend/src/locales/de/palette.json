@@ -1,0 +1,16 @@
+{
+  "open": "Befehl",
+  "placeholder": "Befehl eingeben…",
+  "empty": "Keine passenden Befehle",
+  "cmd": {
+    "dashboard": "Zum Dashboard",
+    "settings": "Einstellungen öffnen",
+    "cycleTheme": "Design wechseln",
+    "home": "Alle Achsen referenzieren",
+    "estop": "Not-Aus",
+    "screenStatus": "Druckerbildschirm → Status",
+    "screenControl": "Druckerbildschirm → Steuerung",
+    "screenSettings": "Druckerbildschirm → Einstellungen",
+    "screenLocate": "Druckerbildschirm finden"
+  }
+}

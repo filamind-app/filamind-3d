@@ -1,0 +1,16 @@
+{
+  "open": "명령",
+  "placeholder": "명령을 입력하세요…",
+  "empty": "일치하는 명령 없음",
+  "cmd": {
+    "dashboard": "대시보드로 이동",
+    "settings": "설정 열기",
+    "cycleTheme": "테마 전환",
+    "home": "모든 축 호밍",
+    "estop": "비상 정지",
+    "screenStatus": "프린터 화면 → 상태",
+    "screenControl": "프린터 화면 → 제어",
+    "screenSettings": "프린터 화면 → 설정",
+    "screenLocate": "프린터 화면 찾기"
+  }
+}

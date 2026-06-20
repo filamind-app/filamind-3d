@@ -1,0 +1,36 @@
+{
+  "title": "Pengaturan & Kustomisasi",
+  "theme": {
+    "title": "Tema",
+    "tutankhamun": "Tutankhamun",
+    "horus": "Horus",
+    "anubis": "Anubis"
+  },
+  "language": {
+    "title": "Bahasa",
+    "label": "Bahasa antarmuka"
+  },
+  "display": {
+    "title": "Tampilan",
+    "density": "Kerapatan",
+    "densityOpt": {
+      "comfortable": "Nyaman",
+      "compact": "Ringkas"
+    },
+    "motif": "Motif Firaun",
+    "motifOpt": {
+      "off": "Mati",
+      "subtle": "Halus",
+      "full": "Penuh"
+    },
+    "reducedMotion": "Kurangi gerakan"
+  },
+  "data": {
+    "title": "Cadangan & atur ulang",
+    "export": "Ekspor",
+    "import": "Impor",
+    "reset": "Atur ulang ke bawaan",
+    "note": "Pengaturan disimpan di perangkat ini."
+  },
+  "version": "FilaMind 3d v{v}"
+}

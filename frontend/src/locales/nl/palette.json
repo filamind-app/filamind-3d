@@ -1,0 +1,16 @@
+{
+  "open": "Opdracht",
+  "placeholder": "Typ een opdracht…",
+  "empty": "Geen overeenkomende opdrachten",
+  "cmd": {
+    "dashboard": "Ga naar dashboard",
+    "settings": "Instellingen openen",
+    "cycleTheme": "Thema wisselen",
+    "home": "Alle assen homen",
+    "estop": "Noodstop",
+    "screenStatus": "Printerscherm → Status",
+    "screenControl": "Printerscherm → Besturing",
+    "screenSettings": "Printerscherm → Instellingen",
+    "screenLocate": "Printerscherm lokaliseren"
+  }
+}

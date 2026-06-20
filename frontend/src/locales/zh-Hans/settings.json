@@ -1,0 +1,36 @@
+{
+  "title": "设置与个性化",
+  "theme": {
+    "title": "主题",
+    "tutankhamun": "图坦卡蒙",
+    "horus": "荷鲁斯",
+    "anubis": "阿努比斯"
+  },
+  "language": {
+    "title": "语言",
+    "label": "界面语言"
+  },
+  "display": {
+    "title": "显示",
+    "density": "密度",
+    "densityOpt": {
+      "comfortable": "宽松",
+      "compact": "紧凑"
+    },
+    "motif": "法老纹饰",
+    "motifOpt": {
+      "off": "关闭",
+      "subtle": "淡雅",
+      "full": "完整"
+    },
+    "reducedMotion": "减少动效"
+  },
+  "data": {
+    "title": "备份与重置",
+    "export": "导出",
+    "import": "导入",
+    "reset": "恢复默认",
+    "note": "设置保存在本设备上。"
+  },
+  "version": "FilaMind 3d v{v}"
+}

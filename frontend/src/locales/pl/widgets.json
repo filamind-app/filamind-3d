@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "Temperatury",
+    "hotend": "Hotend",
+    "bed": "Stół",
+    "none": "Brak zgłoszonych grzałek"
+  },
+  "motion": {
+    "title": "Ruch",
+    "homed": "Zbazowane: {axes}",
+    "notHomed": "Niezbazowane"
+  },
+  "printStatus": {
+    "title": "Stan druku",
+    "status": "Stan",
+    "state": {
+      "standby": "Gotowość",
+      "printing": "Drukowanie",
+      "paused": "Wstrzymano",
+      "complete": "Ukończono",
+      "cancelled": "Anulowano",
+      "error": "Błąd"
+    }
+  },
+  "history": {
+    "title": "Historia druków",
+    "empty": "Brak historii druków",
+    "refresh": "Odśwież",
+    "status": {
+      "completed": "Ukończono",
+      "cancelled": "Anulowano",
+      "error": "Błąd",
+      "in_progress": "W toku",
+      "klippy_shutdown": "Przerwano",
+      "klippy_disconnect": "Przerwano"
+    }
+  },
+  "queue": {
+    "title": "Kolejka zadań",
+    "empty": "Kolejka jest pusta",
+    "refresh": "Odśwież",
+    "state": "Kolejka: {state}",
+    "queueState": {
+      "ready": "Gotowa",
+      "loading": "Wczytywanie",
+      "starting": "Uruchamianie",
+      "paused": "Wstrzymana"
+    },
+    "start": "Uruchom",
+    "pause": "Wstrzymaj",
+    "remove": "Usuń"
+  },
+  "excludeObject": {
+    "title": "Wyklucz obiekt",
+    "help": "Pomiń nieudany obiekt bez anulowania całego druku.",
+    "notConfigured": "[exclude_object] nie jest skonfigurowane",
+    "none": "Brak obiektów w tym druku",
+    "current": "Drukowanie",
+    "excluded": "Wykluczone",
+    "exclude": "Wyklucz"
+  }
+}

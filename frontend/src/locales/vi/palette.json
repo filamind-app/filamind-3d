@@ -1,0 +1,16 @@
+{
+  "open": "Lệnh",
+  "placeholder": "Nhập một lệnh…",
+  "empty": "Không có lệnh phù hợp",
+  "cmd": {
+    "dashboard": "Đến Bảng điều khiển",
+    "settings": "Mở Cài đặt",
+    "cycleTheme": "Đổi giao diện",
+    "home": "Về gốc tất cả các trục",
+    "estop": "Dừng khẩn cấp",
+    "screenStatus": "Màn hình máy in → Trạng thái",
+    "screenControl": "Màn hình máy in → Điều khiển",
+    "screenSettings": "Màn hình máy in → Cài đặt",
+    "screenLocate": "Định vị màn hình máy in"
+  }
+}

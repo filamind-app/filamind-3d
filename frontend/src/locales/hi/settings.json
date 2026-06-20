@@ -1,0 +1,36 @@
+{
+  "title": "सेटिंग्स और अनुकूलन",
+  "theme": {
+    "title": "थीम",
+    "tutankhamun": "तूतनखामुन",
+    "horus": "होरस",
+    "anubis": "अनुबिस"
+  },
+  "language": {
+    "title": "भाषा",
+    "label": "इंटरफ़ेस भाषा"
+  },
+  "display": {
+    "title": "डिस्प्ले",
+    "density": "घनत्व",
+    "densityOpt": {
+      "comfortable": "आरामदायक",
+      "compact": "संक्षिप्त"
+    },
+    "motif": "फिरौनी आकृतियाँ",
+    "motifOpt": {
+      "off": "बंद",
+      "subtle": "हल्का",
+      "full": "पूर्ण"
+    },
+    "reducedMotion": "गति कम करें"
+  },
+  "data": {
+    "title": "बैकअप और रीसेट",
+    "export": "निर्यात करें",
+    "import": "आयात करें",
+    "reset": "डिफ़ॉल्ट पर रीसेट करें",
+    "note": "सेटिंग्स इस डिवाइस पर संग्रहीत हैं।"
+  },
+  "version": "FilaMind 3d v{v}"
+}

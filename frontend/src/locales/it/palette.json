@@ -1,0 +1,16 @@
+{
+  "open": "Comando",
+  "placeholder": "Digita un comando…",
+  "empty": "Nessun comando corrispondente",
+  "cmd": {
+    "dashboard": "Vai alla Dashboard",
+    "settings": "Apri Impostazioni",
+    "cycleTheme": "Cambia tema",
+    "home": "Azzera tutti gli assi",
+    "estop": "Arresto di emergenza",
+    "screenStatus": "Schermo stampante → Stato",
+    "screenControl": "Schermo stampante → Controllo",
+    "screenSettings": "Schermo stampante → Impostazioni",
+    "screenLocate": "Individua lo schermo della stampante"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "dashboard": "대시보드",
+    "settings": "설정"
+  },
+  "trust": {
+    "live": "실시간",
+    "stale": "재연결 중…",
+    "shutdown": "Klipper 종료됨",
+    "error": "Klipper 오류",
+    "offline": "오프라인",
+    "help": "표시된 데이터가 실시간으로 신뢰할 수 있는지 여부."
+  },
+  "footer": "FilaMind 3d — Klipper 제어",
+  "skipToContent": "본문으로 건너뛰기"
+}

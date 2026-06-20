@@ -1,0 +1,16 @@
+{
+  "open": "Perintah",
+  "placeholder": "Ketik perintah…",
+  "empty": "Tidak ada perintah yang cocok",
+  "cmd": {
+    "dashboard": "Buka Dasbor",
+    "settings": "Buka Pengaturan",
+    "cycleTheme": "Ganti tema",
+    "home": "Homing semua sumbu",
+    "estop": "Berhenti darurat",
+    "screenStatus": "Layar printer → Status",
+    "screenControl": "Layar printer → Kontrol",
+    "screenSettings": "Layar printer → Pengaturan",
+    "screenLocate": "Temukan layar printer"
+  }
+}
