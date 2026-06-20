@@ -4,7 +4,9 @@
     "title": "Thema",
     "tutankhamun": "Toetanchamon",
     "horus": "Horus",
-    "anubis": "Anubis"
+    "anubis": "Anubis",
+    "light": "Licht",
+    "dark": "Donker"
   },
   "language": {
     "title": "Taal",

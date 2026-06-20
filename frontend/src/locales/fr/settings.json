@@ -4,7 +4,9 @@
     "title": "Thème",
     "tutankhamun": "Toutânkhamon",
     "horus": "Horus",
-    "anubis": "Anubis"
+    "anubis": "Anubis",
+    "light": "Clair",
+    "dark": "Sombre"
   },
   "language": {
     "title": "Langue",

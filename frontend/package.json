@@ -22,7 +22,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "@filamind-app/core": "^0.1.0",
+    "@filamind-app/core": "^0.1.1",
     "pinia": "^3.0.4",
     "vue": "^3.5.38",
     "vue-i18n": "^11.4.6",
