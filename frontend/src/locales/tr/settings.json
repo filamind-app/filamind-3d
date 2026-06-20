@@ -1,0 +1,36 @@
+{
+  "title": "Ayarlar ve Özelleştirme",
+  "theme": {
+    "title": "Tema",
+    "tutankhamun": "Tutankamon",
+    "horus": "Horus",
+    "anubis": "Anubis"
+  },
+  "language": {
+    "title": "Dil",
+    "label": "Arayüz dili"
+  },
+  "display": {
+    "title": "Görünüm",
+    "density": "Yoğunluk",
+    "densityOpt": {
+      "comfortable": "Rahat",
+      "compact": "Sıkışık"
+    },
+    "motif": "Firavun motifleri",
+    "motifOpt": {
+      "off": "Kapalı",
+      "subtle": "İnce",
+      "full": "Tam"
+    },
+    "reducedMotion": "Hareketi azalt"
+  },
+  "data": {
+    "title": "Yedekleme ve sıfırlama",
+    "export": "Dışa aktar",
+    "import": "İçe aktar",
+    "reset": "Varsayılanlara sıfırla",
+    "note": "Ayarlar bu cihazda saklanır."
+  },
+  "version": "FilaMind 3d v{v}"
+}

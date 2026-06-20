@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "settings": "Instellingen"
+  },
+  "trust": {
+    "live": "Live",
+    "stale": "Opnieuw verbinden…",
+    "shutdown": "Klipper afgesloten",
+    "error": "Klipper-fout",
+    "offline": "Offline",
+    "help": "Of de getoonde gegevens betrouwbaar zijn als live."
+  },
+  "footer": "FilaMind 3d — Klipper-besturing",
+  "skipToContent": "Naar inhoud springen"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Instellingen & aanpassing",
+  "theme": {
+    "title": "Thema",
+    "tutankhamun": "Toetanchamon",
+    "horus": "Horus",
+    "anubis": "Anubis"
+  },
+  "language": {
+    "title": "Taal",
+    "label": "Interfacetaal"
+  },
+  "display": {
+    "title": "Weergave",
+    "density": "Dichtheid",
+    "densityOpt": {
+      "comfortable": "Comfortabel",
+      "compact": "Compact"
+    },
+    "motif": "Faraonische motieven",
+    "motifOpt": {
+      "off": "Uit",
+      "subtle": "Subtiel",
+      "full": "Volledig"
+    },
+    "reducedMotion": "Beweging beperken"
+  },
+  "data": {
+    "title": "Back-up & reset",
+    "export": "Exporteren",
+    "import": "Importeren",
+    "reset": "Terugzetten naar standaardwaarden",
+    "note": "Instellingen worden op dit apparaat bewaard."
+  },
+  "version": "FilaMind 3d v{v}"
+}

@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "Температури",
+    "hotend": "Хотенд",
+    "bed": "Стіл",
+    "none": "Немає даних про нагрівачі"
+  },
+  "motion": {
+    "title": "Рух",
+    "homed": "Запарковано: {axes}",
+    "notHomed": "Не запарковано"
+  },
+  "printStatus": {
+    "title": "Стан друку",
+    "status": "Стан",
+    "state": {
+      "standby": "Очікування",
+      "printing": "Друк",
+      "paused": "Призупинено",
+      "complete": "Завершено",
+      "cancelled": "Скасовано",
+      "error": "Помилка"
+    }
+  },
+  "history": {
+    "title": "Історія друку",
+    "empty": "Немає історії друку",
+    "refresh": "Оновити",
+    "status": {
+      "completed": "Завершено",
+      "cancelled": "Скасовано",
+      "error": "Помилка",
+      "in_progress": "Виконується",
+      "klippy_shutdown": "Перервано",
+      "klippy_disconnect": "Перервано"
+    }
+  },
+  "queue": {
+    "title": "Черга завдань",
+    "empty": "Черга порожня",
+    "refresh": "Оновити",
+    "state": "Черга: {state}",
+    "queueState": {
+      "ready": "Готово",
+      "loading": "Завантаження",
+      "starting": "Запуск",
+      "paused": "Призупинено"
+    },
+    "start": "Запустити",
+    "pause": "Пауза",
+    "remove": "Видалити"
+  },
+  "excludeObject": {
+    "title": "Виключити об’єкт",
+    "help": "Пропустити невдалий об’єкт без скасування всього друку.",
+    "notConfigured": "[exclude_object] не налаштовано",
+    "none": "У цьому друці немає об’єктів",
+    "current": "Друкується",
+    "excluded": "Виключено",
+    "exclude": "Виключити"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "Suhu",
+    "hotend": "Hotend",
+    "bed": "Bed",
+    "none": "Tidak ada pemanas yang dilaporkan"
+  },
+  "motion": {
+    "title": "Gerakan",
+    "homed": "Sudah homing: {axes}",
+    "notHomed": "Belum homing"
+  },
+  "printStatus": {
+    "title": "Status Cetak",
+    "status": "Status",
+    "state": {
+      "standby": "Siaga",
+      "printing": "Mencetak",
+      "paused": "Dijeda",
+      "complete": "Selesai",
+      "cancelled": "Dibatalkan",
+      "error": "Kesalahan"
+    }
+  },
+  "history": {
+    "title": "Riwayat Cetak",
+    "empty": "Tidak ada riwayat cetak",
+    "refresh": "Segarkan",
+    "status": {
+      "completed": "Selesai",
+      "cancelled": "Dibatalkan",
+      "error": "Kesalahan",
+      "in_progress": "Sedang berjalan",
+      "klippy_shutdown": "Terhenti",
+      "klippy_disconnect": "Terhenti"
+    }
+  },
+  "queue": {
+    "title": "Antrean Tugas",
+    "empty": "Antrean kosong",
+    "refresh": "Segarkan",
+    "state": "Antrean: {state}",
+    "queueState": {
+      "ready": "Siap",
+      "loading": "Memuat",
+      "starting": "Memulai",
+      "paused": "Dijeda"
+    },
+    "start": "Mulai",
+    "pause": "Jeda",
+    "remove": "Hapus"
+  },
+  "excludeObject": {
+    "title": "Kecualikan Objek",
+    "help": "Lewati objek yang gagal tanpa membatalkan seluruh cetakan.",
+    "notConfigured": "[exclude_object] tidak dikonfigurasi",
+    "none": "Tidak ada objek dalam cetakan ini",
+    "current": "Mencetak",
+    "excluded": "Dikecualikan",
+    "exclude": "Kecualikan"
+  }
+}

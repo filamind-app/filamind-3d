@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "dashboard": "Bảng điều khiển",
+    "settings": "Cài đặt"
+  },
+  "trust": {
+    "live": "Trực tiếp",
+    "stale": "Đang kết nối lại…",
+    "shutdown": "Klipper đã tắt",
+    "error": "Lỗi Klipper",
+    "offline": "Ngoại tuyến",
+    "help": "Cho biết dữ liệu hiển thị có đáng tin cậy theo thời gian thực hay không."
+  },
+  "footer": "FilaMind 3d — Điều khiển Klipper",
+  "skipToContent": "Bỏ qua đến nội dung"
+}

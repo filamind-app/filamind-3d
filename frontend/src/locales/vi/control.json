@@ -1,0 +1,20 @@
+{
+  "title": "Điều khiển máy",
+  "home": "Về gốc tất cả",
+  "pause": "Tạm dừng",
+  "resume": "Tiếp tục",
+  "cancel": "Hủy",
+  "cancelConfirm": "Xác nhận hủy?",
+  "estop": "Dừng khẩn cấp",
+  "safeOff": "Đã bật ghi",
+  "safeOn": "Chế độ an toàn",
+  "blocked": {
+    "offline": "Máy in chưa trực tuyến",
+    "safe": "Chế độ an toàn đang bật",
+    "busy": "Một thao tác đang diễn ra"
+  },
+  "error": {
+    "refused": "Bị từ chối — máy in chưa trực tuyến",
+    "failed": "Thao tác thất bại"
+  }
+}

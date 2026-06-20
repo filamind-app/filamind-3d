@@ -1,0 +1,36 @@
+{
+  "title": "Einstellungen & Anpassung",
+  "theme": {
+    "title": "Design",
+    "tutankhamun": "Tutanchamun",
+    "horus": "Horus",
+    "anubis": "Anubis"
+  },
+  "language": {
+    "title": "Sprache",
+    "label": "Sprache der Oberfläche"
+  },
+  "display": {
+    "title": "Anzeige",
+    "density": "Dichte",
+    "densityOpt": {
+      "comfortable": "Komfortabel",
+      "compact": "Kompakt"
+    },
+    "motif": "Pharaonische Motive",
+    "motifOpt": {
+      "off": "Aus",
+      "subtle": "Dezent",
+      "full": "Voll"
+    },
+    "reducedMotion": "Bewegung reduzieren"
+  },
+  "data": {
+    "title": "Sicherung & Zurücksetzen",
+    "export": "Exportieren",
+    "import": "Importieren",
+    "reset": "Auf Standard zurücksetzen",
+    "note": "Einstellungen werden auf diesem Gerät gespeichert."
+  },
+  "version": "FilaMind 3d v{v}"
+}

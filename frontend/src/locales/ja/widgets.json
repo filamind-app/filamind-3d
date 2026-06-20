@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "温度",
+    "hotend": "ホットエンド",
+    "bed": "ベッド",
+    "none": "ヒーターが報告されていません"
+  },
+  "motion": {
+    "title": "モーション",
+    "homed": "ホーミング済み: {axes}",
+    "notHomed": "未ホーミング"
+  },
+  "printStatus": {
+    "title": "印刷ステータス",
+    "status": "ステータス",
+    "state": {
+      "standby": "スタンバイ",
+      "printing": "印刷中",
+      "paused": "一時停止中",
+      "complete": "完了",
+      "cancelled": "キャンセル済み",
+      "error": "エラー"
+    }
+  },
+  "history": {
+    "title": "印刷履歴",
+    "empty": "印刷履歴がありません",
+    "refresh": "更新",
+    "status": {
+      "completed": "完了",
+      "cancelled": "キャンセル済み",
+      "error": "エラー",
+      "in_progress": "進行中",
+      "klippy_shutdown": "中断",
+      "klippy_disconnect": "中断"
+    }
+  },
+  "queue": {
+    "title": "ジョブキュー",
+    "empty": "キューは空です",
+    "refresh": "更新",
+    "state": "キュー: {state}",
+    "queueState": {
+      "ready": "準備完了",
+      "loading": "読み込み中",
+      "starting": "開始中",
+      "paused": "一時停止中"
+    },
+    "start": "開始",
+    "pause": "一時停止",
+    "remove": "削除"
+  },
+  "excludeObject": {
+    "title": "オブジェクト除外",
+    "help": "印刷全体をキャンセルせずに、失敗したオブジェクトをスキップします。",
+    "notConfigured": "[exclude_object] が設定されていません",
+    "none": "この印刷にはオブジェクトがありません",
+    "current": "印刷中",
+    "excluded": "除外済み",
+    "exclude": "除外"
+  }
+}

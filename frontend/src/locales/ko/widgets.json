@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "온도",
+    "hotend": "핫엔드",
+    "bed": "베드",
+    "none": "보고된 히터 없음"
+  },
+  "motion": {
+    "title": "모션",
+    "homed": "호밍됨: {axes}",
+    "notHomed": "호밍 안 됨"
+  },
+  "printStatus": {
+    "title": "출력 상태",
+    "status": "상태",
+    "state": {
+      "standby": "대기",
+      "printing": "출력 중",
+      "paused": "일시정지됨",
+      "complete": "완료",
+      "cancelled": "취소됨",
+      "error": "오류"
+    }
+  },
+  "history": {
+    "title": "출력 기록",
+    "empty": "출력 기록 없음",
+    "refresh": "새로고침",
+    "status": {
+      "completed": "완료됨",
+      "cancelled": "취소됨",
+      "error": "오류",
+      "in_progress": "진행 중",
+      "klippy_shutdown": "중단됨",
+      "klippy_disconnect": "중단됨"
+    }
+  },
+  "queue": {
+    "title": "작업 대기열",
+    "empty": "대기열이 비어 있음",
+    "refresh": "새로고침",
+    "state": "대기열: {state}",
+    "queueState": {
+      "ready": "준비됨",
+      "loading": "로딩 중",
+      "starting": "시작 중",
+      "paused": "일시정지됨"
+    },
+    "start": "시작",
+    "pause": "일시정지",
+    "remove": "제거"
+  },
+  "excludeObject": {
+    "title": "객체 제외",
+    "help": "전체 출력을 취소하지 않고 실패한 객체만 건너뜁니다.",
+    "notConfigured": "[exclude_object]가 구성되지 않았습니다",
+    "none": "이 출력에 객체가 없습니다",
+    "current": "출력 중",
+    "excluded": "제외됨",
+    "exclude": "제외"
+  }
+}

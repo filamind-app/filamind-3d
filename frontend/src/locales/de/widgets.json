@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "Temperaturen",
+    "hotend": "Hotend",
+    "bed": "Bett",
+    "none": "Keine Heizungen gemeldet"
+  },
+  "motion": {
+    "title": "Bewegung",
+    "homed": "Referenziert: {axes}",
+    "notHomed": "Nicht referenziert"
+  },
+  "printStatus": {
+    "title": "Druckstatus",
+    "status": "Status",
+    "state": {
+      "standby": "Bereitschaft",
+      "printing": "Druckt",
+      "paused": "Pausiert",
+      "complete": "Abgeschlossen",
+      "cancelled": "Abgebrochen",
+      "error": "Fehler"
+    }
+  },
+  "history": {
+    "title": "Druckverlauf",
+    "empty": "Kein Druckverlauf",
+    "refresh": "Aktualisieren",
+    "status": {
+      "completed": "Abgeschlossen",
+      "cancelled": "Abgebrochen",
+      "error": "Fehler",
+      "in_progress": "Läuft",
+      "klippy_shutdown": "Unterbrochen",
+      "klippy_disconnect": "Unterbrochen"
+    }
+  },
+  "queue": {
+    "title": "Auftragswarteschlange",
+    "empty": "Warteschlange ist leer",
+    "refresh": "Aktualisieren",
+    "state": "Warteschlange: {state}",
+    "queueState": {
+      "ready": "Bereit",
+      "loading": "Wird geladen",
+      "starting": "Wird gestartet",
+      "paused": "Pausiert"
+    },
+    "start": "Starten",
+    "pause": "Pausieren",
+    "remove": "Entfernen"
+  },
+  "excludeObject": {
+    "title": "Objekt ausschließen",
+    "help": "Ein fehlerhaftes Objekt überspringen, ohne den gesamten Druck abzubrechen.",
+    "notConfigured": "[exclude_object] ist nicht konfiguriert",
+    "none": "Keine Objekte in diesem Druck",
+    "current": "Druckt",
+    "excluded": "Ausgeschlossen",
+    "exclude": "Ausschließen"
+  }
+}

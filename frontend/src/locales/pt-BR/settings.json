@@ -1,0 +1,36 @@
+{
+  "title": "Configurações e Personalização",
+  "theme": {
+    "title": "Tema",
+    "tutankhamun": "Tutancâmon",
+    "horus": "Hórus",
+    "anubis": "Anúbis"
+  },
+  "language": {
+    "title": "Idioma",
+    "label": "Idioma da interface"
+  },
+  "display": {
+    "title": "Exibição",
+    "density": "Densidade",
+    "densityOpt": {
+      "comfortable": "Confortável",
+      "compact": "Compacta"
+    },
+    "motif": "Motivos faraônicos",
+    "motifOpt": {
+      "off": "Desligado",
+      "subtle": "Sutil",
+      "full": "Completo"
+    },
+    "reducedMotion": "Reduzir movimento"
+  },
+  "data": {
+    "title": "Backup e redefinição",
+    "export": "Exportar",
+    "import": "Importar",
+    "reset": "Restaurar padrões",
+    "note": "As configurações são armazenadas neste dispositivo."
+  },
+  "version": "FilaMind 3d v{v}"
+}

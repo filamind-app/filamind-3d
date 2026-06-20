@@ -1,0 +1,16 @@
+{
+  "open": "コマンド",
+  "placeholder": "コマンドを入力…",
+  "empty": "一致するコマンドがありません",
+  "cmd": {
+    "dashboard": "ダッシュボードへ移動",
+    "settings": "設定を開く",
+    "cycleTheme": "テーマを切り替え",
+    "home": "全軸ホーミング",
+    "estop": "緊急停止",
+    "screenStatus": "プリンター画面 → ステータス",
+    "screenControl": "プリンター画面 → 制御",
+    "screenSettings": "プリンター画面 → 設定",
+    "screenLocate": "プリンター画面を探す"
+  }
+}

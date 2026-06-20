@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "Температуры",
+    "hotend": "Хотэнд",
+    "bed": "Стол",
+    "none": "Нагреватели не обнаружены"
+  },
+  "motion": {
+    "title": "Перемещение",
+    "homed": "Запаркованы: {axes}",
+    "notHomed": "Не запаркованы"
+  },
+  "printStatus": {
+    "title": "Состояние печати",
+    "status": "Состояние",
+    "state": {
+      "standby": "Ожидание",
+      "printing": "Печать",
+      "paused": "Пауза",
+      "complete": "Завершено",
+      "cancelled": "Отменено",
+      "error": "Ошибка"
+    }
+  },
+  "history": {
+    "title": "История печати",
+    "empty": "История печати пуста",
+    "refresh": "Обновить",
+    "status": {
+      "completed": "Завершено",
+      "cancelled": "Отменено",
+      "error": "Ошибка",
+      "in_progress": "Выполняется",
+      "klippy_shutdown": "Прервано",
+      "klippy_disconnect": "Прервано"
+    }
+  },
+  "queue": {
+    "title": "Очередь заданий",
+    "empty": "Очередь пуста",
+    "refresh": "Обновить",
+    "state": "Очередь: {state}",
+    "queueState": {
+      "ready": "Готово",
+      "loading": "Загрузка",
+      "starting": "Запуск",
+      "paused": "Пауза"
+    },
+    "start": "Старт",
+    "pause": "Пауза",
+    "remove": "Удалить"
+  },
+  "excludeObject": {
+    "title": "Исключить объект",
+    "help": "Пропустить неудавшийся объект без отмены всей печати.",
+    "notConfigured": "[exclude_object] не настроен",
+    "none": "В этой печати нет объектов",
+    "current": "Печатается",
+    "excluded": "Исключён",
+    "exclude": "Исключить"
+  }
+}

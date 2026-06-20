@@ -1,0 +1,16 @@
+{
+  "open": "Commande",
+  "placeholder": "Saisir une commande…",
+  "empty": "Aucune commande correspondante",
+  "cmd": {
+    "dashboard": "Aller au tableau de bord",
+    "settings": "Ouvrir les paramètres",
+    "cycleTheme": "Changer de thème",
+    "home": "Origine de tous les axes",
+    "estop": "Arrêt d'urgence",
+    "screenStatus": "Écran de l'imprimante → État",
+    "screenControl": "Écran de l'imprimante → Contrôle",
+    "screenSettings": "Écran de l'imprimante → Paramètres",
+    "screenLocate": "Localiser l'écran de l'imprimante"
+  }
+}

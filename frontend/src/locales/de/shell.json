@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "settings": "Einstellungen"
+  },
+  "trust": {
+    "live": "Live",
+    "stale": "Verbindung wird wiederhergestellt…",
+    "shutdown": "Klipper heruntergefahren",
+    "error": "Klipper-Fehler",
+    "offline": "Offline",
+    "help": "Ob die angezeigten Daten als live vertrauenswürdig sind."
+  },
+  "footer": "FilaMind 3d – Klipper-Steuerung",
+  "skipToContent": "Zum Inhalt springen"
+}

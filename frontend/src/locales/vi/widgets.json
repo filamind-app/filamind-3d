@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "Nhiệt độ",
+    "hotend": "Đầu nóng",
+    "bed": "Bàn in",
+    "none": "Không có bộ gia nhiệt nào được báo cáo"
+  },
+  "motion": {
+    "title": "Chuyển động",
+    "homed": "Đã về gốc: {axes}",
+    "notHomed": "Chưa về gốc"
+  },
+  "printStatus": {
+    "title": "Trạng thái in",
+    "status": "Trạng thái",
+    "state": {
+      "standby": "Chờ",
+      "printing": "Đang in",
+      "paused": "Tạm dừng",
+      "complete": "Hoàn tất",
+      "cancelled": "Đã hủy",
+      "error": "Lỗi"
+    }
+  },
+  "history": {
+    "title": "Lịch sử in",
+    "empty": "Không có lịch sử in",
+    "refresh": "Làm mới",
+    "status": {
+      "completed": "Đã hoàn tất",
+      "cancelled": "Đã hủy",
+      "error": "Lỗi",
+      "in_progress": "Đang tiến hành",
+      "klippy_shutdown": "Bị gián đoạn",
+      "klippy_disconnect": "Bị gián đoạn"
+    }
+  },
+  "queue": {
+    "title": "Hàng đợi tác vụ",
+    "empty": "Hàng đợi trống",
+    "refresh": "Làm mới",
+    "state": "Hàng đợi: {state}",
+    "queueState": {
+      "ready": "Sẵn sàng",
+      "loading": "Đang tải",
+      "starting": "Đang bắt đầu",
+      "paused": "Tạm dừng"
+    },
+    "start": "Bắt đầu",
+    "pause": "Tạm dừng",
+    "remove": "Xóa"
+  },
+  "excludeObject": {
+    "title": "Loại trừ đối tượng",
+    "help": "Bỏ qua một đối tượng bị lỗi mà không hủy toàn bộ bản in.",
+    "notConfigured": "[exclude_object] chưa được cấu hình",
+    "none": "Không có đối tượng nào trong bản in này",
+    "current": "Đang in",
+    "excluded": "Đã loại trừ",
+    "exclude": "Loại trừ"
+  }
+}

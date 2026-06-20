@@ -1,0 +1,20 @@
+{
+  "title": "Kontrol mesin",
+  "home": "Homing semua",
+  "pause": "Jeda",
+  "resume": "Lanjutkan",
+  "cancel": "Batalkan",
+  "cancelConfirm": "Konfirmasi pembatalan?",
+  "estop": "Berhenti darurat",
+  "safeOff": "Penulisan diaktifkan",
+  "safeOn": "Mode aman",
+  "blocked": {
+    "offline": "Printer tidak aktif",
+    "safe": "Mode aman menyala",
+    "busy": "Ada aksi yang sedang berjalan"
+  },
+  "error": {
+    "refused": "Ditolak — printer tidak aktif",
+    "failed": "Aksi gagal"
+  }
+}

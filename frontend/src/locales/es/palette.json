@@ -1,0 +1,16 @@
+{
+  "open": "Comando",
+  "placeholder": "Escribe un comando…",
+  "empty": "No hay comandos coincidentes",
+  "cmd": {
+    "dashboard": "Ir al Panel",
+    "settings": "Abrir Ajustes",
+    "cycleTheme": "Alternar tema",
+    "home": "Origen de todos los ejes",
+    "estop": "Parada de emergencia",
+    "screenStatus": "Pantalla de la impresora → Estado",
+    "screenControl": "Pantalla de la impresora → Control",
+    "screenSettings": "Pantalla de la impresora → Ajustes",
+    "screenLocate": "Localizar la pantalla de la impresora"
+  }
+}

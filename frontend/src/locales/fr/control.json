@@ -1,0 +1,20 @@
+{
+  "title": "Contrôle de la machine",
+  "home": "Origine tous les axes",
+  "pause": "Pause",
+  "resume": "Reprendre",
+  "cancel": "Annuler",
+  "cancelConfirm": "Confirmer l'annulation ?",
+  "estop": "Arrêt d'urgence",
+  "safeOff": "Écritures activées",
+  "safeOn": "Mode sécurisé",
+  "blocked": {
+    "offline": "Imprimante non connectée",
+    "safe": "Le mode sécurisé est activé",
+    "busy": "Une action est en cours"
+  },
+  "error": {
+    "refused": "Refusé — imprimante non connectée",
+    "failed": "Échec de l'action"
+  }
+}

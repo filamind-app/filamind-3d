@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "Temperature",
+    "hotend": "Hotend",
+    "bed": "Piatto",
+    "none": "Nessun riscaldatore rilevato"
+  },
+  "motion": {
+    "title": "Movimento",
+    "homed": "Azzerati: {axes}",
+    "notHomed": "Non azzerati"
+  },
+  "printStatus": {
+    "title": "Stato stampa",
+    "status": "Stato",
+    "state": {
+      "standby": "In attesa",
+      "printing": "In stampa",
+      "paused": "In pausa",
+      "complete": "Completata",
+      "cancelled": "Annullata",
+      "error": "Errore"
+    }
+  },
+  "history": {
+    "title": "Cronologia stampe",
+    "empty": "Nessuna cronologia stampe",
+    "refresh": "Aggiorna",
+    "status": {
+      "completed": "Completata",
+      "cancelled": "Annullata",
+      "error": "Errore",
+      "in_progress": "In corso",
+      "klippy_shutdown": "Interrotta",
+      "klippy_disconnect": "Interrotta"
+    }
+  },
+  "queue": {
+    "title": "Coda di stampa",
+    "empty": "La coda è vuota",
+    "refresh": "Aggiorna",
+    "state": "Coda: {state}",
+    "queueState": {
+      "ready": "Pronta",
+      "loading": "Caricamento",
+      "starting": "Avvio",
+      "paused": "In pausa"
+    },
+    "start": "Avvia",
+    "pause": "Pausa",
+    "remove": "Rimuovi"
+  },
+  "excludeObject": {
+    "title": "Escludi oggetto",
+    "help": "Salta un oggetto fallito senza annullare l'intera stampa.",
+    "notConfigured": "[exclude_object] non è configurato",
+    "none": "Nessun oggetto in questa stampa",
+    "current": "In stampa",
+    "excluded": "Escluso",
+    "exclude": "Escludi"
+  }
+}

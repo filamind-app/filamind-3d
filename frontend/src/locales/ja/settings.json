@@ -1,0 +1,36 @@
+{
+  "title": "設定とカスタマイズ",
+  "theme": {
+    "title": "テーマ",
+    "tutankhamun": "ツタンカーメン",
+    "horus": "ホルス",
+    "anubis": "アヌビス"
+  },
+  "language": {
+    "title": "言語",
+    "label": "インターフェース言語"
+  },
+  "display": {
+    "title": "表示",
+    "density": "表示密度",
+    "densityOpt": {
+      "comfortable": "ゆったり",
+      "compact": "コンパクト"
+    },
+    "motif": "ファラオモチーフ",
+    "motifOpt": {
+      "off": "オフ",
+      "subtle": "控えめ",
+      "full": "フル"
+    },
+    "reducedMotion": "モーションを減らす"
+  },
+  "data": {
+    "title": "バックアップとリセット",
+    "export": "エクスポート",
+    "import": "インポート",
+    "reset": "初期設定に戻す",
+    "note": "設定はこのデバイスに保存されます。"
+  },
+  "version": "FilaMind 3d v{v}"
+}

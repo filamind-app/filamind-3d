@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "settings": "सेटिंग्स"
+  },
+  "trust": {
+    "live": "लाइव",
+    "stale": "पुनः कनेक्ट हो रहा है…",
+    "shutdown": "Klipper बंद हो गया",
+    "error": "Klipper त्रुटि",
+    "offline": "ऑफ़लाइन",
+    "help": "क्या दिखाया गया डेटा लाइव के रूप में भरोसेमंद है।"
+  },
+  "footer": "FilaMind 3d — Klipper नियंत्रण",
+  "skipToContent": "सामग्री पर जाएँ"
+}

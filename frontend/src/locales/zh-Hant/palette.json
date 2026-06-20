@@ -1,0 +1,16 @@
+{
+  "open": "指令",
+  "placeholder": "輸入指令…",
+  "empty": "沒有符合的指令",
+  "cmd": {
+    "dashboard": "前往儀表板",
+    "settings": "開啟設定",
+    "cycleTheme": "切換佈景主題",
+    "home": "所有軸歸位",
+    "estop": "緊急停止",
+    "screenStatus": "印表機螢幕 → 狀態",
+    "screenControl": "印表機螢幕 → 控制",
+    "screenSettings": "印表機螢幕 → 設定",
+    "screenLocate": "定位印表機螢幕"
+  }
+}

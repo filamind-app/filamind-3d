@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "dashboard": "Панель керування",
+    "settings": "Налаштування"
+  },
+  "trust": {
+    "live": "Наживо",
+    "stale": "Перепідключення…",
+    "shutdown": "Klipper вимкнено",
+    "error": "Помилка Klipper",
+    "offline": "Не в мережі",
+    "help": "Чи можна довіряти показаним даним як актуальним."
+  },
+  "footer": "FilaMind 3d — керування Klipper",
+  "skipToContent": "Перейти до вмісту"
+}

@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "Temperaturas",
+    "hotend": "Hotend",
+    "bed": "Cama",
+    "none": "No se reportan calentadores"
+  },
+  "motion": {
+    "title": "Movimiento",
+    "homed": "Con origen: {axes}",
+    "notHomed": "Sin origen"
+  },
+  "printStatus": {
+    "title": "Estado de impresión",
+    "status": "Estado",
+    "state": {
+      "standby": "En espera",
+      "printing": "Imprimiendo",
+      "paused": "En pausa",
+      "complete": "Completada",
+      "cancelled": "Cancelada",
+      "error": "Error"
+    }
+  },
+  "history": {
+    "title": "Historial de impresiones",
+    "empty": "Sin historial de impresiones",
+    "refresh": "Actualizar",
+    "status": {
+      "completed": "Completada",
+      "cancelled": "Cancelada",
+      "error": "Error",
+      "in_progress": "En curso",
+      "klippy_shutdown": "Interrumpida",
+      "klippy_disconnect": "Interrumpida"
+    }
+  },
+  "queue": {
+    "title": "Cola de trabajos",
+    "empty": "La cola está vacía",
+    "refresh": "Actualizar",
+    "state": "Cola: {state}",
+    "queueState": {
+      "ready": "Lista",
+      "loading": "Cargando",
+      "starting": "Iniciando",
+      "paused": "En pausa"
+    },
+    "start": "Iniciar",
+    "pause": "Pausar",
+    "remove": "Eliminar"
+  },
+  "excludeObject": {
+    "title": "Excluir objeto",
+    "help": "Omite un objeto fallido sin cancelar toda la impresión.",
+    "notConfigured": "[exclude_object] no está configurado",
+    "none": "No hay objetos en esta impresión",
+    "current": "Imprimiendo",
+    "excluded": "Excluido",
+    "exclude": "Excluir"
+  }
+}

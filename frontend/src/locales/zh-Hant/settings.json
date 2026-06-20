@@ -1,0 +1,36 @@
+{
+  "title": "設定與自訂",
+  "theme": {
+    "title": "佈景主題",
+    "tutankhamun": "圖坦卡門",
+    "horus": "荷魯斯",
+    "anubis": "阿努比斯"
+  },
+  "language": {
+    "title": "語言",
+    "label": "介面語言"
+  },
+  "display": {
+    "title": "顯示",
+    "density": "密度",
+    "densityOpt": {
+      "comfortable": "寬鬆",
+      "compact": "緊湊"
+    },
+    "motif": "法老圖紋",
+    "motifOpt": {
+      "off": "關閉",
+      "subtle": "淡雅",
+      "full": "完整"
+    },
+    "reducedMotion": "減少動態效果"
+  },
+  "data": {
+    "title": "備份與重設",
+    "export": "匯出",
+    "import": "匯入",
+    "reset": "重設為預設值",
+    "note": "設定儲存在此裝置上。"
+  },
+  "version": "FilaMind 3d v{v}"
+}

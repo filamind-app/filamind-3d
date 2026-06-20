@@ -1,0 +1,20 @@
+{
+  "title": "Maschinensteuerung",
+  "home": "Alle Achsen referenzieren",
+  "pause": "Pausieren",
+  "resume": "Fortsetzen",
+  "cancel": "Abbrechen",
+  "cancelConfirm": "Abbruch bestätigen?",
+  "estop": "Not-Aus",
+  "safeOff": "Schreibzugriff aktiviert",
+  "safeOn": "Sicherer Modus",
+  "blocked": {
+    "offline": "Drucker nicht live",
+    "safe": "Sicherer Modus ist aktiv",
+    "busy": "Eine Aktion läuft gerade"
+  },
+  "error": {
+    "refused": "Abgelehnt – Drucker nicht live",
+    "failed": "Aktion fehlgeschlagen"
+  }
+}

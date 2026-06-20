@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "dashboard": "仪表盘",
+    "settings": "设置"
+  },
+  "trust": {
+    "live": "实时",
+    "stale": "正在重新连接…",
+    "shutdown": "Klipper 已关闭",
+    "error": "Klipper 错误",
+    "offline": "离线",
+    "help": "所显示的数据是否为可信的实时数据。"
+  },
+  "footer": "FilaMind 3d —— Klipper 控制",
+  "skipToContent": "跳到内容"
+}

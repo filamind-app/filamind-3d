@@ -1,0 +1,16 @@
+{
+  "open": "Komut",
+  "placeholder": "Bir komut yazın…",
+  "empty": "Eşleşen komut yok",
+  "cmd": {
+    "dashboard": "Panele git",
+    "settings": "Ayarları aç",
+    "cycleTheme": "Temayı değiştir",
+    "home": "Tüm eksenleri sıfırla",
+    "estop": "Acil durdurma",
+    "screenStatus": "Yazıcı ekranı → Durum",
+    "screenControl": "Yazıcı ekranı → Kontrol",
+    "screenSettings": "Yazıcı ekranı → Ayarlar",
+    "screenLocate": "Yazıcı ekranını bul"
+  }
+}

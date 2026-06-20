@@ -1,0 +1,16 @@
+{
+  "open": "Polecenie",
+  "placeholder": "Wpisz polecenie…",
+  "empty": "Brak pasujących poleceń",
+  "cmd": {
+    "dashboard": "Przejdź do pulpitu",
+    "settings": "Otwórz ustawienia",
+    "cycleTheme": "Zmień motyw",
+    "home": "Bazuj wszystkie osie",
+    "estop": "Zatrzymanie awaryjne",
+    "screenStatus": "Ekran drukarki → Stan",
+    "screenControl": "Ekran drukarki → Sterowanie",
+    "screenSettings": "Ekran drukarki → Ustawienia",
+    "screenLocate": "Zlokalizuj ekran drukarki"
+  }
+}

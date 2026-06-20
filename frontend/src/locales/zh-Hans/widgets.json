@@ -1,0 +1,62 @@
+{
+  "temperatures": {
+    "title": "温度",
+    "hotend": "热端",
+    "bed": "热床",
+    "none": "未报告加热器"
+  },
+  "motion": {
+    "title": "运动",
+    "homed": "已回零：{axes}",
+    "notHomed": "未回零"
+  },
+  "printStatus": {
+    "title": "打印状态",
+    "status": "状态",
+    "state": {
+      "standby": "待机",
+      "printing": "打印中",
+      "paused": "已暂停",
+      "complete": "已完成",
+      "cancelled": "已取消",
+      "error": "错误"
+    }
+  },
+  "history": {
+    "title": "打印历史",
+    "empty": "暂无打印历史",
+    "refresh": "刷新",
+    "status": {
+      "completed": "已完成",
+      "cancelled": "已取消",
+      "error": "错误",
+      "in_progress": "进行中",
+      "klippy_shutdown": "已中断",
+      "klippy_disconnect": "已中断"
+    }
+  },
+  "queue": {
+    "title": "作业队列",
+    "empty": "队列为空",
+    "refresh": "刷新",
+    "state": "队列：{state}",
+    "queueState": {
+      "ready": "就绪",
+      "loading": "加载中",
+      "starting": "启动中",
+      "paused": "已暂停"
+    },
+    "start": "开始",
+    "pause": "暂停",
+    "remove": "移除"
+  },
+  "excludeObject": {
+    "title": "排除对象",
+    "help": "跳过失败的对象，无需取消整个打印。",
+    "notConfigured": "未配置 [exclude_object]",
+    "none": "本次打印中没有对象",
+    "current": "打印中",
+    "excluded": "已排除",
+    "exclude": "排除"
+  }
+}

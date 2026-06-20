@@ -1,0 +1,20 @@
+{
+  "title": "Controle da máquina",
+  "home": "Referenciar tudo",
+  "pause": "Pausar",
+  "resume": "Retomar",
+  "cancel": "Cancelar",
+  "cancelConfirm": "Confirmar cancelamento?",
+  "estop": "Parada de emergência",
+  "safeOff": "Gravações habilitadas",
+  "safeOn": "Modo seguro",
+  "blocked": {
+    "offline": "Impressora não está ativa",
+    "safe": "O modo seguro está ativado",
+    "busy": "Uma ação está em andamento"
+  },
+  "error": {
+    "refused": "Recusado — impressora não está ativa",
+    "failed": "A ação falhou"
+  }
+}
