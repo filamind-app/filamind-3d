@@ -25,7 +25,7 @@ binds those into Vue — it does **not** re-implement them.
 - **Machine control** — Home / Pause / Resume / Cancel / Emergency-stop + a safe-mode toggle, gated through the core write-arbiter (refused unless live + Klippy-ready, or in safe-mode); E-STOP is ungated, Cancel confirms, refusals show as a toast.
 - **Klipper prompts** — a focus-managed modal driven by `// action:prompt_*`; its buttons run gcode through the same gated path.
 - **Command palette (⌘/Ctrl + K)** — navigate, cycle theme, home, emergency-stop; keyboard-driven, focus-trapped, screen-reader labelled.
-- **Settings & Customization** — one section: theme switcher (Tutankhamun · Horus · Anubis), language switcher, density / motif / reduced-motion, and export / import / reset. Persisted to localStorage and applied instantly.
+- **Settings & Customization** — one section: theme switcher (Tutankhamun · Horus · Anubis + light / dark), language switcher, density / motif / reduced-motion, and export / import / reset. Persisted to localStorage and applied instantly.
 - **i18n** — English bundled, others lazy; the language list, RTL, and direction come from the core locale meta. All 19 locales ship now — a CI key-diff gate (`npm run i18n:keydiff`) keeps every catalog at parity with English.
 - **PWA** — installable, offline-capable service worker.
 

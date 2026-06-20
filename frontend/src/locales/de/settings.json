@@ -4,7 +4,9 @@
     "title": "Design",
     "tutankhamun": "Tutanchamun",
     "horus": "Horus",
-    "anubis": "Anubis"
+    "anubis": "Anubis",
+    "light": "Hell",
+    "dark": "Dunkel"
   },
   "language": {
     "title": "Sprache",

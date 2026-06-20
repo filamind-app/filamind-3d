@@ -4,7 +4,9 @@
     "title": "テーマ",
     "tutankhamun": "ツタンカーメン",
     "horus": "ホルス",
-    "anubis": "アヌビス"
+    "anubis": "アヌビス",
+    "light": "ライト",
+    "dark": "ダーク"
   },
   "language": {
     "title": "言語",

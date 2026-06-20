@@ -4,7 +4,9 @@
     "title": "Тема",
     "tutankhamun": "Тутанхамон",
     "horus": "Гор",
-    "anubis": "Анубис"
+    "anubis": "Анубис",
+    "light": "Светлая",
+    "dark": "Тёмная"
   },
   "language": {
     "title": "Язык",

@@ -4,7 +4,9 @@
     "title": "테마",
     "tutankhamun": "투탕카멘",
     "horus": "호루스",
-    "anubis": "아누비스"
+    "anubis": "아누비스",
+    "light": "라이트",
+    "dark": "다크"
   },
   "language": {
     "title": "언어",

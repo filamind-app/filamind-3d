@@ -4,7 +4,9 @@
     "title": "Giao diện",
     "tutankhamun": "Tutankhamun",
     "horus": "Horus",
-    "anubis": "Anubis"
+    "anubis": "Anubis",
+    "light": "Sáng",
+    "dark": "Tối"
   },
   "language": {
     "title": "Ngôn ngữ",

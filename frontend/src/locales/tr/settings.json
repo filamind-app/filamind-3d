@@ -4,7 +4,9 @@
     "title": "Tema",
     "tutankhamun": "Tutankamon",
     "horus": "Horus",
-    "anubis": "Anubis"
+    "anubis": "Anubis",
+    "light": "Açık",
+    "dark": "Koyu"
   },
   "language": {
     "title": "Dil",
