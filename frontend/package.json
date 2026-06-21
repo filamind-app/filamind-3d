@@ -31,7 +31,7 @@
   "devDependencies": {
     "@intlify/unplugin-vue-i18n": "^11.2.4",
     "@tailwindcss/vite": "^4.3.1",
-    "@types/node": "^22.13.0",
+    "@types/node": "^26.0.0",
     "@vitejs/plugin-vue": "^6.0.7",
     "@vue/eslint-config-prettier": "^10.1.0",
     "@vue/eslint-config-typescript": "^14.8.0",
