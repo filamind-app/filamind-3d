@@ -1,0 +1,1 @@
+var e={appName:{t:0,b:{t:2,i:[{t:3}],s:`فيلامايند ثري‑دي`}},loading:{t:0,b:{t:2,i:[{t:3}],s:`جارٍ التحميل…`}},retry:{t:0,b:{t:2,i:[{t:3}],s:`إعادة المحاولة`}}};export{e as default};

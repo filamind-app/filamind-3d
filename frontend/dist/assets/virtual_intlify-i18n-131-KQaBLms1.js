@@ -1,0 +1,1 @@
+var e={title:{t:0,b:{t:2,i:[{t:3}],s:`Hộp thoại máy in`}},close:{t:0,b:{t:2,i:[{t:3}],s:`Đóng`}}};export{e as default};
