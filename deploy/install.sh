@@ -9,7 +9,8 @@
 #   sudo bash deploy/install.sh [--port 8089] [--moonraker 127.0.0.1:7125]
 #   sudo bash deploy/install.sh --uninstall
 #
-# Prereqs: nginx; and Node 22 + npm IF the frontend isn't already built (frontend/dist).
+# Prereqs: nginx. The UI ships pre-built in frontend/dist, so no Node is needed on the printer;
+# the build-on-host path below is only a fallback if the bundle is ever missing.
 set -euo pipefail
 
 PORT=8089
