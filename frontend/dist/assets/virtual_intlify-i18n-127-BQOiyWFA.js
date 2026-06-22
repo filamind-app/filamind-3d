@@ -1,0 +1,1 @@
+var e={appName:{t:0,b:{t:2,i:[{t:3}],s:`FilaMind 3d`}},loading:{t:0,b:{t:2,i:[{t:3}],s:`載入中…`}},retry:{t:0,b:{t:2,i:[{t:3}],s:`重試`}}};export{e as default};

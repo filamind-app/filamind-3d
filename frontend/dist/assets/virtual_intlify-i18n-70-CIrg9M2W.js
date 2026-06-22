@@ -1,0 +1,1 @@
+var e={appName:{t:0,b:{t:2,i:[{t:3}],s:`FilaMind 3d`}},loading:{t:0,b:{t:2,i:[{t:3}],s:`लोड हो रहा है…`}},retry:{t:0,b:{t:2,i:[{t:3}],s:`पुनः प्रयास करें`}}};export{e as default};
