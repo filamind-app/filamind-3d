@@ -1,0 +1,20 @@
+{
+  "title": "Tiện ích",
+  "loading": "Đang tải thành phần…",
+  "error": "Không thể đọc trạng thái cập nhật.",
+  "refresh": "Kiểm tra",
+  "refreshing": "Đang kiểm tra…",
+  "empty": "Không có thành phần nào.",
+  "status": {
+    "upToDate": "Mới nhất",
+    "updateAvailable": "Có bản cập nhật",
+    "behind": "Chậm {n}",
+    "modified": "Đã sửa đổi",
+    "unknown": "Không rõ"
+  },
+  "type": {
+    "git": "Kho Git",
+    "web": "Web",
+    "system": "Hệ thống"
+  }
+}

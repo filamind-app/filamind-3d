@@ -6,7 +6,8 @@
     "console": "कंसोल",
     "sections": "खंड",
     "config": "कॉन्फ़िग",
-    "hardware": "हार्डवेयर"
+    "hardware": "हार्डवेयर",
+    "plugins": "प्लगइन"
   },
   "trust": {
     "live": "लाइव",

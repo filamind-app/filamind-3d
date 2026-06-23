@@ -6,7 +6,8 @@
     "console": "コンソール",
     "sections": "セクション",
     "config": "構成",
-    "hardware": "ハードウェア"
+    "hardware": "ハードウェア",
+    "plugins": "プラグイン"
   },
   "trust": {
     "live": "ライブ",

@@ -1,0 +1,20 @@
+{
+  "title": "プラグイン",
+  "loading": "コンポーネントを読み込み中…",
+  "error": "更新状況を読み取れませんでした。",
+  "refresh": "確認",
+  "refreshing": "確認中…",
+  "empty": "コンポーネントがありません。",
+  "status": {
+    "upToDate": "最新",
+    "updateAvailable": "更新あり",
+    "behind": "{n} 件遅れ",
+    "modified": "変更あり",
+    "unknown": "不明"
+  },
+  "type": {
+    "git": "Git リポジトリ",
+    "web": "ウェブ",
+    "system": "システム"
+  }
+}

@@ -9,6 +9,7 @@ const routes: RouteRecordRaw[] = [
   { path: '/console', name: 'console', component: () => import('@/views/ConsoleView.vue') },
   { path: '/config', name: 'config', component: () => import('@/views/ConfigView.vue') },
   { path: '/hardware', name: 'hardware', component: () => import('@/views/HardwareView.vue') },
+  { path: '/plugins', name: 'plugins', component: () => import('@/views/PluginsView.vue') },
   { path: '/settings', name: 'settings', component: () => import('@/views/SettingsView.vue') },
   { path: '/:pathMatch(.*)*', redirect: '/' },
 ]

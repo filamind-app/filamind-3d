@@ -1,0 +1,20 @@
+{
+  "title": "外掛",
+  "loading": "正在載入元件…",
+  "error": "無法讀取更新狀態。",
+  "refresh": "檢查",
+  "refreshing": "檢查中…",
+  "empty": "未回報任何元件。",
+  "status": {
+    "upToDate": "已是最新",
+    "updateAvailable": "有可用更新",
+    "behind": "落後 {n} 個",
+    "modified": "已修改",
+    "unknown": "未知"
+  },
+  "type": {
+    "git": "Git 儲存庫",
+    "web": "網頁",
+    "system": "系統"
+  }
+}

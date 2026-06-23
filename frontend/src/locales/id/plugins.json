@@ -1,0 +1,20 @@
+{
+  "title": "Plugin",
+  "loading": "Memuat komponen…",
+  "error": "Tidak dapat membaca status pembaruan.",
+  "refresh": "Periksa",
+  "refreshing": "Memeriksa…",
+  "empty": "Tidak ada komponen.",
+  "status": {
+    "upToDate": "Terbaru",
+    "updateAvailable": "Pembaruan tersedia",
+    "behind": "{n} tertinggal",
+    "modified": "Dimodifikasi",
+    "unknown": "Tidak diketahui"
+  },
+  "type": {
+    "git": "Repo Git",
+    "web": "Web",
+    "system": "Sistem"
+  }
+}

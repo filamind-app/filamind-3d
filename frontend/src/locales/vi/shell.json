@@ -6,7 +6,8 @@
     "console": "Bảng điều khiển",
     "sections": "Mục",
     "config": "Cấu hình",
-    "hardware": "Phần cứng"
+    "hardware": "Phần cứng",
+    "plugins": "Tiện ích"
   },
   "trust": {
     "live": "Trực tiếp",

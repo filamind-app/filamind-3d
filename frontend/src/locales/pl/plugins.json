@@ -1,0 +1,20 @@
+{
+  "title": "Wtyczki",
+  "loading": "Wczytywanie komponentów…",
+  "error": "Nie można odczytać stanu aktualizacji.",
+  "refresh": "Sprawdź",
+  "refreshing": "Sprawdzanie…",
+  "empty": "Brak komponentów.",
+  "status": {
+    "upToDate": "Aktualne",
+    "updateAvailable": "Dostępna aktualizacja",
+    "behind": "{n} w tyle",
+    "modified": "Zmodyfikowane",
+    "unknown": "Nieznane"
+  },
+  "type": {
+    "git": "Repo Git",
+    "web": "Sieć",
+    "system": "System"
+  }
+}

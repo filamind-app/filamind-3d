@@ -6,7 +6,8 @@
     "console": "Console",
     "sections": "Sezioni",
     "config": "Configurazione",
-    "hardware": "Hardware"
+    "hardware": "Hardware",
+    "plugins": "Plugin"
   },
   "trust": {
     "live": "In diretta",

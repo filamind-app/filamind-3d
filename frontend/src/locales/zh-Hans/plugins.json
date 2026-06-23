@@ -1,0 +1,20 @@
+{
+  "title": "插件",
+  "loading": "正在加载组件…",
+  "error": "无法读取更新状态。",
+  "refresh": "检查",
+  "refreshing": "检查中…",
+  "empty": "未报告任何组件。",
+  "status": {
+    "upToDate": "已是最新",
+    "updateAvailable": "有可用更新",
+    "behind": "落后 {n} 个",
+    "modified": "已修改",
+    "unknown": "未知"
+  },
+  "type": {
+    "git": "Git 仓库",
+    "web": "网页",
+    "system": "系统"
+  }
+}

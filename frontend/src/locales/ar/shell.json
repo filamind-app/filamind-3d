@@ -6,7 +6,8 @@
     "console": "الطرفية",
     "sections": "الأقسام",
     "config": "التهيئة",
-    "hardware": "العتاد"
+    "hardware": "العتاد",
+    "plugins": "الإضافات"
   },
   "trust": {
     "live": "مباشر",

@@ -6,7 +6,8 @@
     "console": "Консоль",
     "sections": "Розділи",
     "config": "Конфігурація",
-    "hardware": "Обладнання"
+    "hardware": "Обладнання",
+    "plugins": "Плагіни"
   },
   "trust": {
     "live": "Наживо",

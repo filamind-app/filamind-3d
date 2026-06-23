@@ -1,0 +1,20 @@
+{
+  "title": "Complementos",
+  "loading": "Cargando componentes…",
+  "error": "No se pudo leer el estado de actualización.",
+  "refresh": "Comprobar",
+  "refreshing": "Comprobando…",
+  "empty": "No se informaron componentes.",
+  "status": {
+    "upToDate": "Actualizado",
+    "updateAvailable": "Actualización disponible",
+    "behind": "{n} por detrás",
+    "modified": "Modificado",
+    "unknown": "Desconocido"
+  },
+  "type": {
+    "git": "Repo Git",
+    "web": "Web",
+    "system": "Sistema"
+  }
+}

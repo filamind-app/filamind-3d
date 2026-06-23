@@ -1,0 +1,20 @@
+{
+  "title": "Plugins",
+  "loading": "Komponenten werden geladen…",
+  "error": "Aktualisierungsstatus konnte nicht gelesen werden.",
+  "refresh": "Prüfen",
+  "refreshing": "Wird geprüft…",
+  "empty": "Keine Komponenten gemeldet.",
+  "status": {
+    "upToDate": "Aktuell",
+    "updateAvailable": "Update verfügbar",
+    "behind": "{n} zurück",
+    "modified": "Geändert",
+    "unknown": "Unbekannt"
+  },
+  "type": {
+    "git": "Git-Repo",
+    "web": "Web",
+    "system": "System"
+  }
+}

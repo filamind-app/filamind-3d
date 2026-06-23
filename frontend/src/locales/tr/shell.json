@@ -6,7 +6,8 @@
     "console": "Konsol",
     "sections": "Bölümler",
     "config": "Yapılandırma",
-    "hardware": "Donanım"
+    "hardware": "Donanım",
+    "plugins": "Eklentiler"
   },
   "trust": {
     "live": "Canlı",

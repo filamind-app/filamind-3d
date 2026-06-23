@@ -6,7 +6,8 @@
     "console": "控制台",
     "sections": "版块",
     "config": "配置",
-    "hardware": "硬件"
+    "hardware": "硬件",
+    "plugins": "插件"
   },
   "trust": {
     "live": "实时",
