@@ -76,8 +76,8 @@ const presets: Preset[] = [
 function applyPreset(p: Preset): void {
   void ctl.runGcode(`M104 S${p.ext}\nM140 S${p.bed}`)
 }
-const activePreset = computed(() =>
-  presets.find((p) => p.ext === Math.round(ext.value?.target ?? -1))?.name,
+const activePreset = computed(
+  () => presets.find((p) => p.ext === Math.round(ext.value?.target ?? -1))?.name,
 )
 
 // --- motion: relative jog, home, Z babystep ---------------------------------------------
@@ -114,7 +114,8 @@ const isPaused = computed(() => state.value === 'paused')
         <div class="bar"><div class="bar-fill" :style="{ width: progress + '%' }"></div></div>
         <div class="bar-foot">
           <span class="muted" v-if="layer.total_layer"
-            >{{ t('dashboard.layer') }} {{ layer.current_layer ?? 0 }} / {{ layer.total_layer }}</span
+            >{{ t('dashboard.layer') }} {{ layer.current_layer ?? 0 }} /
+            {{ layer.total_layer }}</span
           >
           <span class="accent">{{ progress }}%</span>
         </div>
@@ -138,10 +139,16 @@ const isPaused = computed(() => state.value === 'paused')
 
     <!-- Temperatures -->
     <section class="fm-card card">
-      <header class="card-head"><span class="muted">{{ t('dashboard.temps') }}</span></header>
+      <header class="card-head">
+        <span class="muted">{{ t('dashboard.temps') }}</span>
+      </header>
       <div class="temps">
-        <span>🔥 {{ fmt(ext?.temperature) }}<i class="tgt">/{{ fmt(ext?.target) }}</i></span>
-        <span>🛏 {{ fmt(bed?.temperature) }}<i class="tgt">/{{ fmt(bed?.target) }}</i></span>
+        <span
+          >🔥 {{ fmt(ext?.temperature) }}<i class="tgt">/{{ fmt(ext?.target) }}</i></span
+        >
+        <span
+          >🛏 {{ fmt(bed?.temperature) }}<i class="tgt">/{{ fmt(bed?.target) }}</i></span
+        >
       </div>
       <svg class="spark" viewBox="0 0 200 32" preserveAspectRatio="none">
         <polyline :points="spark" fill="none" stroke="var(--fm-primary)" stroke-width="1.5" />
@@ -163,14 +170,27 @@ const isPaused = computed(() => state.value === 'paused')
 
     <!-- Motion -->
     <section class="fm-card card">
-      <header class="card-head"><span class="muted">{{ t('dashboard.motion') }}</span></header>
+      <header class="card-head">
+        <span class="muted">{{ t('dashboard.motion') }}</span>
+      </header>
       <div class="motion">
         <div class="pad">
           <button class="jog" :disabled="!canWrite" @click="jog('Y', 10)" aria-label="Y+">▲</button>
-          <button class="jog" :disabled="!canWrite" @click="jog('X', -10)" aria-label="X-">◀</button>
-          <button class="jog home" :disabled="!canWrite" @click="ctl.home()" :title="t('control.home')">⌂</button>
+          <button class="jog" :disabled="!canWrite" @click="jog('X', -10)" aria-label="X-">
+            ◀
+          </button>
+          <button
+            class="jog home"
+            :disabled="!canWrite"
+            @click="ctl.home()"
+            :title="t('control.home')"
+          >
+            ⌂
+          </button>
           <button class="jog" :disabled="!canWrite" @click="jog('X', 10)" aria-label="X+">▶</button>
-          <button class="jog" :disabled="!canWrite" @click="jog('Y', -10)" aria-label="Y-">▼</button>
+          <button class="jog" :disabled="!canWrite" @click="jog('Y', -10)" aria-label="Y-">
+            ▼
+          </button>
         </div>
         <div class="zcol">
           <div class="zrow">
@@ -180,9 +200,13 @@ const isPaused = computed(() => state.value === 'paused')
           <div class="baby">
             <span class="muted">{{ t('dashboard.babystep') }}</span>
             <div class="zrow">
-              <button class="fm-btn tiny" :disabled="!canWrite" @click="babystep(-0.02)">−0.02</button>
+              <button class="fm-btn tiny" :disabled="!canWrite" @click="babystep(-0.02)">
+                −0.02
+              </button>
               <b class="zval">{{ zOffset.toFixed(2) }}</b>
-              <button class="fm-btn tiny" :disabled="!canWrite" @click="babystep(0.02)">+0.02</button>
+              <button class="fm-btn tiny" :disabled="!canWrite" @click="babystep(0.02)">
+                +0.02
+              </button>
             </div>
           </div>
         </div>
