@@ -1,0 +1,11 @@
+{
+  "title": "控制台",
+  "empty": "暂无输出。在下方发送命令。",
+  "placeholder": "输入 G-code 命令…",
+  "send": "发送",
+  "connectError": "无法连接到控制台。",
+  "error": {
+    "refused": "已拒绝 - 打印机未在线或处于安全模式",
+    "failed": "命令失败"
+  }
+}

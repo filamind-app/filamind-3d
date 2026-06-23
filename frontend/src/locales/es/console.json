@@ -1,0 +1,11 @@
+{
+  "title": "Consola",
+  "empty": "Sin salida aún. Envía un comando abajo.",
+  "placeholder": "Escribe un comando G-code…",
+  "send": "Enviar",
+  "connectError": "No se pudo conectar a la consola.",
+  "error": {
+    "refused": "Rechazado - impresora no activa o en modo seguro",
+    "failed": "Comando fallido"
+  }
+}

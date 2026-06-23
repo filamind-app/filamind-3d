@@ -1,0 +1,11 @@
+{
+  "title": "콘솔",
+  "empty": "출력 없음. 아래에 명령을 보내세요.",
+  "placeholder": "G-code 명령 입력…",
+  "send": "보내기",
+  "connectError": "콘솔에 연결할 수 없습니다.",
+  "error": {
+    "refused": "거부됨 - 프린터 비활성 또는 안전 모드",
+    "failed": "명령 실패"
+  }
+}

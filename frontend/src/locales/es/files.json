@@ -1,0 +1,11 @@
+{
+  "title": "Archivos",
+  "upload": "Subir",
+  "loading": "Cargando…",
+  "empty": "Aún no hay archivos G-code.",
+  "print": "Imprimir",
+  "starting": "Iniciando…",
+  "loadError": "No se pudieron cargar los archivos.",
+  "printError": "No se pudo iniciar la impresión.",
+  "uploadError": "Error al subir."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Konsole",
+  "empty": "Noch keine Ausgabe. Sende unten einen Befehl.",
+  "placeholder": "G-Code-Befehl eingeben…",
+  "send": "Senden",
+  "connectError": "Keine Verbindung zur Konsole.",
+  "error": {
+    "refused": "Abgelehnt - Drucker nicht live oder im abgesicherten Modus",
+    "failed": "Befehl fehlgeschlagen"
+  }
+}

@@ -1,7 +1,10 @@
 {
   "nav": {
     "dashboard": "仪表盘",
-    "settings": "设置"
+    "settings": "设置",
+    "files": "文件",
+    "console": "控制台",
+    "sections": "版块"
   },
   "trust": {
     "live": "实时",

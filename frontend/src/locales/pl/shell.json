@@ -1,7 +1,10 @@
 {
   "nav": {
     "dashboard": "Pulpit",
-    "settings": "Ustawienia"
+    "settings": "Ustawienia",
+    "files": "Pliki",
+    "console": "Konsola",
+    "sections": "Sekcje"
   },
   "trust": {
     "live": "Na żywo",

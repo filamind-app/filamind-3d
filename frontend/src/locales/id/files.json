@@ -1,0 +1,11 @@
+{
+  "title": "Berkas",
+  "upload": "Unggah",
+  "loading": "Memuat…",
+  "empty": "Belum ada berkas G-code.",
+  "print": "Cetak",
+  "starting": "Memulai…",
+  "loadError": "Tidak dapat memuat berkas.",
+  "printError": "Tidak dapat memulai cetak.",
+  "uploadError": "Unggah gagal."
+}

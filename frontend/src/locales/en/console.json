@@ -1,0 +1,11 @@
+{
+  "title": "Console",
+  "empty": "No output yet. Send a command below.",
+  "placeholder": "Enter a G-code command…",
+  "send": "Send",
+  "connectError": "Could not connect to the console.",
+  "error": {
+    "refused": "Refused - printer not live or in safe mode",
+    "failed": "Command failed"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Pliki",
+  "upload": "Wyślij",
+  "loading": "Ładowanie…",
+  "empty": "Brak plików G-code.",
+  "print": "Drukuj",
+  "starting": "Uruchamianie…",
+  "loadError": "Nie można wczytać plików.",
+  "printError": "Nie można rozpocząć druku.",
+  "uploadError": "Przesyłanie nie powiodło się."
+}

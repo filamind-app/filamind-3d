@@ -1,7 +1,10 @@
 {
   "nav": {
     "dashboard": "Bảng điều khiển",
-    "settings": "Cài đặt"
+    "settings": "Cài đặt",
+    "files": "Tệp",
+    "console": "Bảng điều khiển",
+    "sections": "Mục"
   },
   "trust": {
     "live": "Trực tiếp",

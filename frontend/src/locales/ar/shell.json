@@ -1,7 +1,10 @@
 {
   "nav": {
     "dashboard": "لوحة التحكم",
-    "settings": "الإعدادات"
+    "settings": "الإعدادات",
+    "files": "ملفات",
+    "console": "الطرفية",
+    "sections": "الأقسام"
   },
   "trust": {
     "live": "مباشر",

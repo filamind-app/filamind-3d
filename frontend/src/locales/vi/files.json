@@ -1,0 +1,11 @@
+{
+  "title": "Tệp",
+  "upload": "Tải lên",
+  "loading": "Đang tải…",
+  "empty": "Chưa có tệp G-code.",
+  "print": "In",
+  "starting": "Đang bắt đầu…",
+  "loadError": "Không thể tải tệp.",
+  "printError": "Không thể bắt đầu in.",
+  "uploadError": "Tải lên thất bại."
+}

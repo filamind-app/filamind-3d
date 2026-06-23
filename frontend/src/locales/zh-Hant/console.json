@@ -1,0 +1,11 @@
+{
+  "title": "主控台",
+  "empty": "尚無輸出。在下方傳送指令。",
+  "placeholder": "輸入 G-code 指令…",
+  "send": "傳送",
+  "connectError": "無法連線到主控台。",
+  "error": {
+    "refused": "已拒絕 - 印表機未上線或處於安全模式",
+    "failed": "指令失敗"
+  }
+}

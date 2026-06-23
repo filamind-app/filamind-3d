@@ -1,0 +1,11 @@
+{
+  "title": "Dosyalar",
+  "upload": "Yükle",
+  "loading": "Yükleniyor…",
+  "empty": "Henüz G-code dosyası yok.",
+  "print": "Yazdır",
+  "starting": "Başlatılıyor…",
+  "loadError": "Dosyalar yüklenemedi.",
+  "printError": "Baskı başlatılamadı.",
+  "uploadError": "Yükleme başarısız."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Bảng điều khiển",
+  "empty": "Chưa có kết quả. Gửi lệnh bên dưới.",
+  "placeholder": "Nhập lệnh G-code…",
+  "send": "Gửi",
+  "connectError": "Không thể kết nối tới bảng điều khiển.",
+  "error": {
+    "refused": "Bị từ chối - máy in không hoạt động hoặc ở chế độ an toàn",
+    "failed": "Lệnh thất bại"
+  }
+}
