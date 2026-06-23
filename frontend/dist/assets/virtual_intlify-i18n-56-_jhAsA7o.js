@@ -1,1 +1,0 @@
-var e={title:{t:0,b:{t:2,i:[{t:3}],s:`لوحة التحكم`}}};export{e as default};

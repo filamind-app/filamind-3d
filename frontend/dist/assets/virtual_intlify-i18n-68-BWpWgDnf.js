@@ -1,1 +1,0 @@
-var e={title:{t:0,b:{t:2,i:[{t:3}],s:`Tableau de bord`}}};export{e as default};
