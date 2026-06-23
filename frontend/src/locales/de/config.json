@@ -11,7 +11,7 @@
   "revert": "Zurücksetzen",
   "save": "Speichern",
   "saving": "Wird gespeichert…",
-  "nestedNote": "Dateien in Unterordnern sind hier schreibgeschützt. Bearbeite sie in Mainsail.",
+  "nestedNote": "Dateien in Unterordnern sind hier schreibgeschützt.",
   "openError": "Diese Datei konnte nicht geöffnet werden.",
   "saveError": "Diese Datei konnte nicht gespeichert werden.",
   "savedApply": "Gespeichert. Starte Klipper neu, um die Änderungen anzuwenden.",

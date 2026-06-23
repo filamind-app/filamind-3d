@@ -11,7 +11,7 @@
   "revert": "Kembalikan",
   "save": "Simpan",
   "saving": "Menyimpan…",
-  "nestedNote": "Berkas dalam subfolder hanya-baca di sini. Edit dari Mainsail.",
+  "nestedNote": "Berkas dalam subfolder hanya-baca di sini.",
   "openError": "Tidak dapat membuka berkas ini.",
   "saveError": "Tidak dapat menyimpan berkas ini.",
   "savedApply": "Tersimpan. Mulai ulang Klipper untuk menerapkan perubahan.",

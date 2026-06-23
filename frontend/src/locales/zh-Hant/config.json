@@ -11,7 +11,7 @@
   "revert": "還原",
   "save": "儲存",
   "saving": "儲存中…",
-  "nestedNote": "子資料夾中的檔案在此為唯讀。請在 Mainsail 中編輯。",
+  "nestedNote": "子資料夾中的檔案在此為唯讀。",
   "openError": "無法開啟此檔案。",
   "saveError": "無法儲存此檔案。",
   "savedApply": "已儲存。重新啟動 Klipper 以套用變更。",
