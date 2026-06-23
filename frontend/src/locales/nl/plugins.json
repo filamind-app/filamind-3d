@@ -1,0 +1,20 @@
+{
+  "title": "Plug-ins",
+  "loading": "Componenten laden…",
+  "error": "Kan de updatestatus niet lezen.",
+  "refresh": "Controleren",
+  "refreshing": "Controleren…",
+  "empty": "Geen componenten gemeld.",
+  "status": {
+    "upToDate": "Up-to-date",
+    "updateAvailable": "Update beschikbaar",
+    "behind": "{n} achter",
+    "modified": "Gewijzigd",
+    "unknown": "Onbekend"
+  },
+  "type": {
+    "git": "Git-repo",
+    "web": "Web",
+    "system": "Systeem"
+  }
+}

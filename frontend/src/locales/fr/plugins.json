@@ -1,0 +1,20 @@
+{
+  "title": "Extensions",
+  "loading": "Chargement des composants…",
+  "error": "Impossible de lire l'état des mises à jour.",
+  "refresh": "Vérifier",
+  "refreshing": "Vérification…",
+  "empty": "Aucun composant signalé.",
+  "status": {
+    "upToDate": "À jour",
+    "updateAvailable": "Mise à jour disponible",
+    "behind": "{n} en retard",
+    "modified": "Modifié",
+    "unknown": "Inconnu"
+  },
+  "type": {
+    "git": "Dépôt Git",
+    "web": "Web",
+    "system": "Système"
+  }
+}

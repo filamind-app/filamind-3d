@@ -6,7 +6,8 @@
     "console": "主控台",
     "sections": "版塊",
     "config": "組態",
-    "hardware": "硬體"
+    "hardware": "硬體",
+    "plugins": "外掛"
   },
   "trust": {
     "live": "即時",

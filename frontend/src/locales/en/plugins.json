@@ -1,0 +1,20 @@
+{
+  "title": "Plugins",
+  "loading": "Loading components…",
+  "error": "Couldn't read the update status.",
+  "refresh": "Check",
+  "refreshing": "Checking…",
+  "empty": "No components reported.",
+  "status": {
+    "upToDate": "Up to date",
+    "updateAvailable": "Update available",
+    "behind": "{n} behind",
+    "modified": "Modified",
+    "unknown": "Unknown"
+  },
+  "type": {
+    "git": "Git repo",
+    "web": "Web",
+    "system": "System"
+  }
+}

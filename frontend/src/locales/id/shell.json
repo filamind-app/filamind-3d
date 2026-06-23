@@ -6,7 +6,8 @@
     "console": "Konsol",
     "sections": "Bagian",
     "config": "Konfigurasi",
-    "hardware": "Perangkat Keras"
+    "hardware": "Perangkat Keras",
+    "plugins": "Plugin"
   },
   "trust": {
     "live": "Langsung",

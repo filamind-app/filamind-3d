@@ -6,7 +6,8 @@
     "console": "콘솔",
     "sections": "섹션",
     "config": "구성",
-    "hardware": "하드웨어"
+    "hardware": "하드웨어",
+    "plugins": "플러그인"
   },
   "trust": {
     "live": "실시간",

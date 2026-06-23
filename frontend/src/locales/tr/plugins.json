@@ -1,0 +1,20 @@
+{
+  "title": "Eklentiler",
+  "loading": "Bileşenler yükleniyor…",
+  "error": "Güncelleme durumu okunamadı.",
+  "refresh": "Denetle",
+  "refreshing": "Denetleniyor…",
+  "empty": "Bileşen bildirilmedi.",
+  "status": {
+    "upToDate": "Güncel",
+    "updateAvailable": "Güncelleme var",
+    "behind": "{n} geride",
+    "modified": "Değiştirilmiş",
+    "unknown": "Bilinmiyor"
+  },
+  "type": {
+    "git": "Git deposu",
+    "web": "Web",
+    "system": "Sistem"
+  }
+}
