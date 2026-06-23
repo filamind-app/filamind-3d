@@ -1,3 +1,14 @@
 {
-  "title": "Bảng điều khiển"
+  "title": "Bảng điều khiển",
+  "job": "Công việc",
+  "noJob": "Không in",
+  "eta": "Còn lại",
+  "layer": "Lớp",
+  "temps": "Nhiệt độ",
+  "motion": "Chuyển động",
+  "babystep": "Z babystep",
+  "webcam": "Webcam",
+  "live": "trực tiếp",
+  "printing": "Đang in",
+  "paused": "Tạm dừng"
 }

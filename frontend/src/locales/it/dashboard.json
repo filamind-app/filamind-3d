@@ -1,3 +1,14 @@
 {
-  "title": "Dashboard"
+  "title": "Dashboard",
+  "job": "Lavoro",
+  "noJob": "Nessuna stampa",
+  "eta": "ETA",
+  "layer": "Strato",
+  "temps": "Temperature",
+  "motion": "Movimento",
+  "babystep": "Babystep Z",
+  "webcam": "Webcam",
+  "live": "live",
+  "printing": "In stampa",
+  "paused": "In pausa"
 }

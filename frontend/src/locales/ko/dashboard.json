@@ -1,3 +1,14 @@
 {
-  "title": "대시보드"
+  "title": "대시보드",
+  "job": "작업",
+  "noJob": "인쇄 없음",
+  "eta": "남음",
+  "layer": "레이어",
+  "temps": "온도",
+  "motion": "이동",
+  "babystep": "Z 베이비스텝",
+  "webcam": "웹캠",
+  "live": "라이브",
+  "printing": "인쇄 중",
+  "paused": "일시정지"
 }

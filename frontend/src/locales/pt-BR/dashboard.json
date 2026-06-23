@@ -1,3 +1,14 @@
 {
-  "title": "Painel"
+  "title": "Painel",
+  "job": "Trabalho",
+  "noJob": "Sem impressão",
+  "eta": "ETA",
+  "layer": "Camada",
+  "temps": "Temperaturas",
+  "motion": "Movimento",
+  "babystep": "Babystep Z",
+  "webcam": "Webcam",
+  "live": "ao vivo",
+  "printing": "Imprimindo",
+  "paused": "Pausado"
 }

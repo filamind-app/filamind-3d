@@ -1,3 +1,14 @@
 {
-  "title": "Dashboard"
+  "title": "Dashboard",
+  "job": "Druckauftrag",
+  "noJob": "Kein Druck aktiv",
+  "eta": "Restzeit",
+  "layer": "Schicht",
+  "temps": "Temperaturen",
+  "motion": "Bewegung",
+  "babystep": "Z-Babystep",
+  "webcam": "Webcam",
+  "live": "live",
+  "printing": "Druckt",
+  "paused": "Pausiert"
 }
