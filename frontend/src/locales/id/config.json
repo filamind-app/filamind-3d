@@ -1,0 +1,23 @@
+{
+  "title": "Konfigurasi",
+  "refresh": "Segarkan",
+  "search": "Cari berkas…",
+  "listError": "Tidak dapat memuat daftar berkas konfigurasi.",
+  "loading": "Memuat…",
+  "noFiles": "Tidak ada berkas konfigurasi yang cocok.",
+  "selectPrompt": "Pilih berkas untuk dilihat atau diedit.",
+  "readOnly": "Hanya-baca",
+  "unsaved": "Belum disimpan",
+  "revert": "Kembalikan",
+  "save": "Simpan",
+  "saving": "Menyimpan…",
+  "nestedNote": "Berkas dalam subfolder hanya-baca di sini. Edit dari Mainsail.",
+  "openError": "Tidak dapat membuka berkas ini.",
+  "saveError": "Tidak dapat menyimpan berkas ini.",
+  "savedApply": "Tersimpan. Mulai ulang Klipper untuk menerapkan perubahan.",
+  "restart": "Mulai ulang Klipper",
+  "restartConfirm": "Klik lagi untuk konfirmasi",
+  "cancel": "Batal",
+  "opening": "Membuka…",
+  "discardConfirm": "Buang perubahan yang belum disimpan?"
+}

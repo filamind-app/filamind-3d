@@ -1,0 +1,23 @@
+{
+  "title": "Configuratie",
+  "refresh": "Vernieuwen",
+  "search": "Bestanden zoeken…",
+  "listError": "Kan de lijst met configuratiebestanden niet laden.",
+  "loading": "Laden…",
+  "noFiles": "Geen overeenkomende configuratiebestanden.",
+  "selectPrompt": "Selecteer een bestand om te bekijken of te bewerken.",
+  "readOnly": "Alleen-lezen",
+  "unsaved": "Niet opgeslagen",
+  "revert": "Terugzetten",
+  "save": "Opslaan",
+  "saving": "Opslaan…",
+  "nestedNote": "Bestanden in submappen zijn hier alleen-lezen. Bewerk ze in Mainsail.",
+  "openError": "Kan dit bestand niet openen.",
+  "saveError": "Kan dit bestand niet opslaan.",
+  "savedApply": "Opgeslagen. Start Klipper opnieuw om de wijzigingen toe te passen.",
+  "restart": "Klipper opnieuw starten",
+  "restartConfirm": "Klik nogmaals om te bevestigen",
+  "cancel": "Annuleren",
+  "opening": "Openen…",
+  "discardConfirm": "Niet-opgeslagen wijzigingen negeren?"
+}

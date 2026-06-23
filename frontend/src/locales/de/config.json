@@ -1,0 +1,23 @@
+{
+  "title": "Konfiguration",
+  "refresh": "Aktualisieren",
+  "search": "Dateien suchen…",
+  "listError": "Liste der Konfigurationsdateien konnte nicht geladen werden.",
+  "loading": "Wird geladen…",
+  "noFiles": "Keine passenden Konfigurationsdateien.",
+  "selectPrompt": "Wähle eine Datei zum Ansehen oder Bearbeiten.",
+  "readOnly": "Schreibgeschützt",
+  "unsaved": "Nicht gespeichert",
+  "revert": "Zurücksetzen",
+  "save": "Speichern",
+  "saving": "Wird gespeichert…",
+  "nestedNote": "Dateien in Unterordnern sind hier schreibgeschützt. Bearbeite sie in Mainsail.",
+  "openError": "Diese Datei konnte nicht geöffnet werden.",
+  "saveError": "Diese Datei konnte nicht gespeichert werden.",
+  "savedApply": "Gespeichert. Starte Klipper neu, um die Änderungen anzuwenden.",
+  "restart": "Klipper neu starten",
+  "restartConfirm": "Zum Bestätigen erneut klicken",
+  "cancel": "Abbrechen",
+  "opening": "Wird geöffnet…",
+  "discardConfirm": "Nicht gespeicherte Änderungen verwerfen?"
+}

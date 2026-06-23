@@ -1,0 +1,23 @@
+{
+  "title": "Yapılandırma",
+  "refresh": "Yenile",
+  "search": "Dosya ara…",
+  "listError": "Yapılandırma dosyası listesi yüklenemedi.",
+  "loading": "Yükleniyor…",
+  "noFiles": "Eşleşen yapılandırma dosyası yok.",
+  "selectPrompt": "Görüntülemek veya düzenlemek için bir dosya seçin.",
+  "readOnly": "Salt okunur",
+  "unsaved": "Kaydedilmedi",
+  "revert": "Geri al",
+  "save": "Kaydet",
+  "saving": "Kaydediliyor…",
+  "nestedNote": "Alt klasörlerdeki dosyalar burada salt okunurdur. Bunları Mainsail'den düzenleyin.",
+  "openError": "Bu dosya açılamadı.",
+  "saveError": "Bu dosya kaydedilemedi.",
+  "savedApply": "Kaydedildi. Değişiklikleri uygulamak için Klipper'ı yeniden başlatın.",
+  "restart": "Klipper'ı yeniden başlat",
+  "restartConfirm": "Onaylamak için tekrar tıklayın",
+  "cancel": "İptal",
+  "opening": "Açılıyor…",
+  "discardConfirm": "Kaydedilmemiş değişiklikler atılsın mı?"
+}

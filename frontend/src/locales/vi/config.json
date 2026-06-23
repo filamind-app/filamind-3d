@@ -1,0 +1,23 @@
+{
+  "title": "Cấu hình",
+  "refresh": "Làm mới",
+  "search": "Tìm tệp…",
+  "listError": "Không thể tải danh sách tệp cấu hình.",
+  "loading": "Đang tải…",
+  "noFiles": "Không có tệp cấu hình nào khớp.",
+  "selectPrompt": "Chọn một tệp để xem hoặc chỉnh sửa.",
+  "readOnly": "Chỉ đọc",
+  "unsaved": "Chưa lưu",
+  "revert": "Hoàn nguyên",
+  "save": "Lưu",
+  "saving": "Đang lưu…",
+  "nestedNote": "Các tệp trong thư mục con ở đây chỉ đọc. Hãy chỉnh sửa chúng từ Mainsail.",
+  "openError": "Không thể mở tệp này.",
+  "saveError": "Không thể lưu tệp này.",
+  "savedApply": "Đã lưu. Khởi động lại Klipper để áp dụng thay đổi.",
+  "restart": "Khởi động lại Klipper",
+  "restartConfirm": "Nhấp lại để xác nhận",
+  "cancel": "Hủy",
+  "opening": "Đang mở…",
+  "discardConfirm": "Bỏ các thay đổi chưa lưu?"
+}

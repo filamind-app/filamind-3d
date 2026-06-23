@@ -4,7 +4,8 @@
     "settings": "सेटिंग्स",
     "files": "फ़ाइलें",
     "console": "कंसोल",
-    "sections": "खंड"
+    "sections": "खंड",
+    "config": "कॉन्फ़िग"
   },
   "trust": {
     "live": "लाइव",

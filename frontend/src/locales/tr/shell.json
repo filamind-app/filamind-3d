@@ -4,7 +4,8 @@
     "settings": "Ayarlar",
     "files": "Dosyalar",
     "console": "Konsol",
-    "sections": "Bölümler"
+    "sections": "Bölümler",
+    "config": "Yapılandırma"
   },
   "trust": {
     "live": "Canlı",

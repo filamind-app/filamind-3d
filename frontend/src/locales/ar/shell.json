@@ -4,7 +4,8 @@
     "settings": "الإعدادات",
     "files": "ملفات",
     "console": "الطرفية",
-    "sections": "الأقسام"
+    "sections": "الأقسام",
+    "config": "التهيئة"
   },
   "trust": {
     "live": "مباشر",

@@ -4,7 +4,8 @@
     "settings": "設定",
     "files": "ファイル",
     "console": "コンソール",
-    "sections": "セクション"
+    "sections": "セクション",
+    "config": "構成"
   },
   "trust": {
     "live": "ライブ",
