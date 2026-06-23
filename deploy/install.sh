@@ -5,12 +5,15 @@
 # origin, so the browser needs no CORS setup and the app auto-resolves ws://<host>:<port>/websocket.
 # This is the recommended path for an on-printer test (no per-printer rebuild, no cors_domains).
 #
-# Run on the printer (Debian/Ubuntu/Raspberry Pi OS) as a sudo-capable user:
-#   sudo bash deploy/install.sh [--port 8089] [--moonraker 127.0.0.1:7125]
-#   sudo bash deploy/install.sh --uninstall
+# The UI ships pre-built in frontend/dist, so no Node is needed on the printer; the build-on-host
+# path below is only a fallback if the bundle is ever missing.
 #
-# Prereqs: nginx. The UI ships pre-built in frontend/dist, so no Node is needed on the printer;
-# the build-on-host path below is only a fallback if the bundle is ever missing.
+# Runs as your NORMAL user and uses `sudo` only for the specific privileged steps (place the nginx
+# site, reload nginx) — exactly cp/chmod/systemctl. So it works both interactively (sudo prompts
+# once) and unattended from the FilaMind flow Setup service, which has passwordless sudo for
+# precisely those commands — no full-root `sudo bash`, no tee/ln/nginx-binary needed.
+#   bash deploy/install.sh [--port 8089] [--moonraker 127.0.0.1:7125]
+#   bash deploy/install.sh --uninstall
 set -euo pipefail
 
 PORT=8089
@@ -22,7 +25,7 @@ while [ $# -gt 0 ]; do
     --port) PORT="$2"; shift 2 ;;
     --moonraker) MOONRAKER="$2"; shift 2 ;;
     --uninstall) ACTION=uninstall; shift ;;
-    -h|--help) sed -n '2,13p' "$0"; exit 0 ;;
+    -h|--help) sed -n '2,15p' "$0"; exit 0 ;;
     *) echo "unknown option: $1" >&2; exit 1 ;;
   esac
 done
@@ -32,17 +35,12 @@ DIST="$APP_DIR/frontend/dist"
 SITE_AVAILABLE=/etc/nginx/sites-available/filamind-3d
 SITE_ENABLED=/etc/nginx/sites-enabled/filamind-3d
 
-require_root() { [ "$(id -u)" -eq 0 ] || { echo "Run with sudo." >&2; exit 1; }; }
-
 if [ "$ACTION" = uninstall ]; then
-  require_root
-  rm -f "$SITE_ENABLED" "$SITE_AVAILABLE"
-  nginx -t && systemctl reload nginx
+  sudo rm -f "$SITE_ENABLED" "$SITE_AVAILABLE"
+  sudo systemctl reload nginx || true
   echo "FilaMind 3d nginx site removed."
   exit 0
 fi
-
-require_root
 
 # Build the SPA if it isn't present yet (needs Node + npm; @filamind-app/core comes from npm).
 if [ ! -f "$DIST/index.html" ]; then
@@ -51,8 +49,11 @@ if [ ! -f "$DIST/index.html" ]; then
   ( cd "$APP_DIR/frontend" && npm ci && npm run build )
 fi
 
-echo "Writing nginx site → $SITE_AVAILABLE (port $PORT, Moonraker $MOONRAKER)…"
-cat > "$SITE_AVAILABLE" <<NGINX
+# Render the site to a temp file AS THE USER, then place it with narrow sudo (cp). We write a real
+# file into sites-enabled too (nginx includes sites-enabled/*), which avoids needing `ln`.
+TMP="$(mktemp)"
+trap 'rm -f "$TMP"' EXIT
+cat > "$TMP" <<NGINX
 server {
     listen $PORT;
     server_name _;
@@ -79,7 +80,12 @@ server {
 }
 NGINX
 
-ln -sf "$SITE_AVAILABLE" "$SITE_ENABLED"
-nginx -t && systemctl reload nginx
+echo "Installing nginx site → $SITE_AVAILABLE (port $PORT, Moonraker $MOONRAKER)…"
+sudo cp "$TMP" "$SITE_AVAILABLE"
+sudo cp "$TMP" "$SITE_ENABLED"
+# Let nginx (www-data) traverse into the user's home to reach the dist (no-op if already o+x).
+sudo chmod o+x "$HOME" 2>/dev/null || true
+# `systemctl reload` re-tests the config and keeps the running one if the new file is bad.
+sudo systemctl reload nginx
 IP="$(hostname -I 2>/dev/null | awk '{print $1}')"
 echo "Done. Open FilaMind 3d at:  http://${IP:-<printer-ip>}:$PORT/"
