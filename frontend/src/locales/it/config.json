@@ -11,7 +11,7 @@
   "revert": "Ripristina",
   "save": "Salva",
   "saving": "Salvataggio…",
-  "nestedNote": "I file nelle sottocartelle sono di sola lettura qui. Modificali da Mainsail.",
+  "nestedNote": "I file nelle sottocartelle sono di sola lettura qui.",
   "openError": "Impossibile aprire questo file.",
   "saveError": "Impossibile salvare questo file.",
   "savedApply": "Salvato. Riavvia Klipper per applicare le modifiche.",

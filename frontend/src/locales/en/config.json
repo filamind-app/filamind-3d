@@ -11,7 +11,7 @@
   "revert": "Revert",
   "save": "Save",
   "saving": "Saving…",
-  "nestedNote": "Files in subfolders are read-only here. Edit them from Mainsail.",
+  "nestedNote": "Files in subfolders are read-only here.",
   "openError": "Couldn't open this file.",
   "saveError": "Couldn't save this file.",
   "savedApply": "Saved. Restart Klipper to apply the changes.",

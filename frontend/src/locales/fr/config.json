@@ -11,7 +11,7 @@
   "revert": "Rétablir",
   "save": "Enregistrer",
   "saving": "Enregistrement…",
-  "nestedNote": "Les fichiers dans les sous-dossiers sont en lecture seule ici. Modifiez-les depuis Mainsail.",
+  "nestedNote": "Les fichiers dans les sous-dossiers sont en lecture seule ici.",
   "openError": "Impossible d'ouvrir ce fichier.",
   "saveError": "Impossible d'enregistrer ce fichier.",
   "savedApply": "Enregistré. Redémarrez Klipper pour appliquer les modifications.",

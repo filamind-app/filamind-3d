@@ -11,7 +11,7 @@
   "revert": "Terugzetten",
   "save": "Opslaan",
   "saving": "Opslaan…",
-  "nestedNote": "Bestanden in submappen zijn hier alleen-lezen. Bewerk ze in Mainsail.",
+  "nestedNote": "Bestanden in submappen zijn hier alleen-lezen.",
   "openError": "Kan dit bestand niet openen.",
   "saveError": "Kan dit bestand niet opslaan.",
   "savedApply": "Opgeslagen. Start Klipper opnieuw om de wijzigingen toe te passen.",

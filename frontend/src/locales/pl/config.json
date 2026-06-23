@@ -11,7 +11,7 @@
   "revert": "Przywróć",
   "save": "Zapisz",
   "saving": "Zapisywanie…",
-  "nestedNote": "Pliki w podfolderach są tutaj tylko do odczytu. Edytuj je w Mainsail.",
+  "nestedNote": "Pliki w podfolderach są tutaj tylko do odczytu.",
   "openError": "Nie można otworzyć tego pliku.",
   "saveError": "Nie można zapisać tego pliku.",
   "savedApply": "Zapisano. Uruchom ponownie Klipper, aby zastosować zmiany.",

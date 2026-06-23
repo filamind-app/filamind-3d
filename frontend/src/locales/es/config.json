@@ -11,7 +11,7 @@
   "revert": "Revertir",
   "save": "Guardar",
   "saving": "Guardando…",
-  "nestedNote": "Los archivos en subcarpetas son de solo lectura aquí. Edítalos desde Mainsail.",
+  "nestedNote": "Los archivos en subcarpetas son de solo lectura aquí.",
   "openError": "No se pudo abrir este archivo.",
   "saveError": "No se pudo guardar este archivo.",
   "savedApply": "Guardado. Reinicia Klipper para aplicar los cambios.",

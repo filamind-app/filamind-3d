@@ -11,7 +11,7 @@
   "revert": "Reverter",
   "save": "Salvar",
   "saving": "Salvando…",
-  "nestedNote": "Arquivos em subpastas são somente leitura aqui. Edite-os pelo Mainsail.",
+  "nestedNote": "Arquivos em subpastas são somente leitura aqui.",
   "openError": "Não foi possível abrir este arquivo.",
   "saveError": "Não foi possível salvar este arquivo.",
   "savedApply": "Salvo. Reinicie o Klipper para aplicar as alterações.",

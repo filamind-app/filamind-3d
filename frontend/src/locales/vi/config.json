@@ -11,7 +11,7 @@
   "revert": "Hoàn nguyên",
   "save": "Lưu",
   "saving": "Đang lưu…",
-  "nestedNote": "Các tệp trong thư mục con ở đây chỉ đọc. Hãy chỉnh sửa chúng từ Mainsail.",
+  "nestedNote": "Các tệp trong thư mục con ở đây chỉ đọc.",
   "openError": "Không thể mở tệp này.",
   "saveError": "Không thể lưu tệp này.",
   "savedApply": "Đã lưu. Khởi động lại Klipper để áp dụng thay đổi.",
