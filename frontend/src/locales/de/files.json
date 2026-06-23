@@ -1,0 +1,11 @@
+{
+  "title": "Dateien",
+  "upload": "Hochladen",
+  "loading": "Wird geladen…",
+  "empty": "Noch keine G-Code-Dateien.",
+  "print": "Drucken",
+  "starting": "Startet…",
+  "loadError": "Dateien konnten nicht geladen werden.",
+  "printError": "Druck konnte nicht gestartet werden.",
+  "uploadError": "Upload fehlgeschlagen."
+}

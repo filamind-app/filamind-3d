@@ -1,0 +1,11 @@
+{
+  "title": "Bestanden",
+  "upload": "Uploaden",
+  "loading": "Laden…",
+  "empty": "Nog geen G-code-bestanden.",
+  "print": "Printen",
+  "starting": "Starten…",
+  "loadError": "Kan bestanden niet laden.",
+  "printError": "Kan de print niet starten.",
+  "uploadError": "Uploaden mislukt."
+}

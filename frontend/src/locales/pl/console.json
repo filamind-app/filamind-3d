@@ -1,0 +1,11 @@
+{
+  "title": "Konsola",
+  "empty": "Brak wyjścia. Wyślij polecenie poniżej.",
+  "placeholder": "Wpisz polecenie G-code…",
+  "send": "Wyślij",
+  "connectError": "Nie można połączyć z konsolą.",
+  "error": {
+    "refused": "Odrzucono - drukarka nieaktywna lub tryb awaryjny",
+    "failed": "Polecenie nie powiodło się"
+  }
+}

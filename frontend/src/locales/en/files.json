@@ -1,0 +1,11 @@
+{
+  "title": "Files",
+  "upload": "Upload",
+  "loading": "Loading…",
+  "empty": "No G-code files yet.",
+  "print": "Print",
+  "starting": "Starting…",
+  "loadError": "Could not load files.",
+  "printError": "Could not start the print.",
+  "uploadError": "Upload failed."
+}

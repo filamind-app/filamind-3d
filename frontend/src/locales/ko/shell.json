@@ -1,7 +1,10 @@
 {
   "nav": {
     "dashboard": "대시보드",
-    "settings": "설정"
+    "settings": "설정",
+    "files": "파일",
+    "console": "콘솔",
+    "sections": "섹션"
   },
   "trust": {
     "live": "실시간",

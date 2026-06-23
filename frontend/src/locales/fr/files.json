@@ -1,0 +1,11 @@
+{
+  "title": "Fichiers",
+  "upload": "Téléverser",
+  "loading": "Chargement…",
+  "empty": "Aucun fichier G-code.",
+  "print": "Imprimer",
+  "starting": "Démarrage…",
+  "loadError": "Impossible de charger les fichiers.",
+  "printError": "Impossible de démarrer l'impression.",
+  "uploadError": "Échec du téléversement."
+}

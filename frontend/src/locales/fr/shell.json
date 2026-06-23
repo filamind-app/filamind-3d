@@ -1,7 +1,10 @@
 {
   "nav": {
     "dashboard": "Tableau de bord",
-    "settings": "Paramètres"
+    "settings": "Paramètres",
+    "files": "Fichiers",
+    "console": "Console",
+    "sections": "Sections"
   },
   "trust": {
     "live": "En direct",

@@ -1,0 +1,11 @@
+{
+  "title": "Console",
+  "empty": "Nog geen uitvoer. Stuur hieronder een commando.",
+  "placeholder": "Voer een G-code-commando in…",
+  "send": "Verzenden",
+  "connectError": "Kan geen verbinding met de console maken.",
+  "error": {
+    "refused": "Geweigerd - printer niet live of in veilige modus",
+    "failed": "Commando mislukt"
+  }
+}

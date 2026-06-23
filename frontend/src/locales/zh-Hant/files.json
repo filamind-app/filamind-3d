@@ -1,0 +1,11 @@
+{
+  "title": "檔案",
+  "upload": "上傳",
+  "loading": "載入中…",
+  "empty": "尚無 G-code 檔案。",
+  "print": "列印",
+  "starting": "啟動中…",
+  "loadError": "無法載入檔案。",
+  "printError": "無法開始列印。",
+  "uploadError": "上傳失敗。"
+}

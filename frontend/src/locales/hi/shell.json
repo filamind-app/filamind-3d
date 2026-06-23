@@ -1,7 +1,10 @@
 {
   "nav": {
     "dashboard": "डैशबोर्ड",
-    "settings": "सेटिंग्स"
+    "settings": "सेटिंग्स",
+    "files": "फ़ाइलें",
+    "console": "कंसोल",
+    "sections": "खंड"
   },
   "trust": {
     "live": "लाइव",

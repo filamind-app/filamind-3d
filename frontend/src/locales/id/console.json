@@ -1,0 +1,11 @@
+{
+  "title": "Konsol",
+  "empty": "Belum ada keluaran. Kirim perintah di bawah.",
+  "placeholder": "Masukkan perintah G-code…",
+  "send": "Kirim",
+  "connectError": "Tidak dapat terhubung ke konsol.",
+  "error": {
+    "refused": "Ditolak - printer tidak aktif atau mode aman",
+    "failed": "Perintah gagal"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Arquivos",
+  "upload": "Enviar",
+  "loading": "Carregando…",
+  "empty": "Ainda sem arquivos G-code.",
+  "print": "Imprimir",
+  "starting": "Iniciando…",
+  "loadError": "Não foi possível carregar os arquivos.",
+  "printError": "Não foi possível iniciar a impressão.",
+  "uploadError": "Falha no envio."
+}

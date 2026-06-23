@@ -1,7 +1,10 @@
 {
   "nav": {
     "dashboard": "Dashboard",
-    "settings": "Instellingen"
+    "settings": "Instellingen",
+    "files": "Bestanden",
+    "console": "Console",
+    "sections": "Secties"
   },
   "trust": {
     "live": "Live",

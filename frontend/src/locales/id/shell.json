@@ -1,7 +1,10 @@
 {
   "nav": {
     "dashboard": "Dasbor",
-    "settings": "Pengaturan"
+    "settings": "Pengaturan",
+    "files": "Berkas",
+    "console": "Konsol",
+    "sections": "Bagian"
   },
   "trust": {
     "live": "Langsung",

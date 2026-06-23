@@ -1,7 +1,10 @@
 {
   "nav": {
     "dashboard": "儀表板",
-    "settings": "設定"
+    "settings": "設定",
+    "files": "檔案",
+    "console": "主控台",
+    "sections": "版塊"
   },
   "trust": {
     "live": "即時",

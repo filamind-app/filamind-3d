@@ -1,0 +1,11 @@
+{
+  "title": "File",
+  "upload": "Carica",
+  "loading": "Caricamento…",
+  "empty": "Nessun file G-code.",
+  "print": "Stampa",
+  "starting": "Avvio…",
+  "loadError": "Impossibile caricare i file.",
+  "printError": "Impossibile avviare la stampa.",
+  "uploadError": "Caricamento non riuscito."
+}

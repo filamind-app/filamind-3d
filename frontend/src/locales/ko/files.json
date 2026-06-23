@@ -1,0 +1,11 @@
+{
+  "title": "파일",
+  "upload": "업로드",
+  "loading": "불러오는 중…",
+  "empty": "아직 G-code 파일이 없습니다.",
+  "print": "인쇄",
+  "starting": "시작 중…",
+  "loadError": "파일을 불러오지 못했습니다.",
+  "printError": "인쇄를 시작할 수 없습니다.",
+  "uploadError": "업로드 실패."
+}

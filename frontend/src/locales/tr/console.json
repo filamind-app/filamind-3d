@@ -1,0 +1,11 @@
+{
+  "title": "Konsol",
+  "empty": "Henüz çıktı yok. Aşağıdan komut gönderin.",
+  "placeholder": "G-code komutu girin…",
+  "send": "Gönder",
+  "connectError": "Konsola bağlanılamadı.",
+  "error": {
+    "refused": "Reddedildi - yazıcı çevrimdışı veya güvenli modda",
+    "failed": "Komut başarısız"
+  }
+}

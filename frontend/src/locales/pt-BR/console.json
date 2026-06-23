@@ -1,0 +1,11 @@
+{
+  "title": "Console",
+  "empty": "Sem saída. Envie um comando abaixo.",
+  "placeholder": "Digite um comando G-code…",
+  "send": "Enviar",
+  "connectError": "Não foi possível conectar ao console.",
+  "error": {
+    "refused": "Recusado - impressora inativa ou em modo seguro",
+    "failed": "Falha no comando"
+  }
+}

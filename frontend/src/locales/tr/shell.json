@@ -1,7 +1,10 @@
 {
   "nav": {
     "dashboard": "Panel",
-    "settings": "Ayarlar"
+    "settings": "Ayarlar",
+    "files": "Dosyalar",
+    "console": "Konsol",
+    "sections": "Bölümler"
   },
   "trust": {
     "live": "Canlı",
