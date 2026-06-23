@@ -1,0 +1,1 @@
+import{k as e,r as t}from"./_plugin-vue_export-helper-D_dLP98z.js";import{a as n,r}from"./index-DfxVl5S9.js";function i(){let{t:i}=t(),a=n(),o=r();return{canWrite:e(()=>a.live&&a.klippyReady&&!o.safeMode&&!o.busy),blockedReason:e(()=>o.safeMode?i(`control.blocked.safe`):!a.live||!a.klippyReady?i(`control.blocked.offline`):o.busy?i(`control.blocked.busy`):``)}}export{i as t};
