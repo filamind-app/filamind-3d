@@ -1,3 +1,14 @@
 {
-  "title": "Panel"
+  "title": "Panel",
+  "job": "İş",
+  "noJob": "Baskı yok",
+  "eta": "ETA",
+  "layer": "Katman",
+  "temps": "Sıcaklıklar",
+  "motion": "Hareket",
+  "babystep": "Z babystep",
+  "webcam": "Kamera",
+  "live": "canlı",
+  "printing": "Yazdırılıyor",
+  "paused": "Duraklatıldı"
 }

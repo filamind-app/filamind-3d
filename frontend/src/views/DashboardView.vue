@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import ControlBar from '@/components/control/ControlBar.vue'
+import ControlDashboard from '@/components/dashboard/ControlDashboard.vue'
 import WidgetHost from '@/components/dashboard/WidgetHost.vue'
 
 const { t } = useI18n()
@@ -10,6 +11,7 @@ const { t } = useI18n()
   <div class="dashboard">
     <h1 class="page-title">{{ t('dashboard.title') }}</h1>
     <ControlBar />
+    <ControlDashboard />
     <WidgetHost />
   </div>
 </template>

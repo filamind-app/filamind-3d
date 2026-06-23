@@ -1,3 +1,14 @@
 {
-  "title": "Tableau de bord"
+  "title": "Tableau de bord",
+  "job": "Impression",
+  "noJob": "Aucune impression",
+  "eta": "ETA",
+  "layer": "Couche",
+  "temps": "Températures",
+  "motion": "Mouvement",
+  "babystep": "Babystep Z",
+  "webcam": "Webcam",
+  "live": "en direct",
+  "printing": "Impression",
+  "paused": "En pause"
 }

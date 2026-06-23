@@ -1,3 +1,14 @@
 {
-  "title": "Pulpit"
+  "title": "Pulpit",
+  "job": "Zadanie",
+  "noJob": "Brak druku",
+  "eta": "ETA",
+  "layer": "Warstwa",
+  "temps": "Temperatury",
+  "motion": "Ruch",
+  "babystep": "Babystep Z",
+  "webcam": "Kamera",
+  "live": "na żywo",
+  "printing": "Drukowanie",
+  "paused": "Wstrzymano"
 }
