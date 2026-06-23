@@ -5,7 +5,8 @@
     "files": "Bestanden",
     "console": "Console",
     "sections": "Secties",
-    "config": "Configuratie"
+    "config": "Configuratie",
+    "hardware": "Hardware"
   },
   "trust": {
     "live": "Live",

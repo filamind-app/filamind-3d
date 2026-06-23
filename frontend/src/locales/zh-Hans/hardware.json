@@ -1,0 +1,28 @@
+{
+  "title": "硬件",
+  "loading": "正在读取硬件…",
+  "error": "无法读取打印机硬件。",
+  "refresh": "刷新",
+  "unknown": "未知",
+  "cores": "核心",
+  "system": "系统",
+  "host": "主机",
+  "klipper": "Klipper",
+  "os": "操作系统",
+  "cpu": "CPU",
+  "memory": "内存",
+  "mcus": "MCU",
+  "mainMcu": "主控",
+  "components": "组件",
+  "group": {
+    "steppers": "步进电机",
+    "drivers": "驱动器",
+    "extruders": "挤出机",
+    "heaters": "加热器",
+    "sensors": "温度传感器",
+    "fans": "风扇",
+    "probe": "探针",
+    "accel": "加速度计",
+    "leveling": "热床调平"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Matériel",
+  "loading": "Lecture du matériel…",
+  "error": "Impossible de lire le matériel de l'imprimante.",
+  "refresh": "Actualiser",
+  "unknown": "Inconnu",
+  "cores": "cœurs",
+  "system": "Système",
+  "host": "Hôte",
+  "klipper": "Klipper",
+  "os": "OS",
+  "cpu": "Processeur",
+  "memory": "Mémoire",
+  "mcus": "MCU",
+  "mainMcu": "Principal",
+  "components": "Composants",
+  "group": {
+    "steppers": "Moteurs pas à pas",
+    "drivers": "Pilotes",
+    "extruders": "Extrudeurs",
+    "heaters": "Chauffages",
+    "sensors": "Capteurs de température",
+    "fans": "Ventilateurs",
+    "probe": "Sonde",
+    "accel": "Accéléromètre",
+    "leveling": "Nivellement du plateau"
+  }
+}

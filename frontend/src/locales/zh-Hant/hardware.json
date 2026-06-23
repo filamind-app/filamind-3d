@@ -1,0 +1,28 @@
+{
+  "title": "硬體",
+  "loading": "正在讀取硬體…",
+  "error": "無法讀取印表機硬體。",
+  "refresh": "重新整理",
+  "unknown": "未知",
+  "cores": "核心",
+  "system": "系統",
+  "host": "主機",
+  "klipper": "Klipper",
+  "os": "作業系統",
+  "cpu": "CPU",
+  "memory": "記憶體",
+  "mcus": "MCU",
+  "mainMcu": "主控",
+  "components": "元件",
+  "group": {
+    "steppers": "步進馬達",
+    "drivers": "驅動器",
+    "extruders": "擠出機",
+    "heaters": "加熱器",
+    "sensors": "溫度感測器",
+    "fans": "風扇",
+    "probe": "探針",
+    "accel": "加速度計",
+    "leveling": "熱床調平"
+  }
+}

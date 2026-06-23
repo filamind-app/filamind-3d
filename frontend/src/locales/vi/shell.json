@@ -5,7 +5,8 @@
     "files": "Tệp",
     "console": "Bảng điều khiển",
     "sections": "Mục",
-    "config": "Cấu hình"
+    "config": "Cấu hình",
+    "hardware": "Phần cứng"
   },
   "trust": {
     "live": "Trực tiếp",

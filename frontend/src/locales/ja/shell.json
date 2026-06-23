@@ -5,7 +5,8 @@
     "files": "ファイル",
     "console": "コンソール",
     "sections": "セクション",
-    "config": "構成"
+    "config": "構成",
+    "hardware": "ハードウェア"
   },
   "trust": {
     "live": "ライブ",

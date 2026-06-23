@@ -1,0 +1,28 @@
+{
+  "title": "Donanım",
+  "loading": "Donanım okunuyor…",
+  "error": "Yazıcının donanımı okunamadı.",
+  "refresh": "Yenile",
+  "unknown": "Bilinmiyor",
+  "cores": "çekirdek",
+  "system": "Sistem",
+  "host": "Ana bilgisayar",
+  "klipper": "Klipper",
+  "os": "İşletim sistemi",
+  "cpu": "CPU",
+  "memory": "Bellek",
+  "mcus": "MCU",
+  "mainMcu": "Ana",
+  "components": "Bileşenler",
+  "group": {
+    "steppers": "Adım motorları",
+    "drivers": "Sürücüler",
+    "extruders": "Ekstruderler",
+    "heaters": "Isıtıcılar",
+    "sensors": "Sıcaklık sensörleri",
+    "fans": "Fanlar",
+    "probe": "Prob",
+    "accel": "İvmeölçer",
+    "leveling": "Tabla hizalama"
+  }
+}

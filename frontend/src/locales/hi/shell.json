@@ -5,7 +5,8 @@
     "files": "फ़ाइलें",
     "console": "कंसोल",
     "sections": "खंड",
-    "config": "कॉन्फ़िग"
+    "config": "कॉन्फ़िग",
+    "hardware": "हार्डवेयर"
   },
   "trust": {
     "live": "लाइव",

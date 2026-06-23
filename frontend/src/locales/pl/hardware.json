@@ -1,0 +1,28 @@
+{
+  "title": "Sprzęt",
+  "loading": "Odczyt sprzętu…",
+  "error": "Nie można odczytać sprzętu drukarki.",
+  "refresh": "Odśwież",
+  "unknown": "Nieznane",
+  "cores": "rdzenie",
+  "system": "System",
+  "host": "Host",
+  "klipper": "Klipper",
+  "os": "System operacyjny",
+  "cpu": "CPU",
+  "memory": "Pamięć",
+  "mcus": "MCU",
+  "mainMcu": "Główny",
+  "components": "Komponenty",
+  "group": {
+    "steppers": "Silniki krokowe",
+    "drivers": "Sterowniki",
+    "extruders": "Ekstrudery",
+    "heaters": "Grzałki",
+    "sensors": "Czujniki temperatury",
+    "fans": "Wentylatory",
+    "probe": "Sonda",
+    "accel": "Akcelerometr",
+    "leveling": "Poziomowanie stołu"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "하드웨어",
+  "loading": "하드웨어를 읽는 중…",
+  "error": "프린터 하드웨어를 읽지 못했습니다.",
+  "refresh": "새로고침",
+  "unknown": "알 수 없음",
+  "cores": "코어",
+  "system": "시스템",
+  "host": "호스트",
+  "klipper": "Klipper",
+  "os": "OS",
+  "cpu": "CPU",
+  "memory": "메모리",
+  "mcus": "MCU",
+  "mainMcu": "메인",
+  "components": "구성 요소",
+  "group": {
+    "steppers": "스테퍼 모터",
+    "drivers": "드라이버",
+    "extruders": "익스트루더",
+    "heaters": "히터",
+    "sensors": "온도 센서",
+    "fans": "팬",
+    "probe": "프로브",
+    "accel": "가속도계",
+    "leveling": "베드 레벨링"
+  }
+}
