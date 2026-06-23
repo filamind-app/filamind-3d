@@ -7,7 +7,8 @@
     "sections": "Bölümler",
     "config": "Yapılandırma",
     "hardware": "Donanım",
-    "plugins": "Eklentiler"
+    "plugins": "Eklentiler",
+    "setup": "Kurulum"
   },
   "trust": {
     "live": "Canlı",

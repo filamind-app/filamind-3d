@@ -1,0 +1,22 @@
+{
+  "title": "安装",
+  "heading": "系统就绪情况",
+  "intro": "快速检查此主机是否可以运行 FilaMind 3d。",
+  "loading": "正在检查主机…",
+  "error": "无法读取主机状态。",
+  "refresh": "刷新",
+  "cores": "核心",
+  "ready": "就绪",
+  "notReady": "未就绪",
+  "connected": "已连接",
+  "checks": {
+    "os": "操作系统",
+    "host": "主机",
+    "python": "Python",
+    "cpu": "CPU",
+    "memory": "内存",
+    "disk": "磁盘",
+    "klipper": "Klipper",
+    "moonraker": "Moonraker"
+  }
+}

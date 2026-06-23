@@ -7,7 +7,8 @@
     "sections": "セクション",
     "config": "構成",
     "hardware": "ハードウェア",
-    "plugins": "プラグイン"
+    "plugins": "プラグイン",
+    "setup": "セットアップ"
   },
   "trust": {
     "live": "ライブ",

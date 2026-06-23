@@ -1,0 +1,22 @@
+{
+  "title": "सेटअप",
+  "heading": "सिस्टम तैयारी",
+  "intro": "एक त्वरित जांच कि यह होस्ट FilaMind 3d चला सकता है।",
+  "loading": "होस्ट की जांच हो रही है…",
+  "error": "होस्ट स्थिति नहीं पढ़ी जा सकी।",
+  "refresh": "रिफ़्रेश करें",
+  "cores": "कोर",
+  "ready": "तैयार",
+  "notReady": "तैयार नहीं",
+  "connected": "कनेक्टेड",
+  "checks": {
+    "os": "ओएस",
+    "host": "होस्ट",
+    "python": "Python",
+    "cpu": "सीपीयू",
+    "memory": "मेमोरी",
+    "disk": "डिस्क",
+    "klipper": "Klipper",
+    "moonraker": "Moonraker"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Installatie",
+  "heading": "Systeemgereedheid",
+  "intro": "Een snelle controle of deze host FilaMind 3d kan draaien.",
+  "loading": "Host controleren…",
+  "error": "Kan de hoststatus niet lezen.",
+  "refresh": "Vernieuwen",
+  "cores": "cores",
+  "ready": "Gereed",
+  "notReady": "Niet gereed",
+  "connected": "Verbonden",
+  "checks": {
+    "os": "OS",
+    "host": "Host",
+    "python": "Python",
+    "cpu": "CPU",
+    "memory": "Geheugen",
+    "disk": "Schijf",
+    "klipper": "Klipper",
+    "moonraker": "Moonraker"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "التثبيت",
+  "heading": "جاهزية النظام",
+  "intro": "فحص سريع لجاهزية هذا المضيف لتشغيل FilaMind 3d.",
+  "loading": "جارٍ فحص المضيف…",
+  "error": "تعذّرت قراءة حالة المضيف.",
+  "refresh": "تحديث",
+  "cores": "أنوية",
+  "ready": "جاهز",
+  "notReady": "غير جاهز",
+  "connected": "متصل",
+  "checks": {
+    "os": "نظام التشغيل",
+    "host": "المضيف",
+    "python": "Python",
+    "cpu": "المعالج",
+    "memory": "الذاكرة",
+    "disk": "القرص",
+    "klipper": "Klipper",
+    "moonraker": "Moonraker"
+  }
+}

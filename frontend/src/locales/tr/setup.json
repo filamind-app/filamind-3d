@@ -1,0 +1,22 @@
+{
+  "title": "Kurulum",
+  "heading": "Sistem hazırlığı",
+  "intro": "Bu ana bilgisayarın FilaMind 3d çalıştırmaya hazır olduğunun hızlı kontrolü.",
+  "loading": "Ana bilgisayar denetleniyor…",
+  "error": "Ana bilgisayar durumu okunamadı.",
+  "refresh": "Yenile",
+  "cores": "çekirdek",
+  "ready": "Hazır",
+  "notReady": "Hazır değil",
+  "connected": "Bağlı",
+  "checks": {
+    "os": "İşletim sistemi",
+    "host": "Ana bilgisayar",
+    "python": "Python",
+    "cpu": "CPU",
+    "memory": "Bellek",
+    "disk": "Disk",
+    "klipper": "Klipper",
+    "moonraker": "Moonraker"
+  }
+}

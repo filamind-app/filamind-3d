@@ -1,0 +1,22 @@
+{
+  "title": "Penyiapan",
+  "heading": "Kesiapan sistem",
+  "intro": "Pemeriksaan cepat bahwa host ini siap menjalankan FilaMind 3d.",
+  "loading": "Memeriksa host…",
+  "error": "Tidak dapat membaca status host.",
+  "refresh": "Segarkan",
+  "cores": "inti",
+  "ready": "Siap",
+  "notReady": "Belum siap",
+  "connected": "Terhubung",
+  "checks": {
+    "os": "OS",
+    "host": "Host",
+    "python": "Python",
+    "cpu": "CPU",
+    "memory": "Memori",
+    "disk": "Disk",
+    "klipper": "Klipper",
+    "moonraker": "Moonraker"
+  }
+}

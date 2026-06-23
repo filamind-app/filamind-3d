@@ -1,0 +1,22 @@
+{
+  "title": "安裝",
+  "heading": "系統就緒狀態",
+  "intro": "快速檢查此主機是否可以執行 FilaMind 3d。",
+  "loading": "正在檢查主機…",
+  "error": "無法讀取主機狀態。",
+  "refresh": "重新整理",
+  "cores": "核心",
+  "ready": "就緒",
+  "notReady": "未就緒",
+  "connected": "已連線",
+  "checks": {
+    "os": "作業系統",
+    "host": "主機",
+    "python": "Python",
+    "cpu": "CPU",
+    "memory": "記憶體",
+    "disk": "磁碟",
+    "klipper": "Klipper",
+    "moonraker": "Moonraker"
+  }
+}

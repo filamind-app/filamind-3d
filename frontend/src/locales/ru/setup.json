@@ -1,0 +1,22 @@
+{
+  "title": "Установка",
+  "heading": "Готовность системы",
+  "intro": "Быстрая проверка готовности этого хоста к запуску FilaMind 3d.",
+  "loading": "Проверка хоста…",
+  "error": "Не удалось прочитать состояние хоста.",
+  "refresh": "Обновить",
+  "cores": "ядер",
+  "ready": "Готов",
+  "notReady": "Не готов",
+  "connected": "Подключено",
+  "checks": {
+    "os": "ОС",
+    "host": "Хост",
+    "python": "Python",
+    "cpu": "ЦП",
+    "memory": "Память",
+    "disk": "Диск",
+    "klipper": "Klipper",
+    "moonraker": "Moonraker"
+  }
+}

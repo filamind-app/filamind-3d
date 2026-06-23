@@ -1,0 +1,22 @@
+{
+  "title": "セットアップ",
+  "heading": "システム準備状況",
+  "intro": "このホストが FilaMind 3d を実行できるかの簡易チェックです。",
+  "loading": "ホストを確認中…",
+  "error": "ホストの状態を読み取れませんでした。",
+  "refresh": "更新",
+  "cores": "コア",
+  "ready": "準備完了",
+  "notReady": "未準備",
+  "connected": "接続済み",
+  "checks": {
+    "os": "OS",
+    "host": "ホスト",
+    "python": "Python",
+    "cpu": "CPU",
+    "memory": "メモリ",
+    "disk": "ディスク",
+    "klipper": "Klipper",
+    "moonraker": "Moonraker"
+  }
+}
