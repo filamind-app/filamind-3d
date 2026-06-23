@@ -1,0 +1,1 @@
+var e={unknown:{t:0,b:{t:2,i:[{t:3}],s:`Impressora`}}};export{e as default};

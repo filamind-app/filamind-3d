@@ -1,0 +1,1 @@
+var e={title:{t:0,b:{t:2,i:[{t:3}],s:`控制台`}},empty:{t:0,b:{t:2,i:[{t:3}],s:`暂无输出。在下方发送命令。`}},placeholder:{t:0,b:{t:2,i:[{t:3}],s:`输入 G-code 命令…`}},send:{t:0,b:{t:2,i:[{t:3}],s:`发送`}},connectError:{t:0,b:{t:2,i:[{t:3}],s:`无法连接到控制台。`}},error:{refused:{t:0,b:{t:2,i:[{t:3}],s:`已拒绝 - 打印机未在线或处于安全模式`}},failed:{t:0,b:{t:2,i:[{t:3}],s:`命令失败`}}}};export{e as default};
