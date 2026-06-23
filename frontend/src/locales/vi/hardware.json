@@ -1,0 +1,28 @@
+{
+  "title": "Phần cứng",
+  "loading": "Đang đọc phần cứng…",
+  "error": "Không thể đọc phần cứng của máy in.",
+  "refresh": "Làm mới",
+  "unknown": "Không rõ",
+  "cores": "lõi",
+  "system": "Hệ thống",
+  "host": "Máy chủ",
+  "klipper": "Klipper",
+  "os": "Hệ điều hành",
+  "cpu": "CPU",
+  "memory": "Bộ nhớ",
+  "mcus": "MCU",
+  "mainMcu": "Chính",
+  "components": "Thành phần",
+  "group": {
+    "steppers": "Động cơ bước",
+    "drivers": "Trình điều khiển",
+    "extruders": "Đầu đùn",
+    "heaters": "Bộ gia nhiệt",
+    "sensors": "Cảm biến nhiệt độ",
+    "fans": "Quạt",
+    "probe": "Đầu dò",
+    "accel": "Cảm biến gia tốc",
+    "leveling": "Cân chỉnh bàn in"
+  }
+}

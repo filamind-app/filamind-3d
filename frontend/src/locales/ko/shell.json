@@ -5,7 +5,8 @@
     "files": "파일",
     "console": "콘솔",
     "sections": "섹션",
-    "config": "구성"
+    "config": "구성",
+    "hardware": "하드웨어"
   },
   "trust": {
     "live": "실시간",

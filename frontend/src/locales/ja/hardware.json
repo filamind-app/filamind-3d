@@ -1,0 +1,28 @@
+{
+  "title": "ハードウェア",
+  "loading": "ハードウェアを読み込み中…",
+  "error": "プリンターのハードウェアを読み取れませんでした。",
+  "refresh": "更新",
+  "unknown": "不明",
+  "cores": "コア",
+  "system": "システム",
+  "host": "ホスト",
+  "klipper": "Klipper",
+  "os": "OS",
+  "cpu": "CPU",
+  "memory": "メモリ",
+  "mcus": "MCU",
+  "mainMcu": "メイン",
+  "components": "コンポーネント",
+  "group": {
+    "steppers": "ステッピングモーター",
+    "drivers": "ドライバー",
+    "extruders": "エクストルーダー",
+    "heaters": "ヒーター",
+    "sensors": "温度センサー",
+    "fans": "ファン",
+    "probe": "プローブ",
+    "accel": "加速度センサー",
+    "leveling": "ベッドレベリング"
+  }
+}

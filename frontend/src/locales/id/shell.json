@@ -5,7 +5,8 @@
     "files": "Berkas",
     "console": "Konsol",
     "sections": "Bagian",
-    "config": "Konfigurasi"
+    "config": "Konfigurasi",
+    "hardware": "Perangkat Keras"
   },
   "trust": {
     "live": "Langsung",

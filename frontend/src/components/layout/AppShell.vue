@@ -17,6 +17,7 @@ const NAV = [
   { to: '/files', key: 'files', icon: '📁' },
   { to: '/console', key: 'console', icon: '⌨' },
   { to: '/config', key: 'config', icon: '📝' },
+  { to: '/hardware', key: 'hardware', icon: '🔩' },
   { to: '/settings', key: 'settings', icon: '⚙' },
 ] as const
 </script>

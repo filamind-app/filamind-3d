@@ -1,0 +1,28 @@
+{
+  "title": "Hardware",
+  "loading": "Hardware lezen…",
+  "error": "Kan de hardware van de printer niet lezen.",
+  "refresh": "Vernieuwen",
+  "unknown": "Onbekend",
+  "cores": "cores",
+  "system": "Systeem",
+  "host": "Host",
+  "klipper": "Klipper",
+  "os": "OS",
+  "cpu": "CPU",
+  "memory": "Geheugen",
+  "mcus": "MCU's",
+  "mainMcu": "Hoofd",
+  "components": "Componenten",
+  "group": {
+    "steppers": "Stappenmotoren",
+    "drivers": "Drivers",
+    "extruders": "Extruders",
+    "heaters": "Verwarmers",
+    "sensors": "Temperatuursensoren",
+    "fans": "Ventilatoren",
+    "probe": "Probe",
+    "accel": "Versnellingsmeter",
+    "leveling": "Bednivellering"
+  }
+}

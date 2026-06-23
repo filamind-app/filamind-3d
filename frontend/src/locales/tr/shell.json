@@ -5,7 +5,8 @@
     "files": "Dosyalar",
     "console": "Konsol",
     "sections": "Bölümler",
-    "config": "Yapılandırma"
+    "config": "Yapılandırma",
+    "hardware": "Donanım"
   },
   "trust": {
     "live": "Canlı",

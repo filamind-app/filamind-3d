@@ -1,0 +1,28 @@
+{
+  "title": "Perangkat Keras",
+  "loading": "Membaca perangkat keras…",
+  "error": "Tidak dapat membaca perangkat keras printer.",
+  "refresh": "Segarkan",
+  "unknown": "Tidak diketahui",
+  "cores": "inti",
+  "system": "Sistem",
+  "host": "Host",
+  "klipper": "Klipper",
+  "os": "OS",
+  "cpu": "CPU",
+  "memory": "Memori",
+  "mcus": "MCU",
+  "mainMcu": "Utama",
+  "components": "Komponen",
+  "group": {
+    "steppers": "Motor stepper",
+    "drivers": "Driver",
+    "extruders": "Extruder",
+    "heaters": "Pemanas",
+    "sensors": "Sensor suhu",
+    "fans": "Kipas",
+    "probe": "Probe",
+    "accel": "Akselerometer",
+    "leveling": "Perataan bed"
+  }
+}

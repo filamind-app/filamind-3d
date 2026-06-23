@@ -1,0 +1,28 @@
+{
+  "title": "Hardware",
+  "loading": "Loading hardware…",
+  "error": "Couldn't read the printer's hardware.",
+  "refresh": "Refresh",
+  "unknown": "Unknown",
+  "cores": "cores",
+  "system": "System",
+  "host": "Host",
+  "klipper": "Klipper",
+  "os": "OS",
+  "cpu": "CPU",
+  "memory": "Memory",
+  "mcus": "MCUs",
+  "mainMcu": "Main",
+  "components": "Components",
+  "group": {
+    "steppers": "Steppers",
+    "drivers": "Drivers",
+    "extruders": "Extruders",
+    "heaters": "Heaters",
+    "sensors": "Temperature sensors",
+    "fans": "Fans",
+    "probe": "Probe",
+    "accel": "Accelerometer",
+    "leveling": "Bed leveling"
+  }
+}

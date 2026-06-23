@@ -1,0 +1,28 @@
+{
+  "title": "Hardware",
+  "loading": "Leyendo el hardware…",
+  "error": "No se pudo leer el hardware de la impresora.",
+  "refresh": "Actualizar",
+  "unknown": "Desconocido",
+  "cores": "núcleos",
+  "system": "Sistema",
+  "host": "Host",
+  "klipper": "Klipper",
+  "os": "SO",
+  "cpu": "CPU",
+  "memory": "Memoria",
+  "mcus": "MCUs",
+  "mainMcu": "Principal",
+  "components": "Componentes",
+  "group": {
+    "steppers": "Motores paso a paso",
+    "drivers": "Controladores",
+    "extruders": "Extrusores",
+    "heaters": "Calentadores",
+    "sensors": "Sensores de temperatura",
+    "fans": "Ventiladores",
+    "probe": "Sonda",
+    "accel": "Acelerómetro",
+    "leveling": "Nivelación de cama"
+  }
+}

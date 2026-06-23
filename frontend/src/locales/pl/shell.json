@@ -5,7 +5,8 @@
     "files": "Pliki",
     "console": "Konsola",
     "sections": "Sekcje",
-    "config": "Konfiguracja"
+    "config": "Konfiguracja",
+    "hardware": "Sprzęt"
   },
   "trust": {
     "live": "Na żywo",

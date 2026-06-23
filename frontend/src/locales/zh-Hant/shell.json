@@ -5,7 +5,8 @@
     "files": "檔案",
     "console": "主控台",
     "sections": "版塊",
-    "config": "組態"
+    "config": "組態",
+    "hardware": "硬體"
   },
   "trust": {
     "live": "即時",
