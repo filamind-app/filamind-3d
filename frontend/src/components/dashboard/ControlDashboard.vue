@@ -113,7 +113,7 @@ const isPaused = computed(() => state.value === 'paused')
         <div class="file" :title="stats.filename || ''">{{ stats.filename || '—' }}</div>
         <div class="bar"><div class="bar-fill" :style="{ width: progress + '%' }"></div></div>
         <div class="bar-foot">
-          <span class="muted" v-if="layer.total_layer"
+          <span v-if="layer.total_layer" class="muted"
             >{{ t('dashboard.layer') }} {{ layer.current_layer ?? 0 }} /
             {{ layer.total_layer }}</span
           >
@@ -175,20 +175,20 @@ const isPaused = computed(() => state.value === 'paused')
       </header>
       <div class="motion">
         <div class="pad">
-          <button class="jog" :disabled="!canWrite" @click="jog('Y', 10)" aria-label="Y+">▲</button>
-          <button class="jog" :disabled="!canWrite" @click="jog('X', -10)" aria-label="X-">
+          <button class="jog" :disabled="!canWrite" aria-label="Y+" @click="jog('Y', 10)">▲</button>
+          <button class="jog" :disabled="!canWrite" aria-label="X-" @click="jog('X', -10)">
             ◀
           </button>
           <button
             class="jog home"
             :disabled="!canWrite"
-            @click="ctl.home()"
             :title="t('control.home')"
+            @click="ctl.home()"
           >
             ⌂
           </button>
-          <button class="jog" :disabled="!canWrite" @click="jog('X', 10)" aria-label="X+">▶</button>
-          <button class="jog" :disabled="!canWrite" @click="jog('Y', -10)" aria-label="Y-">
+          <button class="jog" :disabled="!canWrite" aria-label="X+" @click="jog('X', 10)">▶</button>
+          <button class="jog" :disabled="!canWrite" aria-label="Y-" @click="jog('Y', -10)">
             ▼
           </button>
         </div>
