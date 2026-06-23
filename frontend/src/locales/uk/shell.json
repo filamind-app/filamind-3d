@@ -4,7 +4,8 @@
     "settings": "Налаштування",
     "files": "Файли",
     "console": "Консоль",
-    "sections": "Розділи"
+    "sections": "Розділи",
+    "config": "Конфігурація"
   },
   "trust": {
     "live": "Наживо",

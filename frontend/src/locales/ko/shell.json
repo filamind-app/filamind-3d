@@ -4,7 +4,8 @@
     "settings": "설정",
     "files": "파일",
     "console": "콘솔",
-    "sections": "섹션"
+    "sections": "섹션",
+    "config": "구성"
   },
   "trust": {
     "live": "실시간",

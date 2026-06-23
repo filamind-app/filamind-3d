@@ -4,7 +4,8 @@
     "settings": "Paramètres",
     "files": "Fichiers",
     "console": "Console",
-    "sections": "Sections"
+    "sections": "Sections",
+    "config": "Configuration"
   },
   "trust": {
     "live": "En direct",

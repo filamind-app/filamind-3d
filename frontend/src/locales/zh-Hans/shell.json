@@ -4,7 +4,8 @@
     "settings": "设置",
     "files": "文件",
     "console": "控制台",
-    "sections": "版块"
+    "sections": "版块",
+    "config": "配置"
   },
   "trust": {
     "live": "实时",

@@ -1,0 +1,23 @@
+{
+  "title": "配置",
+  "refresh": "刷新",
+  "search": "搜索文件…",
+  "listError": "无法加载配置文件列表。",
+  "loading": "加载中…",
+  "noFiles": "没有匹配的配置文件。",
+  "selectPrompt": "选择要查看或编辑的文件。",
+  "readOnly": "只读",
+  "unsaved": "未保存",
+  "revert": "还原",
+  "save": "保存",
+  "saving": "保存中…",
+  "nestedNote": "子文件夹中的文件在此为只读。请在 Mainsail 中编辑。",
+  "openError": "无法打开此文件。",
+  "saveError": "无法保存此文件。",
+  "savedApply": "已保存。重启 Klipper 以应用更改。",
+  "restart": "重启 Klipper",
+  "restartConfirm": "再次点击以确认",
+  "cancel": "取消",
+  "opening": "打开中…",
+  "discardConfirm": "放弃未保存的更改？"
+}

@@ -4,7 +4,8 @@
     "settings": "設定",
     "files": "檔案",
     "console": "主控台",
-    "sections": "版塊"
+    "sections": "版塊",
+    "config": "組態"
   },
   "trust": {
     "live": "即時",

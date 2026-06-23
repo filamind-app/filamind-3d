@@ -1,0 +1,23 @@
+{
+  "title": "Config",
+  "refresh": "Refresh",
+  "search": "Search files…",
+  "listError": "Couldn't load the config file list.",
+  "loading": "Loading…",
+  "noFiles": "No config files match.",
+  "selectPrompt": "Select a file to view or edit.",
+  "readOnly": "Read-only",
+  "unsaved": "Unsaved",
+  "revert": "Revert",
+  "save": "Save",
+  "saving": "Saving…",
+  "nestedNote": "Files in subfolders are read-only here. Edit them from Mainsail.",
+  "openError": "Couldn't open this file.",
+  "saveError": "Couldn't save this file.",
+  "savedApply": "Saved. Restart Klipper to apply the changes.",
+  "restart": "Restart Klipper",
+  "restartConfirm": "Click again to confirm",
+  "cancel": "Cancel",
+  "opening": "Opening…",
+  "discardConfirm": "Discard unsaved changes?"
+}

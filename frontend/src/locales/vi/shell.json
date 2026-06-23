@@ -4,7 +4,8 @@
     "settings": "Cài đặt",
     "files": "Tệp",
     "console": "Bảng điều khiển",
-    "sections": "Mục"
+    "sections": "Mục",
+    "config": "Cấu hình"
   },
   "trust": {
     "live": "Trực tiếp",

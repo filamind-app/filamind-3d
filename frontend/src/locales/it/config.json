@@ -1,0 +1,23 @@
+{
+  "title": "Configurazione",
+  "refresh": "Aggiorna",
+  "search": "Cerca file…",
+  "listError": "Impossibile caricare l'elenco dei file di configurazione.",
+  "loading": "Caricamento…",
+  "noFiles": "Nessun file di configurazione corrispondente.",
+  "selectPrompt": "Seleziona un file da visualizzare o modificare.",
+  "readOnly": "Sola lettura",
+  "unsaved": "Non salvato",
+  "revert": "Ripristina",
+  "save": "Salva",
+  "saving": "Salvataggio…",
+  "nestedNote": "I file nelle sottocartelle sono di sola lettura qui. Modificali da Mainsail.",
+  "openError": "Impossibile aprire questo file.",
+  "saveError": "Impossibile salvare questo file.",
+  "savedApply": "Salvato. Riavvia Klipper per applicare le modifiche.",
+  "restart": "Riavvia Klipper",
+  "restartConfirm": "Fai clic di nuovo per confermare",
+  "cancel": "Annulla",
+  "opening": "Apertura…",
+  "discardConfirm": "Ignorare le modifiche non salvate?"
+}

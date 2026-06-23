@@ -1,0 +1,23 @@
+{
+  "title": "構成",
+  "refresh": "更新",
+  "search": "ファイルを検索…",
+  "listError": "構成ファイルの一覧を読み込めませんでした。",
+  "loading": "読み込み中…",
+  "noFiles": "一致する構成ファイルがありません。",
+  "selectPrompt": "表示または編集するファイルを選択してください。",
+  "readOnly": "読み取り専用",
+  "unsaved": "未保存",
+  "revert": "元に戻す",
+  "save": "保存",
+  "saving": "保存中…",
+  "nestedNote": "サブフォルダー内のファイルはここでは読み取り専用です。Mainsail で編集してください。",
+  "openError": "このファイルを開けませんでした。",
+  "saveError": "このファイルを保存できませんでした。",
+  "savedApply": "保存しました。変更を適用するには Klipper を再起動してください。",
+  "restart": "Klipper を再起動",
+  "restartConfirm": "もう一度クリックして確定",
+  "cancel": "キャンセル",
+  "opening": "開いています…",
+  "discardConfirm": "保存していない変更を破棄しますか?"
+}

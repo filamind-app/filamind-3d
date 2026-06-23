@@ -4,7 +4,8 @@
     "settings": "Pengaturan",
     "files": "Berkas",
     "console": "Konsol",
-    "sections": "Bagian"
+    "sections": "Bagian",
+    "config": "Konfigurasi"
   },
   "trust": {
     "live": "Langsung",

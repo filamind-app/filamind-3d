@@ -1,0 +1,23 @@
+{
+  "title": "Konfiguracja",
+  "refresh": "Odśwież",
+  "search": "Szukaj plików…",
+  "listError": "Nie można wczytać listy plików konfiguracyjnych.",
+  "loading": "Wczytywanie…",
+  "noFiles": "Brak pasujących plików konfiguracyjnych.",
+  "selectPrompt": "Wybierz plik do wyświetlenia lub edycji.",
+  "readOnly": "Tylko do odczytu",
+  "unsaved": "Niezapisane",
+  "revert": "Przywróć",
+  "save": "Zapisz",
+  "saving": "Zapisywanie…",
+  "nestedNote": "Pliki w podfolderach są tutaj tylko do odczytu. Edytuj je w Mainsail.",
+  "openError": "Nie można otworzyć tego pliku.",
+  "saveError": "Nie można zapisać tego pliku.",
+  "savedApply": "Zapisano. Uruchom ponownie Klipper, aby zastosować zmiany.",
+  "restart": "Uruchom ponownie Klipper",
+  "restartConfirm": "Kliknij ponownie, aby potwierdzić",
+  "cancel": "Anuluj",
+  "opening": "Otwieranie…",
+  "discardConfirm": "Odrzucić niezapisane zmiany?"
+}

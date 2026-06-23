@@ -1,0 +1,23 @@
+{
+  "title": "組態",
+  "refresh": "重新整理",
+  "search": "搜尋檔案…",
+  "listError": "無法載入組態檔清單。",
+  "loading": "載入中…",
+  "noFiles": "沒有相符的組態檔。",
+  "selectPrompt": "選擇要檢視或編輯的檔案。",
+  "readOnly": "唯讀",
+  "unsaved": "未儲存",
+  "revert": "還原",
+  "save": "儲存",
+  "saving": "儲存中…",
+  "nestedNote": "子資料夾中的檔案在此為唯讀。請在 Mainsail 中編輯。",
+  "openError": "無法開啟此檔案。",
+  "saveError": "無法儲存此檔案。",
+  "savedApply": "已儲存。重新啟動 Klipper 以套用變更。",
+  "restart": "重新啟動 Klipper",
+  "restartConfirm": "再次點擊以確認",
+  "cancel": "取消",
+  "opening": "開啟中…",
+  "discardConfirm": "捨棄未儲存的變更？"
+}
