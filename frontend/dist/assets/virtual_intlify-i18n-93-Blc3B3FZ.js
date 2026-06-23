@@ -1,0 +1,1 @@
+var e={title:{t:0,b:{t:2,i:[{t:3}],s:`콘솔`}},empty:{t:0,b:{t:2,i:[{t:3}],s:`출력 없음. 아래에 명령을 보내세요.`}},placeholder:{t:0,b:{t:2,i:[{t:3}],s:`G-code 명령 입력…`}},send:{t:0,b:{t:2,i:[{t:3}],s:`보내기`}},connectError:{t:0,b:{t:2,i:[{t:3}],s:`콘솔에 연결할 수 없습니다.`}},error:{refused:{t:0,b:{t:2,i:[{t:3}],s:`거부됨 - 프린터 비활성 또는 안전 모드`}},failed:{t:0,b:{t:2,i:[{t:3}],s:`명령 실패`}}}};export{e as default};

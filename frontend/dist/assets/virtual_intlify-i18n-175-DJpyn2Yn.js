@@ -1,0 +1,1 @@
+var e={title:{t:0,b:{t:2,i:[{t:3}],s:`主控台`}},empty:{t:0,b:{t:2,i:[{t:3}],s:`尚無輸出。在下方傳送指令。`}},placeholder:{t:0,b:{t:2,i:[{t:3}],s:`輸入 G-code 指令…`}},send:{t:0,b:{t:2,i:[{t:3}],s:`傳送`}},connectError:{t:0,b:{t:2,i:[{t:3}],s:`無法連線到主控台。`}},error:{refused:{t:0,b:{t:2,i:[{t:3}],s:`已拒絕 - 印表機未上線或處於安全模式`}},failed:{t:0,b:{t:2,i:[{t:3}],s:`指令失敗`}}}};export{e as default};
