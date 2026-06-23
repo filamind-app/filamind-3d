@@ -1,0 +1,22 @@
+{
+  "title": "Setup",
+  "heading": "System readiness",
+  "intro": "A quick check that this host is ready to run FilaMind 3d.",
+  "loading": "Checking the host…",
+  "error": "Couldn't read the host status.",
+  "refresh": "Refresh",
+  "cores": "cores",
+  "ready": "Ready",
+  "notReady": "Not ready",
+  "connected": "Connected",
+  "checks": {
+    "os": "OS",
+    "host": "Host",
+    "python": "Python",
+    "cpu": "CPU",
+    "memory": "Memory",
+    "disk": "Disk",
+    "klipper": "Klipper",
+    "moonraker": "Moonraker"
+  }
+}

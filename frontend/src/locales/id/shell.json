@@ -7,7 +7,8 @@
     "sections": "Bagian",
     "config": "Konfigurasi",
     "hardware": "Perangkat Keras",
-    "plugins": "Plugin"
+    "plugins": "Plugin",
+    "setup": "Penyiapan"
   },
   "trust": {
     "live": "Langsung",

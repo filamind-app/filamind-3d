@@ -1,0 +1,22 @@
+{
+  "title": "Einrichtung",
+  "heading": "Systembereitschaft",
+  "intro": "Eine schnelle Prüfung, ob dieser Host FilaMind 3d ausführen kann.",
+  "loading": "Host wird geprüft…",
+  "error": "Host-Status konnte nicht gelesen werden.",
+  "refresh": "Aktualisieren",
+  "cores": "Kerne",
+  "ready": "Bereit",
+  "notReady": "Nicht bereit",
+  "connected": "Verbunden",
+  "checks": {
+    "os": "Betriebssystem",
+    "host": "Host",
+    "python": "Python",
+    "cpu": "CPU",
+    "memory": "Arbeitsspeicher",
+    "disk": "Speicherplatz",
+    "klipper": "Klipper",
+    "moonraker": "Moonraker"
+  }
+}

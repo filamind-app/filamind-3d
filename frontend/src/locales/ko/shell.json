@@ -7,7 +7,8 @@
     "sections": "섹션",
     "config": "구성",
     "hardware": "하드웨어",
-    "plugins": "플러그인"
+    "plugins": "플러그인",
+    "setup": "설치"
   },
   "trust": {
     "live": "실시간",

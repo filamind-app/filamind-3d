@@ -1,0 +1,22 @@
+{
+  "title": "Cài đặt",
+  "heading": "Mức sẵn sàng của hệ thống",
+  "intro": "Kiểm tra nhanh xem máy chủ này có sẵn sàng chạy FilaMind 3d không.",
+  "loading": "Đang kiểm tra máy chủ…",
+  "error": "Không thể đọc trạng thái máy chủ.",
+  "refresh": "Làm mới",
+  "cores": "lõi",
+  "ready": "Sẵn sàng",
+  "notReady": "Chưa sẵn sàng",
+  "connected": "Đã kết nối",
+  "checks": {
+    "os": "Hệ điều hành",
+    "host": "Máy chủ",
+    "python": "Python",
+    "cpu": "CPU",
+    "memory": "Bộ nhớ",
+    "disk": "Đĩa",
+    "klipper": "Klipper",
+    "moonraker": "Moonraker"
+  }
+}

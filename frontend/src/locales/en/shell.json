@@ -7,7 +7,8 @@
     "sections": "Sections",
     "config": "Config",
     "hardware": "Hardware",
-    "plugins": "Plugins"
+    "plugins": "Plugins",
+    "setup": "Setup"
   },
   "trust": {
     "live": "Live",

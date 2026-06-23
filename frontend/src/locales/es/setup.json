@@ -1,0 +1,22 @@
+{
+  "title": "Instalación",
+  "heading": "Preparación del sistema",
+  "intro": "Una comprobación rápida de que este host puede ejecutar FilaMind 3d.",
+  "loading": "Comprobando el host…",
+  "error": "No se pudo leer el estado del host.",
+  "refresh": "Actualizar",
+  "cores": "núcleos",
+  "ready": "Listo",
+  "notReady": "No listo",
+  "connected": "Conectado",
+  "checks": {
+    "os": "SO",
+    "host": "Host",
+    "python": "Python",
+    "cpu": "CPU",
+    "memory": "Memoria",
+    "disk": "Disco",
+    "klipper": "Klipper",
+    "moonraker": "Moonraker"
+  }
+}

@@ -7,7 +7,8 @@
     "sections": "खंड",
     "config": "कॉन्फ़िग",
     "hardware": "हार्डवेयर",
-    "plugins": "प्लगइन"
+    "plugins": "प्लगइन",
+    "setup": "सेटअप"
   },
   "trust": {
     "live": "लाइव",
