@@ -9,6 +9,7 @@
 #
 # From a clone (e.g. ~/filamind-3d):
 #   bash scripts/install.sh [install|uninstall|update] [--port N] [--moonraker host:port]
+#   bash scripts/install.sh agent        # install the managed backend service ("agent") on :8030
 #
 # The UI ships pre-built in frontend/dist, so NO Node is needed on the printer: this clones the
 # repo (or updates it) and points nginx at the committed bundle with a same-origin Moonraker proxy.
@@ -20,7 +21,7 @@ APP="${FILAMIND_3D_DIR:-$HOME/filamind-3d}"
 
 CMD="install"
 case "${1:-}" in
-  install | uninstall | update)
+  install | uninstall | update | agent)
     CMD="$1"
     shift
     ;;
@@ -65,10 +66,18 @@ fi
 # let sudo print its own clear error instead of dying on a cryptic /dev/tty failure.
 if [ ! -t 0 ] && (exec </dev/tty) 2>/dev/null; then exec </dev/tty; fi
 
+# The agent (managed backend service) is a separate, additive install path.
+if [ "$CMD" = agent ]; then
+  info "Installing the FilaMind 3d agent (managed backend service on :8030)"
+  bash "$APP/deploy/install-agent.sh" "$@"
+  exit 0
+fi
+
 if [ "$CMD" = uninstall ]; then
-  info "Removing FilaMind 3d"
-  # deploy/install.sh runs as this user and elevates only the narrow steps (cp/systemctl) itself,
-  # so no full-root `sudo bash` - this lets the FilaMind flow Setup service install it passwordless.
+  info "Removing FilaMind 3d (agent service + nginx site)"
+  # deploy/*.sh run as this user and elevate only the narrow steps (cp/systemctl) themselves,
+  # so no full-root `sudo bash` - this lets the FilaMind flow Setup service manage it passwordless.
+  bash "$APP/deploy/install-agent.sh" --uninstall || true
   bash "$APP/deploy/install.sh" --uninstall
   exit 0
 fi
