@@ -1,0 +1,21 @@
+# FilaMind 3d backend — systemd unit (EXAMPLE).
+# The installer (scripts/install.sh agent) generates this file with YOUR real user and install
+# path. To install manually instead: replace every `pi` / `/home/pi` with your user/home, copy to
+# /etc/systemd/system/filamind-3d.service, then:
+#   sudo systemctl daemon-reload && sudo systemctl enable --now filamind-3d
+[Unit]
+Description=FilaMind 3d backend (control UI + API)
+After=network-online.target moonraker.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/filamind-3d/backend
+EnvironmentFile=-/home/pi/filamind-3d/backend/.env
+ExecStart=/home/pi/filamind-3d/backend/.venv/bin/python /home/pi/filamind-3d/backend/main.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
