@@ -2,7 +2,7 @@
 /// <reference types="vite-plugin-pwa/client" />
 
 interface ImportMetaEnv {
-  /** ws(s)://host:port/websocket — defaults to the current host on :7125 */
+  /** ws(s)://host:port/websocket - defaults to the current host on :7125 */
   readonly VITE_MOONRAKER_WS_URL?: string
   /** Optional document-title override. */
   readonly VITE_APP_TITLE?: string

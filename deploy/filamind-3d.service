@@ -1,4 +1,4 @@
-# FilaMind 3d backend — systemd unit (EXAMPLE).
+# FilaMind 3d backend - systemd unit (EXAMPLE).
 # The installer (scripts/install.sh agent) generates this file with YOUR real user and install
 # path. To install manually instead: replace every `pi` / `/home/pi` with your user/home, copy to
 # /etc/systemd/system/filamind-3d.service, then:

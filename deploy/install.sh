@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# FilaMind 3d — serve on the printer host.
+# FilaMind 3d - serve on the printer host.
 #
 # Installs an nginx site that serves the built SPA AND reverse-proxies Moonraker on the SAME
 # origin, so the browser needs no CORS setup and the app auto-resolves ws://<host>:<port>/websocket.
@@ -9,9 +9,9 @@
 # path below is only a fallback if the bundle is ever missing.
 #
 # Runs as your NORMAL user and uses `sudo` only for the specific privileged steps (place the nginx
-# site, reload nginx) — exactly cp/chmod/systemctl. So it works both interactively (sudo prompts
+# site, reload nginx) - exactly cp/chmod/systemctl. So it works both interactively (sudo prompts
 # once) and unattended from the FilaMind flow Setup service, which has passwordless sudo for
-# precisely those commands — no full-root `sudo bash`, no tee/ln/nginx-binary needed.
+# precisely those commands - no full-root `sudo bash`, no tee/ln/nginx-binary needed.
 #   bash deploy/install.sh [--port 8089] [--moonraker 127.0.0.1:7125]
 #   bash deploy/install.sh --uninstall
 set -euo pipefail
@@ -44,7 +44,7 @@ fi
 
 # Build the SPA if it isn't present yet (needs Node + npm; @filamind-app/core comes from npm).
 if [ ! -f "$DIST/index.html" ]; then
-  echo "No build found — building the frontend (needs Node 22 + npm)…"
+  echo "No build found - building the frontend (needs Node 22 + npm)…"
   command -v npm >/dev/null || { echo "npm not found; install Node 22 or ship a prebuilt frontend/dist." >&2; exit 1; }
   ( cd "$APP_DIR/frontend" && npm ci && npm run build )
 fi
@@ -64,7 +64,7 @@ server {
     location = /index.html { add_header Cache-Control "no-cache"; }
     location / { try_files \$uri \$uri/ /index.html; }
 
-    # Same-origin reverse proxy to Moonraker (REST + WebSocket) — no CORS needed.
+    # Same-origin reverse proxy to Moonraker (REST + WebSocket) - no CORS needed.
     location ~ ^/(server|printer|access|machine) {
         proxy_pass http://$MOONRAKER;
         proxy_set_header Host \$host;

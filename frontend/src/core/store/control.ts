@@ -40,7 +40,7 @@ export const useControlStore = defineStore('control', () => {
     queuePause: () => run(control.queuePause),
     queueDelete: (id: string) => run(() => control.queueDelete(id)),
     excludeObject: (name: string) => run(() => control.excludeObject(name)),
-    // E-STOP is never gated nor coupled to the busy interlock — it must always fire.
+    // E-STOP is never gated nor coupled to the busy interlock - it must always fire.
     emergencyStop: () => void control.emergencyStop().catch(() => undefined),
     toggleSafeMode: () => control.setSafeMode(!safeMode.value),
   }

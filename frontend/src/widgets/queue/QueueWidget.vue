@@ -18,7 +18,7 @@ const { data, loading, error, load } = useLiveFetch(
 
 const queued = computed<QueueJob[]>(() => data.value?.queued_jobs ?? [])
 const queueStateLabel = computed(() => {
-  const raw = data.value?.queue_state ?? '—'
+  const raw = data.value?.queue_state ?? '-'
   const key = `widgets.queue.queueState.${raw}`
   return te(key) ? t(key) : raw
 })

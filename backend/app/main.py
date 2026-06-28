@@ -13,7 +13,7 @@ from app import __version__
 from app.api.router import api_router
 from app.config import configure_logging, get_settings
 
-# <repo>/frontend/dist — the prebuilt bundle the printer host serves.
+# <repo>/frontend/dist - the prebuilt bundle the printer host serves.
 FRONTEND_DIST = Path(__file__).resolve().parents[2] / "frontend" / "dist"
 
 
@@ -34,7 +34,7 @@ def create_app() -> FastAPI:
     app.include_router(api_router)
 
     # Serve the SPA if it has been built. The app uses hash routing, so the server only ever
-    # serves "/" (index.html) + /assets/* — no history-mode fallback is needed.
+    # serves "/" (index.html) + /assets/* - no history-mode fallback is needed.
     if FRONTEND_DIST.is_dir():
         app.mount("/", StaticFiles(directory=FRONTEND_DIST, html=True), name="spa")
 

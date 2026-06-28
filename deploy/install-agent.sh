@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
-# FilaMind 3d agent — run the backend as a managed systemd service.
+# FilaMind 3d agent - run the backend as a managed systemd service.
 #
 # This is the "agent": a long-lived service (start / stop / restart, /api/health) that the printer's
 # service manager + Moonraker can control, so FilaMind 3d is a first-class manageable app rather than
 # a bare static site. It serves the prebuilt UI AND the API on its own port (8030), and registers
 # itself with Moonraker's managed-services list so it can be restarted from the panel.
 #
-# Additive to the nginx-static install (`deploy/install.sh`) — you can run either or both.
+# Additive to the nginx-static install (`deploy/install.sh`) - you can run either or both.
 #
-# Runs as your NORMAL user and elevates only the narrow steps (cp / systemctl) — the same
+# Runs as your NORMAL user and elevates only the narrow steps (cp / systemctl) - the same
 # passwordless-sudo set the FilaMind flow Setup service is granted, so it also installs unattended.
 #   bash deploy/install-agent.sh            # install + enable + start the service
 #   bash deploy/install-agent.sh --uninstall
@@ -52,17 +52,17 @@ PY
   exit 0
 fi
 
-# ── full clone + tags ───────────────────────────────────────────────────────────────────────
+# -- full clone + tags -----------------------------------------------------------------------
 # Moonraker's update_manager reads the version from `git describe --tags`. A legacy `--depth 1`
 # (shallow) clone has NO tags locally, so Moonraker shows "v0.0.0-...-inferred" instead of the real
 # release. Unshallow + fetch tags here (this also runs when Moonraker re-runs the install_script on
-# update), so an already-shallow clone is repaired in place — no re-clone needed.
+# update), so an already-shallow clone is repaired in place - no re-clone needed.
 if [ -d "$APP_DIR/.git" ]; then
   [ -f "$APP_DIR/.git/shallow" ] && git -C "$APP_DIR" fetch --unshallow --tags origin 2>/dev/null || true
   git -C "$APP_DIR" fetch --tags origin 2>/dev/null || true
 fi
 
-# ── backend virtualenv ──────────────────────────────────────────────────────────────────────
+# -- backend virtualenv ----------------------------------------------------------------------
 # On ARM printers use piwheels: prebuilt aarch64/armv7 wheels mean pip never compiles from source,
 # which on a low-RAM host (≤1 GB) would exhaust memory and take other services down with it.
 case "$(uname -m)" in
@@ -73,7 +73,7 @@ esac
 
 echo "Backend virtualenv…"
 cd "$APP_DIR/backend"
-# Rebuild when missing OR broken (no pip), not just when the dir is absent — self-heals a partial venv.
+# Rebuild when missing OR broken (no pip), not just when the dir is absent - self-heals a partial venv.
 if [ ! -x .venv/bin/pip ]; then
   rm -rf .venv
   python3 -m venv .venv 2>/dev/null || {
@@ -88,7 +88,7 @@ fi
 ./.venv/bin/pip install -q -U pip
 ./.venv/bin/pip install -q -r requirements.txt
 
-# ── systemd unit ────────────────────────────────────────────────────────────────────────────
+# -- systemd unit ----------------------------------------------------------------------------
 echo "Installing the systemd service ($SERVICE)…"
 TMP="$(mktemp)"
 trap 'rm -f "$TMP"' EXIT
@@ -114,9 +114,9 @@ sudo cp "$TMP" "$UNIT"
 sudo systemctl daemon-reload
 sudo systemctl enable --now "${SERVICE}"
 
-# ── register with Moonraker: the service allowlist (restart from the panel) AND the update_manager
+# -- register with Moonraker: the service allowlist (restart from the panel) AND the update_manager
 #    (so the agent shows in the updates panel and gets git-updated). Mirrors how FilaMind flow
-#    registers itself, instead of only printing a "do this yourself" reminder. ────────────────────
+#    registers itself, instead of only printing a "do this yourself" reminder. --------------------
 asvc="$PRINTER_DATA/moonraker.asvc"
 if [ -f "$asvc" ]; then
   grep -qx "$SERVICE" "$asvc" || echo "$SERVICE" >> "$asvc"

@@ -20,7 +20,7 @@ const progress = computed(() =>
 )
 const stateLabel = computed(() => {
   const key = `widgets.printStatus.state.${stats.value.state ?? 'standby'}`
-  return te(key) ? t(key) : (stats.value.state ?? '—')
+  return te(key) ? t(key) : (stats.value.state ?? '-')
 })
 </script>
 
@@ -30,7 +30,7 @@ const stateLabel = computed(() => {
       <span class="muted">{{ t('widgets.printStatus.status') }}</span>
       <span class="state">{{ stateLabel }}</span>
     </div>
-    <div class="file" :title="stats.filename || ''">{{ stats.filename || '—' }}</div>
+    <div class="file" :title="stats.filename || ''">{{ stats.filename || '-' }}</div>
     <div
       class="bar"
       role="progressbar"

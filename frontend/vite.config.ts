@@ -24,7 +24,7 @@ export default defineConfig({
     VueI18nPlugin({
       include: [fileURLToPath(new URL('./src/locales/**', import.meta.url))],
       // Locales are loaded at runtime via import.meta.glob (not the plugin transform), so
-      // vue-i18n must keep its message compiler to interpolate {params} — runtimeOnly would
+      // vue-i18n must keep its message compiler to interpolate {params} - runtimeOnly would
       // ship the compiler-less build and render literal "{v}"/"{axes}".
       runtimeOnly: false,
       compositionOnly: true,

@@ -17,7 +17,7 @@ function defaultWsUrl(): string {
 
 const appVersion = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : '0.0.0'
 
-/** The resolved Moonraker WS URL — shared so the command-bus agent connection targets the same host. */
+/** The resolved Moonraker WS URL - shared so the command-bus agent connection targets the same host. */
 export const moonrakerWsUrl = defaultWsUrl()
 
 export const connector = new MoonrakerClient({ url: moonrakerWsUrl })

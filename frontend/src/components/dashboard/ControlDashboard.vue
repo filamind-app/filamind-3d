@@ -110,7 +110,7 @@ const isPaused = computed(() => state.value === 'paused')
         <span v-if="eta" class="muted">{{ t('dashboard.eta') }} {{ eta }}</span>
       </header>
       <template v-if="active">
-        <div class="file" :title="stats.filename || ''">{{ stats.filename || '—' }}</div>
+        <div class="file" :title="stats.filename || ''">{{ stats.filename || '-' }}</div>
         <div class="bar"><div class="bar-fill" :style="{ width: progress + '%' }"></div></div>
         <div class="bar-foot">
           <span v-if="layer.total_layer" class="muted"
