@@ -38,6 +38,15 @@ if [ "$ACTION" = uninstall ]; then
   sudo rm -f "$UNIT"
   sudo systemctl daemon-reload || true
   deregister_moonraker
+  # Remove only the update_manager block we appended; leave other moonraker.conf sections intact.
+  MCONF="$PRINTER_DATA/config/moonraker.conf"
+  if [ -f "$MCONF" ] && grep -q "update_manager $SERVICE" "$MCONF"; then
+    python3 - "$MCONF" <<'PY'
+import re, sys
+p = sys.argv[1]
+open(p, "w").write(re.sub(r"\n\[update_manager filamind-3d\][^\[]*", "\n", open(p).read()))
+PY
+  fi
   sudo systemctl restart moonraker 2>/dev/null || true
   echo "FilaMind 3d agent removed. (The app files are still at $APP_DIR.)"
   exit 0
@@ -95,15 +104,30 @@ sudo cp "$TMP" "$UNIT"
 sudo systemctl daemon-reload
 sudo systemctl enable --now "${SERVICE}"
 
-# ── register with Moonraker so it shows up as a manageable service (restart from the panel) ─────
+# ── register with Moonraker: the service allowlist (restart from the panel) AND the update_manager
+#    (so the agent shows in the updates panel and gets git-updated). Mirrors how FilaMind flow
+#    registers itself, instead of only printing a "do this yourself" reminder. ────────────────────
 asvc="$PRINTER_DATA/moonraker.asvc"
 if [ -f "$asvc" ]; then
   grep -qx "$SERVICE" "$asvc" || echo "$SERVICE" >> "$asvc"
-  sudo systemctl restart moonraker 2>/dev/null || true
 fi
+MCONF="$PRINTER_DATA/config/moonraker.conf"
+if [ -f "$MCONF" ] && ! grep -q "update_manager $SERVICE" "$MCONF"; then
+  cp "$MCONF" "$MCONF.bak.filamind.$(date +%s)" 2>/dev/null || true
+  cat >> "$MCONF" <<'EOF'
+
+[update_manager filamind-3d]
+type: git_repo
+path: ~/filamind-3d
+origin: https://github.com/filamind-app/filamind-3d.git
+primary_branch: main
+managed_services: filamind-3d
+install_script: deploy/install-agent.sh
+EOF
+fi
+sudo systemctl restart moonraker 2>/dev/null || true
 
 IP="$(hostname -I 2>/dev/null | awk '{print $1}')"
-echo "Done. FilaMind 3d agent running (service: $SERVICE)."
+echo "Done. FilaMind 3d agent running ($SERVICE), registered with Moonraker (service + updates)."
 echo "  API/UI:  http://${IP:-<printer-ip>}:8030/"
 echo "  Status:  sudo systemctl status $SERVICE"
-echo "  Update Moonraker's update manager too: see deploy/moonraker-update_manager.conf"
