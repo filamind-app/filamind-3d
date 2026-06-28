@@ -52,6 +52,16 @@ PY
   exit 0
 fi
 
+# ── full clone + tags ───────────────────────────────────────────────────────────────────────
+# Moonraker's update_manager reads the version from `git describe --tags`. A legacy `--depth 1`
+# (shallow) clone has NO tags locally, so Moonraker shows "v0.0.0-...-inferred" instead of the real
+# release. Unshallow + fetch tags here (this also runs when Moonraker re-runs the install_script on
+# update), so an already-shallow clone is repaired in place — no re-clone needed.
+if [ -d "$APP_DIR/.git" ]; then
+  [ -f "$APP_DIR/.git/shallow" ] && git -C "$APP_DIR" fetch --unshallow --tags origin 2>/dev/null || true
+  git -C "$APP_DIR" fetch --tags origin 2>/dev/null || true
+fi
+
 # ── backend virtualenv ──────────────────────────────────────────────────────────────────────
 # On ARM printers use piwheels: prebuilt aarch64/armv7 wheels mean pip never compiles from source,
 # which on a low-RAM host (≤1 GB) would exhaust memory and take other services down with it.
