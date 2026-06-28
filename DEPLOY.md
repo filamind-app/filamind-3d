@@ -1,10 +1,10 @@
 # Deploy & test FilaMind 3d on a printer
 
 FilaMind 3d is a built SPA that talks to **Moonraker** directly over a WebSocket; `@filamind-app/core`
-is bundled into the build, so the printer needs **no Node/npm at runtime** — only a way to serve the
+is bundled into the build, so the printer needs **no Node/npm at runtime** - only a way to serve the
 files. There are two ways to run it.
 
-## Path A — nginx on the printer host (recommended)
+## Path A - nginx on the printer host (recommended)
 
 nginx serves the SPA and reverse-proxies Moonraker on the **same origin**, so the browser needs no
 CORS config and the app auto-resolves `ws://<host>:<port>/websocket`.
@@ -20,7 +20,7 @@ If `frontend/dist` isn't present the script builds it (needs Node 22 + npm). To 
 bundle instead, run `npm ci && npm run build` in `frontend/` on any machine and copy `frontend/dist`
 to the printer first.
 
-## Path B — quick serve (no nginx)
+## Path B - quick serve (no nginx)
 
 Build with the printer's Moonraker baked in, then serve `dist/` from anywhere on the LAN:
 
@@ -43,7 +43,7 @@ trusted_clients:
 
 ## Preliminary test checklist
 
-1. Open the app — the **trust ribbon** should go **Live** (green) once Klipper is ready.
+1. Open the app - the **trust ribbon** should go **Live** (green) once Klipper is ready.
 2. **Telemetry** renders (Temperatures / Motion / Print Status update in real time).
 3. **Klipper prompts** (`// action:prompt_*`) show as a focus-managed modal.
 4. **Gated control**: Home / Pause / Resume / Cancel are enabled only when live + Klippy-ready;
@@ -54,6 +54,6 @@ trusted_clients:
 
 ## Notes
 
-- The lean FastAPI backend (`backend/`) is **optional** — it serves the SPA + `/api/health` +
+- The lean FastAPI backend (`backend/`) is **optional** - it serves the SPA + `/api/health` +
   `/api/config`, but the frontend resolves Moonraker itself, so Path A/B don't need it for a test.
 - For a permanent install, register a Moonraker `[update_manager]` `web` entry pointing at this repo.

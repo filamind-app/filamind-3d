@@ -25,7 +25,7 @@ const enModules = import.meta.glob('../locales/en/*.json', { eager: true }) as R
 >
 const enMessages = assemble(enModules)
 
-// The other locales as lazy chunks (en is excluded — it's bundled eagerly above).
+// The other locales as lazy chunks (en is excluded - it's bundled eagerly above).
 const lazyLocales = import.meta.glob(['../locales/*/*.json', '!../locales/en/*.json']) as Record<
   string,
   () => Promise<{ default: MessageTree }>
@@ -83,7 +83,7 @@ export async function setLocale(code: string): Promise<void> {
 }
 
 /** Keep vue-i18n's active locale in sync with the settings store when the locale changes from
- *  somewhere other than the language picker — a roamed change from another surface, an import, or
+ *  somewhere other than the language picker - a roamed change from another surface, an import, or
  *  a reset. Local picks already call setLocale(); the current-locale guard dedupes those. */
 export function initLocaleSync(): void {
   let current = composer.locale.value

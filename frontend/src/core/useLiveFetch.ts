@@ -19,7 +19,7 @@ export function useLiveFetch<T>(loader: () => Promise<T>, alsoOn?: WatchSource) 
     error.value = false
     try {
       const result = await loader()
-      if (mine !== seq) return // a newer load() started — drop this stale response
+      if (mine !== seq) return // a newer load() started - drop this stale response
       data.value = result
     } catch {
       if (mine === seq) error.value = true

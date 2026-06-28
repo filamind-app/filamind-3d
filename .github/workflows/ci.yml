@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '22' # vue-i18n 11 + unplugin require Node >= 22
-      # NOTE: @filamind-app/core must be resolvable — via the published package (release) or the
+      # NOTE: @filamind-app/core must be resolvable - via the published package (release) or the
       # suite workspace symlink (local dev). In standalone CI, pin it in package.json first.
       - run: npm ci
       - run: npm run lint

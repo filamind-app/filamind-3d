@@ -1,7 +1,7 @@
-# FilaMind 3d — backend
+# FilaMind 3d - backend
 
 A **lean FastAPI host**: it serves the built frontend SPA and exposes a small `/api` seam. It deliberately
-does **not** proxy Moonraker — the frontend talks to Moonraker directly via `@filamind-app/core` (same-origin
+does **not** proxy Moonraker - the frontend talks to Moonraker directly via `@filamind-app/core` (same-origin
 reverse proxy or `VITE_MOONRAKER_WS_URL`). App-specific services (plugin host, etc.) attach here later.
 
 ## Endpoints
@@ -34,9 +34,9 @@ python main.py                # serves on :8030
 ```
 
 ## Config (env, prefix `FILAMIND_`)
-- `FILAMIND_APP_TITLE` — UI/title (default `FilaMind 3d`)
-- `FILAMIND_MOONRAKER_WS_URL` — WS URL handed to the frontend (empty = derive from the serving host)
-- `FILAMIND_LOG_LEVEL` — default `INFO`
+- `FILAMIND_APP_TITLE` - UI/title (default `FilaMind 3d`)
+- `FILAMIND_MOONRAKER_WS_URL` - WS URL handed to the frontend (empty = derive from the serving host)
+- `FILAMIND_LOG_LEVEL` - default `INFO`
 
-Lean by design (fastapi · uvicorn · pydantic · pydantic-settings — no numpy/jinja/kconfig). GPL-3.0-or-later.
+Lean by design (fastapi · uvicorn · pydantic · pydantic-settings - no numpy/jinja/kconfig). GPL-3.0-or-later.
 R1: no third-party Klipper-UI/tool names in shipped code (guard in CI).

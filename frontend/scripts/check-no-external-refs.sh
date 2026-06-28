@@ -10,7 +10,7 @@ PATTERN='mainsail|fluidd|octoprint|octoscreen|octodash|duetwebcontrol|guppyscree
 TARGETS=(src index.html vite.config.ts package.json env.d.ts)
 
 if grep -rniE "$PATTERN" "${TARGETS[@]}" 2>/dev/null; then
-  echo "::error::R1 violation — external-project reference found (see matches above)."
+  echo "::error::R1 violation - external-project reference found (see matches above)."
   exit 1
 fi
-echo "R1 OK — no external-project references in the shipped surface."
+echo "R1 OK - no external-project references in the shipped surface."

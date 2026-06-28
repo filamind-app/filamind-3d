@@ -1,7 +1,7 @@
 // The machine-control write path. Every FilaMind-originated mutation funnels through the
 // core WriteArbiter (§12 spine): refused unless the connection is live AND Klippy is ready,
-// or while safe-mode is on. Emergency stop INTENTIONALLY bypasses the gate — the safety
-// action must work even when state isn't trustworthy-live — but is still logged.
+// or while safe-mode is on. Emergency stop INTENTIONALLY bypasses the gate - the safety
+// action must work even when state isn't trustworthy-live - but is still logged.
 
 import { WriteArbiter, Logger } from '@filamind-app/core'
 import { session, connector } from './session'
@@ -29,11 +29,11 @@ export const control = {
     arbiter.run('queue-delete', () =>
       connector.call('server.job_queue.delete_job', { job_ids: [id] }),
     ),
-  // The caller must pass a single-token name (the widget only offers whitespace-free names) —
+  // The caller must pass a single-token name (the widget only offers whitespace-free names) -
   // Klipper's standard gcode param parser splits on whitespace, so a spaced name would mistarget.
   excludeObject: (name: string) =>
     arbiter.run('exclude-object', () => gcode(`EXCLUDE_OBJECT NAME=${name}`)),
-  /** Ungated on purpose — emergency stop must fire regardless of trust state. Still logged. */
+  /** Ungated on purpose - emergency stop must fire regardless of trust state. Still logged. */
   emergencyStop: (): Promise<unknown> => {
     logger.warn('emergency-stop')
     return connector.call('printer.emergency_stop')

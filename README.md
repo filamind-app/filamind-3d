@@ -2,7 +2,7 @@
 
 # FilaMind 3d
 
-A modern web control UI for Klipper and Moonraker — a clean dashboard, machine control,
+A modern web control UI for Klipper and Moonraker - a clean dashboard, machine control,
 and the everyday print-management screens, served from the printer itself.
 
 **Built by Egyptian makers, for world makers. Happy printing.** 🇪🇬
@@ -21,7 +21,7 @@ A small-team hobby project, built and tested on real printers. The code is all h
 
 </div>
 
-FilaMind 3d is a single-page control UI that talks directly to Moonraker over REST and a reconnecting WebSocket. The browser does most of the work, so it stays light on the printer host. It can run two ways: as a static site behind nginx, or as a small **agent** — a managed systemd service that serves both the UI and a tiny API on its own port, registers with Moonraker, and can be started, stopped, and restarted from the panel.
+FilaMind 3d is a single-page control UI that talks directly to Moonraker over REST and a reconnecting WebSocket. The browser does most of the work, so it stays light on the printer host. It can run two ways: as a static site behind nginx, or as a small **agent** - a managed systemd service that serves both the UI and a tiny API on its own port, registers with Moonraker, and can be started, stopped, and restarted from the panel.
 
 ## Install
 
@@ -31,7 +31,7 @@ curl -fsSL https://raw.githubusercontent.com/filamind-app/filamind-3d/main/deplo
 
 This installs the FilaMind 3d **agent**: a systemd service that serves the prebuilt UI and its API on port **8030**, sets up its own Python virtualenv, and registers itself with Moonraker's managed services so it shows up as a restartable service. It runs as your normal printer user and elevates only the few steps that need it (so it needs sudo, but no full-root shell), and you can re-run it any time to update or repair the install. The UI ships prebuilt, so no Node is needed on the printer.
 
-Prefer a plain static site instead of a service? `deploy/install.sh` serves the same UI behind nginx with a same-origin Moonraker proxy — see [DEPLOY.md](DEPLOY.md).
+Prefer a plain static site instead of a service? `deploy/install.sh` serves the same UI behind nginx with a same-origin Moonraker proxy - see [DEPLOY.md](DEPLOY.md).
 
 ## Uninstall
 
@@ -53,7 +53,7 @@ FilaMind 3d is organized as a handful of focused screens, reached from the app s
 | **Config** | Browse and safely edit your Klipper / Moonraker config files |
 | **Hardware** | A read-only picture of this machine: host, MCUs and firmware, and the configured steppers, drivers, heaters, sensors, and fans |
 | **Components** | Installed components and their update status, read from Moonraker's update manager |
-| **Setup** | A live system-readiness check of the host — OS, Python, CPU, memory, free disk, and that Klipper and Moonraker are up |
+| **Setup** | A live system-readiness check of the host - OS, Python, CPU, memory, free disk, and that Klipper and Moonraker are up |
 | **Settings** | Theme switcher, language switcher, density / motif / reduced-motion, and export / import / reset |
 
 Across every screen, machine control (Home / Pause / Resume / Cancel / Emergency-stop, plus a safe-mode toggle) and any config save run through one safety gate: a write is refused unless the printer is live and Klippy is ready, refusals surface as a toast, Cancel asks first, and the emergency stop always works. A command palette (⌘/Ctrl + K) drives navigation, theme, homing, and the emergency stop from the keyboard.
@@ -64,11 +64,11 @@ FilaMind 3d is tested on two machines that disagree on almost everything that ma
 
 ## How it's built
 
-The frontend is a Vue 3 and Vite single-page app. Everything reactive and stateful — the Moonraker client, the session orchestrator, the live/stale gate, the settings store, the themes, the widget registry, and the locale metadata — comes from `@filamind-app/core`, a framework-agnostic package shared across the FilaMind suite. The app binds that core into Vue; it does not re-implement it. A small FastAPI host serves the prebuilt UI and a tiny `/api` seam (health and runtime config) and is what the agent service runs. The UI ships in [19 languages](#languages), including right-to-left Arabic, with switchable themes. For the full picture, see [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+The frontend is a Vue 3 and Vite single-page app. Everything reactive and stateful - the Moonraker client, the session orchestrator, the live/stale gate, the settings store, the themes, the widget registry, and the locale metadata - comes from `@filamind-app/core`, a framework-agnostic package shared across the FilaMind suite. The app binds that core into Vue; it does not re-implement it. A small FastAPI host serves the prebuilt UI and a tiny `/api` seam (health and runtime config) and is what the agent service runs. The UI ships in [19 languages](#languages), including right-to-left Arabic, with switchable themes. For the full picture, see [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ## Languages
 
-The whole interface is translated into **19 languages** — every screen and widget, not just the chrome. Pick one from the 🌐 menu; your choice is remembered, and on first run the app matches your browser's language. A CI key-diff gate keeps every catalog at parity with English.
+The whole interface is translated into **19 languages** - every screen and widget, not just the chrome. Pick one from the 🌐 menu; your choice is remembered, and on first run the app matches your browser's language. A CI key-diff gate keeps every catalog at parity with English.
 
 | | | | |
 | --- | --- | --- | --- |
@@ -93,7 +93,7 @@ npm run i18n:keydiff   # every locale must carry exactly the en key set
 npm run build          # type-check + vite build (+ PWA)
 ```
 
-Point it at a printer with `MOONRAKER_HTTP=http://<printer>:7125 npm run dev`, or set `VITE_MOONRAKER_WS_URL`. The backend has its own dev loop (ruff, mypy, pytest, `python main.py` on :8030) — see [backend/README.md](backend/README.md).
+Point it at a printer with `MOONRAKER_HTTP=http://<printer>:7125 npm run dev`, or set `VITE_MOONRAKER_WS_URL`. The backend has its own dev loop (ruff, mypy, pytest, `python main.py` on :8030) - see [backend/README.md](backend/README.md).
 
 ## Documentation
 
@@ -119,9 +119,9 @@ FilaMind 3d is free and open source, built and maintained in spare time. If it s
 
 Built and maintained by the DeltaFabs team:
 
-- Abdelmonem Awad — <eg2@live.com>
-- Ahmed Bebars — <Ahmedbebars1@gmail.com>
-- Kareem Salama — <Golden.kiko@gmail.com>
+- Abdelmonem Awad - <eg2@live.com>
+- Ahmed Bebars - <Ahmedbebars1@gmail.com>
+- Kareem Salama - <Golden.kiko@gmail.com>
 
 ## License
 

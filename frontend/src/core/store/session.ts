@@ -1,5 +1,5 @@
 // Pinia store wrapping the core FilaMindSession: mirrors its framework-agnostic
-// Observables into Vue refs (app-lifetime subscriptions — no teardown), and exposes
+// Observables into Vue refs (app-lifetime subscriptions - no teardown), and exposes
 // the derived connection/trust state the UI dims on.
 
 import { defineStore } from 'pinia'
