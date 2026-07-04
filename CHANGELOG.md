@@ -2,6 +2,25 @@
 
 All notable changes to FilaMind 3d are documented here. Format: `## [version]` sections (parsed by the release workflow).
 
+## [0.2.0]
+
+### Added
+
+- **Control dashboard** — print job, temperatures, motion and a live webcam view.
+- **Suite shell** — a left-sidebar layout with a printer selector, plus Files and Console views.
+- **Klipper config editor** view.
+- **Hardware overview** view and an **installed plugins + update-status** view.
+- **System readiness report** view.
+- **Managed agent backend service** registered with Moonraker's `update_manager` (so it shows in
+  the printer's update list and reports a real version).
+
+### Changed
+
+- **Install without a sudo password** — granular `cp` grants instead of `sudo bash`; an existing
+  clone is refreshed on install; a full clone + fetched tags so Moonraker shows a real version.
+- Backend `__version__` realigned with the package version (was lagging at 0.1.0).
+- Modernized README + added `docs/ARCHITECTURE.md`; ASCII-only published text.
+
 ## [0.1.2]
 
 ### Fixed
