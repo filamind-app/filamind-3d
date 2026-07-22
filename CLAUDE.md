@@ -44,9 +44,10 @@ The committed frontend bundle is rebuilt by CI when it drifts, and that rebuild 
 
 ## Rules
 
-- Nothing published may name a competing or adjacent project — not in source, comments, docs, commit
-  messages, PR bodies, issues, or test fixtures. Runtime data from Moonraker containing such a name
-  is fine; GPL attribution for vendored code is required.
+- Do not present FilaMind as derived from, ported from, inspired by, or a fork of another project,
+  in code or in commit messages, PR bodies and issue comments. Naming ecosystem projects the
+  software genuinely integrates with — Klipper, Moonraker, the web UIs it sits alongside — is normal
+  and expected; GPL attribution for vendored code is required.
 - Commit messages, PR bodies and issue comments are purely technical English, with no team-chat
   content.
 - Only the three maintainers listed in the README may appear as commit authors. No
