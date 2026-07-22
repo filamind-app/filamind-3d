@@ -11,6 +11,7 @@ A small-team hobby project, built and tested on real printers. The code is all h
 
 [![Support on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I119XEIV)
 
+[![Status: experimental](https://img.shields.io/badge/status-experimental-E8A317)](#status-experimental)
 [![CI](https://github.com/filamind-app/filamind-3d/actions/workflows/ci.yml/badge.svg)](https://github.com/filamind-app/filamind-3d/actions/workflows/ci.yml)
 [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-111111.svg)](LICENSE)
 [![Vue 3](https://img.shields.io/badge/Vue-3-111111?logo=vuedotjs&logoColor=white)](https://vuejs.org)
@@ -20,6 +21,16 @@ A small-team hobby project, built and tested on real printers. The code is all h
 [Install](#install) · [Uninstall](#uninstall) · [Screens](#screens) · [Tested on real printers](#tested-on-real-printers) · [Languages](#languages) · [Develop](#develop) · [Docs](#documentation) · [Support](#support)
 
 </div>
+
+## Status: experimental
+
+> [!WARNING]
+> **FilaMind 3d is under active development and research.**
+> We are still shaping it toward an interface that stays light and quick while being genuinely
+> enjoyable to use - so this app, and every feature it unlocks elsewhere in FilaMind, will keep
+> changing between releases. Treat it as a preview rather than a settled product: expect rough
+> edges, keep a known-good UI installed alongside it, and please tell us what feels off.
+> Suggestions and improvement ideas are genuinely welcome - open an issue any time.
 
 FilaMind 3d is a single-page control UI that talks directly to Moonraker over REST and a reconnecting WebSocket. The browser does most of the work, so it stays light on the printer host. It can run two ways: as a static site behind nginx, or as a small **agent** - a managed systemd service that serves both the UI and a tiny API on its own port, registers with Moonraker, and can be started, stopped, and restarted from the panel.
 
